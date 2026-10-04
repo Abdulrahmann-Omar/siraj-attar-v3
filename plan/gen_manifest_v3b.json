@@ -1,0 +1,27 @@
+[
+ {
+  "id": "R3_P08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep EXACTLY the fabric from the reference: the soft lilac-white Japanese cotton-blend fabric with its gold printed selvedge mark. Show it as plain flat cloth only, folded in rectangular layers like a fabric bolt from a cloth merchant; there is no clothing anywhere in the image. Top-down: the fabric folded into a neat flat stack of soft layers on a plain light oak surface, the gold selvedge print visible along one edge. Real commercial photograph, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no extra objects. The product fills about two-thirds of the frame.",
+  "images": [
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R3_K08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep EXACTLY the products from the references: the dark green box with its gold-foil round seal holding the red-and-white shemagh, and the lilac-white fabric with its gold selvedge print. Show it as plain flat cloth only, folded in rectangular layers like a fabric bolt from a cloth merchant; there is no clothing anywhere in the image. The open shemagh box and a neatly folded flat stack of the uncut fabric side by side on a plain worn wooden counter against a plain dark backdrop, soft daylight from the left, three-quarter view, 85mm lens. Real commercial photograph, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no extra objects. The product fills about two-thirds of the frame.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ }
+]

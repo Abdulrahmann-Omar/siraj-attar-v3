@@ -1,0 +1,360 @@
+[
+ {
+  "id": "R_P01",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh (same red houndstooth field, same white border with red stripes) and the black agal. An adult Saudi man in his 30s wears this exact shemagh in the classic Saudi style with the black agal and a white Saudi thobe; waist-up, three-quarter view, plain warm-beige seamless backdrop, soft daylight; the shemagh pattern is crisp and fills much of the frame. Real editorial photograph, not a render: natural skin texture, real fabric folds, natural daylight, true colours, full-frame camera, 85mm, f/2.8. Plain seamless backdrop, nothing else in frame. The product is the focus and clearly visible. The man is an adult Saudi, not a celebrity. No added text or letters.",
+  "images": [
+   "data/images/966965063_2.jpg",
+   "data/images/966965063_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P02",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the red-and-white Yaqoot shemagh folded inside with one corner draped out. The open box on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 100mm lens, window light from the left. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/966965063_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P03",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white shemagh fabric: same red houndstooth pattern, same white border with red stripes, same woven seal mark, same cotton weave. Macro close-up of the fabric in soft natural folds filling the whole frame, 100mm macro lens, raking window light showing every thread; only the fabric in frame. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1988908934_2.jpg",
+   "data/images/1988908934_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P04",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge line, and the dark green box with its gold-foil round seal and gold lettering. Top-down flat lay: the ghutra folded into a neat triangle in its open box on a plain deep green linen cloth, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1740470085_1.jpg",
+   "data/images/1740470085_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P05",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white ghutra (same drape and weight). An adult Saudi man in his late 30s wears this exact white ghutra in the classic Saudi style with a black agal and a white Saudi thobe; waist-up, side profile, plain light-grey seamless backdrop, soft window light; the ghutra is the focus. Real editorial photograph, not a render: natural skin texture, real fabric folds, natural daylight, true colours, full-frame camera, 85mm, f/2.8. Plain seamless backdrop, nothing else in frame. The product is the focus and clearly visible. The man is an adult Saudi, not a celebrity. No added text or letters.",
+  "images": [
+   "data/images/502827333_2.jpg",
+   "data/images/502827333_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P06",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the red-and-white Naqsh shemagh folded inside (same pattern, same red tone, same white border stripes). The open box on a plain dark walnut wood surface against a plain warm-grey backdrop, three-quarter view, 100mm lens, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1664674203_1.png",
+   "data/images/1664674203_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P07",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Zumurrud shemagh with its tone-on-tone laser-cut geometric pattern. Close-up of the fabric hanging in a soft curve against a plain light backdrop with soft backlight so the pattern shows clearly, 100mm macro lens; only the fabric in frame. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/2124457749_6.jpg",
+   "data/images/2124457749_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the soft lilac-white Japanese thobe fabric with its gold printed selvedge mark. Top-down: the fabric folded in neat soft layers on a plain light oak surface, soft daylight, the gold selvedge print visible. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P09",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the Italian Super 140 wool with its fine pinstripe, same colours and sheen. Four folded lengths of this wool stacked on a plain dark oak surface against a plain warm-grey backdrop, three-quarter view, 85mm lens, window light from the left. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1449104353_4.jpg",
+   "data/images/1449104353_1.jpg",
+   "data/images/1449104353_5.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P10",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the cream pashmina shawl with the navy embroidered paisley border and corner medallion. An adult Saudi man in a white thobe and red shemagh stands with the shawl draped over his shoulders, seen at three-quarter back view against a plain warm-grey seamless backdrop; the embroidered shawl fills most of the frame. Real editorial photograph, not a render: natural skin texture, real fabric folds, natural daylight, true colours, full-frame camera, 85mm, f/2.8. Plain seamless backdrop, nothing else in frame. The product is the focus and clearly visible. The man is an adult Saudi, not a celebrity. No added text or letters.",
+  "images": [
+   "data/images/821325048_1.jpg",
+   "data/images/821325048_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P11",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the cream Al-Baidaa wool shawl with the navy embroidered border and medallion, shown clean without any pins. The shawl folded neatly on a plain light stone surface, 45-degree overhead, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/663088504_2.jpg",
+   "data/images/663088504_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P12",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the open dark green gift box with its three glass perfume bottles, same caps, labels and arrangement. The open box on a plain warm stone surface against a plain warm-beige backdrop, low three-quarter view, 85mm lens, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/672063087_1.jpg",
+   "data/images/672063087_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P13",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the silver cufflinks (same shape, engraving and finish). Close-up of an adult man's hands fastening one cufflink on the French cuff of a white thobe sleeve, plain light backdrop, 100mm macro, hands complete and natural; nothing else in frame. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/265256366_2.jpg",
+   "data/images/265256366_1.jpg",
+   "data/images/265256366_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P14",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the Wathir Italian undershirt and its kraft gift box with the botanical print and window, same printed marks. The open box with the white undershirt folded inside on a plain cream surface, overhead three-quarter view, soft window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/892978768_2.jpg",
+   "data/images/892978768_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P15",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the black Siraj Attar agal (same cord and double ring) resting on its dark green box with the gold-foil seal. Top-down: the agal on its green box on a plain honed beige stone surface against a plain warm-white backdrop, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1113769137_1.jpg",
+   "data/images/1113769137_4.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_P16",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the five fabrics with their true colours, weave and printed selvedges: lilac-white Japanese fabric with gold print, white Korean fabric with gold print, Italian pinstripe wool, solid navy English wool, cream-white Italian voile. The five fabrics as neatly folded lengths stacked in a column on a plain light oak surface against a plain warm-grey backdrop, three-quarter view, 85mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1292393513_1.jpg",
+   "data/images/1668806182_1.jpg",
+   "data/images/1449104353_4.jpg",
+   "data/images/1029444903_1.jpg",
+   "data/images/563952490_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_C03",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the light grey box printed with the word AUDEMAR (exactly these seven letters) and its mark, and the red-and-white Audemar 4 shemagh folded inside with a corner draped out. The box on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 100mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1604079293_1.jpg",
+   "data/images/1604079293_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_C04",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the red-and-white European shemagh folded inside with a corner draped out. The box on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 100mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1949762576_1.jpg",
+   "data/images/1949762576_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_C05",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the red-and-white Hafawa shemagh folded inside with a corner draped out. The box on a plain light wood surface against a plain warm-white backdrop, three-quarter high angle, 100mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1471159401_1.jpg",
+   "data/images/1471159401_2.jpg",
+   "data/images/1471159401_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_C06",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the classic red Al-Wisam 26 shemagh folded inside with a corner draped out. The box on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 100mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1546150268_1.jpg",
+   "data/images/1546150268_3.jpg",
+   "data/images/1546150268_4.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_C08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the solid navy English wool, same colour and fine twill sheen. Three folded lengths stacked on a plain dark oak surface against a plain warm-grey backdrop, three-quarter view, 85mm lens, window light. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1029444903_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K02",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh (same pattern and border) and the black agal. Vertical portrait: an adult Saudi man wears this exact shemagh in the classic Saudi style with the black agal and a white Saudi thobe, chest-up, looking slightly off camera, plain warm-beige seamless backdrop, soft natural light. Real editorial photograph, not a render: natural skin texture, real fabric folds, natural daylight, true colours, full-frame camera, 85mm, f/2.8. Plain seamless backdrop, nothing else in frame. The product is the focus and clearly visible. The man is an adult Saudi, not a celebrity. No added text or letters.",
+  "images": [
+   "data/images/966965063_2.jpg",
+   "data/images/966965063_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "9:16",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K04a",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh and the black agal. Square portrait: an adult Saudi man wears this exact shemagh with the black agal and a white Saudi thobe, chest-up, front three-quarter view, plain warm-beige seamless backdrop, soft window light. Real editorial photograph, not a render: natural skin texture, real fabric folds, natural daylight, true colours, full-frame camera, 85mm, f/2.8. Plain seamless backdrop, nothing else in frame. The product is the focus and clearly visible. The man is an adult Saudi, not a celebrity. No added text or letters.",
+  "images": [
+   "data/images/966965063_2.jpg",
+   "data/images/966965063_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K05",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge. Close-up: the ghutra laid flat on a plain white ironing surface, an adult man's hand in a white thobe sleeve guiding a steam iron across it, light steam, 45-degree view, soft daylight; nothing else in frame. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1740470085_2.jpg",
+   "data/images/1740470085_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K06",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the four products with their true colours, patterns and logos: the green box with the red-and-white Yaqoot shemagh, the cream Al-Baidaa shawl with navy embroidery (no pins), the Attar 3 glass perfume bottle with its label, and the black agal on its green box. Top-down flat lay: the four products evenly spaced on a plain deep green linen cloth, soft daylight, empty linen at the top for text. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/663088504_2.jpg",
+   "data/images/189452492_1.jpg",
+   "data/images/1113769137_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering holding the red-and-white shemagh, and the lilac-white thobe fabric with gold selvedge. The open shemagh box and a folded length of the fabric side by side on a plain worn wooden counter against a plain dark backdrop, soft daylight from the left, three-quarter view, 85mm lens. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R_K09",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the black Siraj Attar gift box with gold seal holding the folded red-and-white shemagh, the perfume bottle and the cufflinks, same arrangement. The open gift box on a plain warm stone surface against a plain warm-beige backdrop, three-quarter high angle, 85mm lens, soft daylight. The product is the hero: it fills about two-thirds of the frame, fully visible, nothing cropped, tack sharp. Real commercial photograph shot on a full-frame camera, natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look, no added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props, no decorations, no extra objects.",
+  "images": [
+   "data/images/1381142749_3.webp",
+   "data/images/1381142749_1.webp"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ }
+]

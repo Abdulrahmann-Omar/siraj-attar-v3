@@ -1,0 +1,389 @@
+<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>The Wasm Season · Proposal for M. Siraj Attar &amp; Bros</title><style>
+@font-face{font-family:'Cairo';src:url('../fonts/cairo/Cairo%5Bslnt,wght%5D.ttf') format('truetype');font-weight:200 1000;font-style:normal}
+@font-face{font-family:'MessiriAr';src:url('../fonts/elmessiri/ElMessiri%5Bwght%5D.ttf') format('truetype');font-weight:400 700;
+  unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F}
+@font-face{font-family:'Playfair Display';src:url('../fonts/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf') format('truetype');font-weight:400 900}
+@font-face{font-family:'Manrope';src:url('../fonts/manrope/Manrope%5Bwght%5D.ttf') format('truetype');font-weight:200 800}
+@page{size:1920px 1080px;margin:0}
+:root{--ivory:#F4EFE5;--green:#004738;--gold:#C3A278;--ink:#1E1A16;--muted:#5C534A;--line:#D8CEBD;--sand:#E7DFD1;
+  --goldd:#7A5C33;--card:#FAF7F1;--red:#B3261E}
+html[lang=en]{--fh:'Playfair Display','MessiriAr','Cairo',serif;--fb:'Manrope','Cairo',sans-serif}
+html[lang=ar]{--fh:'MessiriAr','Cairo',serif;--fb:'Cairo',sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--ivory)}
+body{font-family:var(--fb);color:var(--ink);font-synthesis:none;-webkit-print-color-adjust:exact;print-color-adjust:exact;
+  font-variant-numeric:lining-nums;font-size:22px;line-height:1.5}
+html[lang=ar] body{line-height:1.7}
+.slide{position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--ivory);break-after:page;page-break-after:always}
+.slide:last-child{break-after:auto;page-break-after:auto}
+h1,h2,h3,h4,p,ul,ol,figure{margin:0;padding:0}
+ul,ol{list-style:none}
+strong{font-weight:600}
+.ltr{direction:ltr;unicode-bidi:isolate}
+.lat{font-family:'Playfair Display',serif;font-weight:600}
+.arab{font-family:'MessiriAr','Cairo',serif;font-weight:600}
+/* riyal */
+.sar{display:inline-flex;align-items:baseline;gap:.25em;direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+html[lang=ar] .sar{--rh:.670em} html[lang=en] .sar{--rh:.733em}
+.riyal{height:var(--rh);width:calc(var(--rh) * 3000 / 3353);flex:none;fill:currentColor;overflow:visible}
+.arr{width:1.1em;height:.55em;vertical-align:middle;flex:none}
+html[dir=rtl] .arr{transform:scaleX(-1)}
+.tick{width:.8em;height:.8em;flex:none;color:var(--green)}
+/* header + chrome */
+.hd{position:absolute;top:88px;inset-inline:96px 200px}
+.kicker{font-size:18px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--goldd);margin-bottom:14px}
+html[lang=ar] .kicker{font-size:22px;letter-spacing:0;font-weight:600}
+h1{font-family:var(--fh);font-weight:600;font-size:56px;line-height:1.16;color:var(--green);letter-spacing:-.005em}
+html[lang=ar] h1{font-weight:700;font-size:54px;line-height:1.4}
+.h-sm h1{font-size:46px} html[lang=ar] .h-sm h1{font-size:46px}
+.sub{font-size:23px;color:var(--muted);margin-top:14px;max-width:1350px}
+.mark{position:absolute;top:80px;inset-inline-end:96px;width:72px;height:72px}
+.ft{position:absolute;bottom:38px;inset-inline-end:96px;display:flex;justify-content:space-between;align-items:center;
+  font-size:15px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+html[lang=ar] .ft{font-size:16px}
+.ft .pg{font-family:'Manrope',sans-serif;font-weight:500;letter-spacing:.06em}
+.bd{position:absolute;inset-inline:96px}
+.note{font-size:16px;color:var(--muted)}
+/* frames */
+.fr{position:relative;background:var(--sand);overflow:hidden;flex:none}
+.fr img{display:block;width:100%;height:100%;object-fit:contain}
+.fr.store{outline:1px solid var(--line);outline-offset:-1px}
+.ph{display:flex;align-items:center;justify-content:center;border:2px dashed #B7AB97;text-align:center}
+.ph b{display:block;font:600 24px 'Manrope',sans-serif;color:#7A6E5C}.ph span{font-size:15px;color:#8C8170}
+figcaption{font-size:16px;line-height:1.4;color:var(--muted);margin-top:10px}
+html[lang=ar] figcaption{font-size:17px;line-height:1.55}
+figcaption b{display:block;color:var(--ink);font-weight:600}
+/* cover */
+.cover .cv-field{position:absolute;top:0;inset-inline-start:0;width:1056px;height:1080px;background:var(--green);color:var(--ivory)}
+.cv-logo{position:absolute;top:150px;inset-inline-start:328px;width:400px}
+.cv-text{position:absolute;top:610px;inset-inline:96px}
+.cv-prep{font-size:32px;color:var(--gold);font-weight:500;margin-bottom:22px}
+html[lang=ar] .cv-prep{font-weight:600}
+.cv-title{font-family:var(--fh);font-weight:600;font-size:92px;line-height:1.08;color:var(--ivory)}
+html[lang=ar] .cv-title{font-weight:700;font-size:96px;line-height:1.3}
+.cv-sub{font-size:25px;color:#D9D2C3;margin-top:18px;max-width:820px}
+.cv-foot{position:absolute;bottom:56px;inset-inline:96px;display:flex;justify-content:space-between;align-items:baseline;font-size:17px;color:#BFC9C2}
+.cv-by .es{height:26px;width:auto;vertical-align:-6px;margin-inline-start:10px}
+.ftl{display:inline-flex;align-items:center;gap:10px}.ft-es{height:17px;width:auto}
+.nx-by img{height:30px;width:auto;display:block}
+.cover .cv-hero{position:absolute;top:0;inset-inline-end:0;width:864px;height:1080px}
+/* line */
+.line .ln-img{position:absolute;top:0;inset-inline-start:0}
+.ln-text{position:absolute;top:0;bottom:120px;inset-inline-start:976px;inset-inline-end:110px;display:flex;flex-direction:column;justify-content:center}
+h1.big{font-size:62px;line-height:1.16;margin-bottom:26px}
+html[lang=ar] h1.big{font-size:56px;line-height:1.55}
+.ln-other{font-size:28px;color:var(--goldd);margin-bottom:44px}
+.ln-body{font-size:23px;margin-bottom:22px}
+.proofs{display:flex;flex-wrap:wrap;gap:12px}
+.proofs li{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:40px;padding:8px 18px;font-size:20px}
+/* found */
+.found .bd{top:280px;bottom:120px}
+.cols3{display:grid;grid-template-columns:repeat(3,1fr);gap:64px}
+.col h3{font:600 26px var(--fh);color:var(--green);border-bottom:2px solid var(--gold);padding-bottom:10px;margin-bottom:22px}
+html[lang=ar] .col h3{font-weight:700;font-size:28px}
+.tl li{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:12px 0;border-bottom:1px solid var(--line);font-size:19px;line-height:1.45}
+html[lang=ar] .tl li{line-height:1.6}
+.tl b{font-family:var(--fh);font-weight:600;font-size:24px;color:var(--green)}
+.stats2{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:26px}
+.stat b{display:block;font:600 50px/1.1 var(--fh);color:var(--green)}
+html[lang=ar] .stat b{font:700 44px/1.3 'Cairo',sans-serif}
+.stat span{font-size:17px;color:var(--muted);line-height:1.35;display:block}
+.col h4{font-size:19px;font-weight:600;margin-bottom:10px}
+.bar{margin-bottom:14px}
+.bl{display:flex;justify-content:space-between;font-size:17px;margin-bottom:4px}
+.bl b{font-weight:600}
+.bt{height:16px;background:#E6DED0;border-radius:3px;overflow:hidden}
+.bt i{display:block;height:100%;background:var(--green)}
+.bar:last-of-type .bt i{background:#9A8F80}
+.stats4{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;margin-bottom:22px}
+.vat{font-size:18px;line-height:1.5;background:var(--card);border-inline-start:4px solid var(--gold);padding:14px 18px}
+html[lang=ar] .vat{line-height:1.7}
+/* gaps */
+.gaps .bd{top:270px;bottom:120px}
+.grid3x2{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:28px}
+.card{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--green);padding:26px 28px;display:flex;flex-direction:column}
+.card .no{font:600 22px 'Manrope',sans-serif;color:var(--goldd);margin-bottom:6px}
+.card h3{font:600 29px/1.2 var(--fh);color:var(--green);margin-bottom:12px}
+html[lang=ar] .card h3{font-weight:700;line-height:1.4}
+.card p{font-size:19px;line-height:1.5}
+html[lang=ar] .card p{line-height:1.65}
+.card .angle{margin-top:auto;display:flex;gap:10px;align-items:baseline;color:var(--green);font-weight:600;padding-top:12px}
+/* how */
+.how .hd{inset-inline-end:200px}
+.steps{position:absolute;top:350px;inset-inline:96px;display:flex;align-items:flex-start}
+.step{width:340px;flex:none}
+.sarr{width:64px;flex:none;display:flex;justify-content:center;padding-top:250px;color:var(--gold);font-size:40px}
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:12px;height:44px}
+.sn{font:700 30px 'Manrope',sans-serif;color:var(--goldd)}
+.sh h3{font:600 26px var(--fh);color:var(--green);white-space:nowrap}
+html[lang=ar] .sh h3{font-weight:700;font-size:27px}
+.step>p{font-size:18px;line-height:1.45;margin-top:12px;color:var(--ink)}
+html[lang=ar] .step>p{line-height:1.6}
+.frwrap{position:relative}
+.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(250,247,241,.94);color:var(--ink);font-size:15px;font-weight:600;
+  padding:5px 12px;border-radius:30px;border:1px solid var(--line)}
+.frwrap>.chip.on{position:absolute;top:14px;inset-inline-start:14px}
+.pin{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;background:var(--green);color:#fff;
+  font:700 16px/30px 'Manrope',sans-serif;text-align:center;box-shadow:0 0 0 3px rgba(255,255,255,.9)}
+.pin.s{position:static;display:inline-block;margin:0;width:22px;height:22px;font-size:13px;line-height:22px;box-shadow:none;flex:none}
+.legend{position:absolute;inset-inline:12px;bottom:12px;display:grid;grid-template-columns:1fr 1fr;gap:6px 10px}
+.legend li{display:flex;align-items:center;gap:7px;font-size:14.5px;font-weight:600;line-height:1.2}
+.chips3{position:absolute;top:14px;inset-inline:14px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.chip.shd{position:absolute;bottom:14px;inset-inline-start:14px}
+.p4{background:var(--card);border:1px solid var(--line);padding:10px}
+.p4post{display:flex;justify-content:center}
+.p3{background:var(--card);border:1px solid var(--line);padding:12px}
+.p3pair{display:flex;justify-content:space-between}
+.p3pair figcaption{margin-top:4px;text-align:center;font-weight:700;color:var(--green);font-size:16px}
+.p3lines{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.p3lines p{display:flex;gap:10px;align-items:baseline;font-size:17px;line-height:1.5;margin:0}
+.p3lines b{flex:none;min-width:52px;color:var(--gold);font-weight:700}
+.p3lines span{font-family:'Cairo',sans-serif}
+.p4post figcaption{margin-top:4px;text-align:center;font-weight:600;color:var(--ink);font-size:15px}
+.chart{margin-top:10px}
+.ct{font-size:13.5px;color:var(--muted);margin-bottom:6px;line-height:1.3}
+.crow{display:grid;grid-template-columns:96px 1fr;align-items:center;gap:8px;margin-bottom:6px;font-size:13.5px;line-height:1.2}
+.stack{display:flex;height:24px;border-radius:3px;overflow:hidden}
+.stack i{display:flex;align-items:center;justify-content:center;color:#fff;font:600 12px 'Manrope',sans-serif;font-style:normal}
+.k0{background:#9A8F80}.k1{background:var(--green)}.k2{background:var(--gold)}
+.leg{display:flex;gap:12px;font-size:12.5px;color:var(--muted);margin-top:4px}
+.leg i{display:inline-block;width:10px;height:10px;margin-inline-end:4px;vertical-align:middle}
+.answer{position:absolute;bottom:104px;inset-inline:96px;font:600 24px var(--fb);color:var(--green);border-top:1px solid var(--line);padding-top:16px}
+/* before/after */
+.barow{top:268px;display:flex;gap:72px}
+.subl{display:flex;gap:12px;margin-bottom:8px}
+.subl span{width:420px;font-size:17px;color:var(--muted);font-weight:600}
+.pp{display:flex;gap:12px}
+.ba{position:relative}
+.tag{position:absolute;top:14px;inset-inline-start:14px;font:700 30px/1 var(--fb);padding:9px 16px 11px;border-radius:4px;color:#fff;letter-spacing:.02em}
+html[lang=ar] .tag{font:700 32px/1.1 'Cairo',sans-serif;padding:6px 18px 10px}
+.tag.before{background:var(--ink)}.tag.after{background:var(--green)}
+.pair:not(.hero) .tag{font-size:27px;padding:7px 12px 9px;top:10px;inset-inline-start:10px}
+html[lang=ar] .pair:not(.hero) .tag{font-size:28px;padding:4px 12px 8px}
+.pcap{margin-top:12px;font-size:18px;line-height:1.45}
+.pcap b{display:block;font-weight:600;color:var(--green);font-size:20px}
+.pcap span{color:var(--muted);display:inline-flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.baside{display:flex;flex-direction:column;gap:34px;padding-top:34px}
+.baside .pair{display:flex;gap:24px;align-items:flex-start}
+.baside .pcap{margin-top:0;width:300px}
+.beforeafter .answer{bottom:112px}
+/* calendar */
+.calendar .sub{max-width:1500px}
+.cal{position:absolute;top:340px;inset-inline:96px}
+.cr{display:grid;grid-template-columns:330px 1fr 380px;gap:28px;align-items:center}
+.cr.axis{height:30px}
+.cc{position:relative;height:100%}
+.calrows{position:relative}
+.calrows .cr{height:59px;border-bottom:1px solid var(--line)}
+.gridl{position:absolute;top:0;bottom:0;inset-inline-start:358px;inset-inline-end:408px}
+.vg{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.calrows .cc{height:59px}
+.cl b{display:block;font-size:19px;font-weight:600;line-height:1.25;color:var(--green)}
+.cl span{font-size:14.5px;color:var(--muted);line-height:1.3;display:block}
+.cn span{font-size:15px;line-height:1.3;display:block}
+.pfs{display:flex;gap:5px;flex-wrap:wrap;margin-top:3px}
+.pf{font-size:12.5px;font-weight:600;background:#E6DED0;border-radius:3px;padding:1px 7px;line-height:1.5}
+.span{position:absolute;top:22px;height:16px;border-radius:8px}
+.pt{position:absolute;top:21px;width:18px;height:18px;margin-inline-start:-9px;transform:rotate(45deg);border:2px solid var(--ivory)}
+.season{background:var(--green)}.event{background:var(--gold)}.pay{background:var(--goldd)}.trade{background:#8C6A3E}
+.religious{background:#3E5A50}.national{background:var(--red)}
+.span.trade{background:repeating-linear-gradient(135deg,#8C6A3E 0 8px,#A8865A 8px 16px)}
+.mt{position:absolute;top:4px;font-size:15px;font-weight:600;color:var(--muted);padding-inline-start:6px;border-inline-start:1px solid var(--muted)}
+.brk{position:absolute;top:2px;height:24px;border:1.5px solid var(--green);border-bottom:none;border-radius:4px 4px 0 0;text-align:center}
+.brk span{position:relative;top:-14px;background:var(--ivory);padding:0 10px;font-size:15px;font-weight:600;color:var(--green)}
+/* shots */
+.shots .lead{position:absolute;top:262px;inset-inline:96px 96px;font-size:20px;color:var(--muted)}
+.spec{color:var(--goldd);font-weight:600;white-space:nowrap}
+.g8{top:340px;display:grid;grid-template-columns:repeat(8,202px);gap:22px 16px}
+.g8 figcaption{font-size:15px;margin-top:7px;line-height:1.35}
+html[lang=ar] .g8 figcaption{font-size:16px;line-height:1.45}
+/* catalogue */
+.h-side{inset-inline-end:auto;width:400px}
+.registers .h-side{width:520px}.registers .h-side h1{font-size:40px}
+.h-side h1{font-size:44px} html[lang=ar] .h-side h1{font-size:42px}
+.side{position:absolute;top:470px;inset-inline-start:96px;width:390px}
+.checks li{display:flex;gap:12px;align-items:baseline;font-size:19px;line-height:1.45;padding:9px 0;border-bottom:1px solid var(--line)}
+html[lang=ar] .checks li{line-height:1.6}
+.g5{top:96px;inset-inline-start:552px;inset-inline-end:96px;display:grid;grid-template-columns:repeat(5,236px);gap:28px 23px}
+.g5 figcaption{font-size:15px;margin-top:6px}
+html[lang=ar] .g5 figcaption{font-size:16px}
+.g5 figcaption b{line-height:1.3}
+.g5 figcaption .sar{color:var(--green);font-weight:600;font-size:17px}
+.catalogue .mark{display:none}
+.notecell{background:var(--green);color:var(--ivory);padding:24px;display:flex;flex-direction:column;gap:14px}
+.notecell p{font-size:19px;line-height:1.45}
+.pricedemo{font:700 44px 'Cairo',sans-serif;color:var(--gold);margin-top:auto}
+html[lang=en] .pricedemo{font-family:'Manrope',sans-serif}
+.notecell>span{font-size:15px;color:#CFD8D2}
+/* rows */
+.row .bd{top:var(--rowtop,330px)}
+.rowa{display:flex;align-items:flex-start}
+.rowa figcaption{max-width:100%}
+.campaignwork .bd{top:330px}
+.howposters .bd{top:350px}
+/* carousel */
+.carousel .bd{top:350px;gap:24px}
+.swipe{position:absolute;top:780px;inset-inline-end:96px;display:flex;gap:10px;align-items:center;font-size:20px;font-weight:600;color:var(--green)}
+/* registers */
+.regtext{position:absolute;top:410px;inset-inline-start:96px;width:500px}
+.regtext>p{font-size:19px;line-height:1.5;margin-bottom:18px}
+html[lang=ar] .regtext>p{line-height:1.7}
+.pairs{width:100%;border-collapse:collapse;margin-bottom:10px}
+.pairs th{text-align:start;font-size:16px;color:var(--goldd);font-weight:600;padding:4px 0;border-bottom:2px solid var(--gold)}
+.pairs td{font-family:'Cairo',sans-serif;font-size:19px;font-weight:600;padding:5px 0;border-bottom:1px solid var(--line);direction:rtl;text-align:start;width:50%}
+html[lang=en] .pairs td{text-align:left}
+html[lang=en] .pairs th{text-align:left}
+.pairs td+td{color:var(--goldd)}
+.test{font-size:18px;font-weight:600;color:var(--green);margin-top:10px}
+.regp{position:absolute;top:150px;inset-inline-end:96px;display:flex;gap:36px}
+.regp figure{position:relative}
+.rtag{position:absolute;top:-46px;inset-inline-start:0;font-size:24px;font-weight:700;color:var(--green)}
+.rtag.s{color:var(--goldd)}
+.regcap{position:absolute;top:740px;inset-inline-end:96px;width:1076px;text-align:center;font:600 24px var(--fb);color:var(--green)}
+.registers .mark{display:none}
+/* media */
+.mrow{top:280px;display:grid;grid-template-columns:470px 1fr;gap:64px}
+.mleft h3{font-size:19px;font-weight:600;color:var(--goldd);margin-bottom:12px}
+.tier{background:var(--card);border:1px solid var(--line);padding:16px 22px;margin-bottom:14px;display:grid;grid-template-columns:1fr auto;align-items:baseline}
+.tier span{font-size:20px;font-weight:600}
+.tier b{font:700 46px 'Cairo',sans-serif;color:var(--green)}
+html[lang=en] .tier b{font-family:'Manrope',sans-serif}
+.tier em{grid-column:1/-1;font-style:normal;font-size:16px;color:var(--muted)}
+.tier.g{border-top:4px solid var(--gold)}.tier:not(.g){border-top:4px solid var(--green)}
+.mleft .vat{margin:6px 0 16px;font-size:16px}
+.reach{font-size:18px;line-height:1.5;margin-bottom:6px}
+table.mtab{border-collapse:collapse;width:100%;align-self:start}
+.mtab th,.mtab td{text-align:start;padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.mtab thead th{font-size:15px;color:var(--goldd);font-weight:600;border-bottom:2px solid var(--gold)}
+.mtab tbody th{font:600 22px var(--fb);color:var(--green);white-space:nowrap}
+.mtab td.sh{width:130px}.mtab td.sh b{font-size:20px}
+.sb{height:8px;background:#E6DED0;margin-top:4px}.sb i{display:block;height:100%;background:var(--green)}
+.mtab td.amt{font-size:20px;font-weight:600;white-space:nowrap}
+.mtab td.job{font-size:16.5px;line-height:1.4;color:var(--ink)}
+html[lang=ar] .mtab td.job{line-height:1.55}
+/* testplan */
+.phases{position:absolute;top:270px;inset-inline:96px;display:flex;align-items:stretch}
+.phase{flex:1;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--green);padding:18px 22px}
+.phase h3{font:600 25px var(--fh);color:var(--green)} html[lang=ar] .phase h3{font-weight:700}
+.pd{display:block;font-size:16px;font-weight:600;color:var(--goldd);margin:2px 0 8px}
+.phase li,.blk li,.grp li{position:relative;padding-inline-start:16px;font-size:17px;line-height:1.42;margin-bottom:5px}
+html[lang=ar] .phase li,html[lang=ar] .blk li,html[lang=ar] .grp li{line-height:1.6}
+.phase li:before,.blk li:before,.grp li:before{content:"";position:absolute;inset-inline-start:0;top:.62em;width:6px;height:6px;background:var(--gold)}
+.parr{width:44px;flex:none;display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:28px}
+.blocks{position:absolute;top:620px;inset-inline:96px;display:grid;grid-template-columns:repeat(3,1fr);gap:44px}
+.blk h3{font:600 21px var(--fb);color:var(--green);border-bottom:2px solid var(--gold);padding-bottom:6px;margin-bottom:10px}
+.blk li{font-size:16px}
+/* offer */
+.orow{top:270px;display:grid;grid-template-columns:1fr 760px;gap:72px}
+.offer h2{font:600 24px var(--fh);color:var(--green);margin-bottom:14px} html[lang=ar] .offer h2{font-weight:700}
+.grps{display:grid;grid-template-columns:1fr 1fr;gap:18px 32px;margin-bottom:12px}
+.grp h3{font-size:19px;font-weight:700;color:var(--goldd);margin-bottom:6px}
+.grp li{font-size:16.5px}
+table.inv{width:100%;border-collapse:collapse;margin-bottom:16px}
+.inv th{text-align:start;font-size:20px;font-weight:600;color:var(--green);padding:11px 0;border-bottom:1px solid var(--line)}
+.inv th span{display:block;font-size:15.5px;font-weight:400;color:var(--muted);line-height:1.4}
+.inv td{text-align:end;padding:11px 0;border-bottom:1px solid var(--line);font-size:18px;font-weight:600;width:270px}
+.inv td.tbc{color:var(--goldd);font-style:italic;font-weight:500}
+html[lang=ar] .inv td.tbc{font-style:normal}
+.offer h4{font-size:17px;font-weight:600;margin-bottom:6px}
+.terms{display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;margin-bottom:12px}
+.terms li{display:flex;justify-content:space-between;gap:10px;font-size:16px;border-bottom:1px dotted var(--line);padding:3px 0}
+.terms em{color:var(--goldd)}
+/* next */
+.next .nx-text{position:absolute;inset:0}
+.next .hd{inset-inline-end:960px}
+.nsteps{position:absolute;top:330px;inset-inline-start:96px;width:820px;counter-reset:n}
+.nsteps li{display:grid;grid-template-columns:210px 1fr;gap:24px;padding:24px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.nd{font-weight:700;color:var(--goldd);font-size:22px}
+.nt{font-size:26px;line-height:1.45}
+.nsteps li:last-child .nt{font-weight:700;color:var(--green)}
+.nx-field{position:absolute;top:0;inset-inline-end:0;width:864px;height:1080px;background:var(--green);color:var(--ivory);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.nx-logo{width:420px;margin-bottom:96px}
+.nx-line{font:600 36px/1.35 var(--fh);color:var(--gold);max-width:640px}
+html[lang=ar] .nx-line{font-weight:700;line-height:1.6}
+.nx-by{position:absolute;bottom:56px;font:700 18px 'Manrope',sans-serif;color:#BFC9C2;letter-spacing:.04em}
+.next .ft{inset-inline-end:960px}
+.slide *{font-variant-numeric:lining-nums!important}
+</style></head><body><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="riyal" viewBox="0 0 3000 3353"><path fill-rule="evenodd" d="M1866.9 2970.2C1812.2 3092.4 1778.7 3220.1 1764.4 3353L2897.7 3112.2C2951.8 2989.3 2986.8 2863.1 3000 2729.3L1866.9 2970.2ZM1058.5 296.1L1058.5 1699L268.8 1866.8C210.7 1999.7 182.8 2105.8 166.3 2249.7L1058.5 2060.1L1058.5 2514.2L102.3 2717.4C45.6 2844.2 15.5 2962.7 0 3100.3L1014.5 2884.4C1027.5 2881.7 1040.1 2876.9 1052.4 2872.1C1098.7 2854.2 1140.6 2824.6 1173.4 2787.5C1179.3 2780.9 1185.5 2774.1 1190.5 2766.7L1387.1 2475.4C1400.1 2456 1411.4 2419.6 1411.4 2396.4L1411.8 1985.1L1764.5 1910.1L1764.5 2631.7L2897.7 2390.8C2954.5 2263.3 2984.5 2146.2 3000 2007.8L2117.8 2195.5L2117.7 1835L2897.7 1669.3C2952.2 1547.8 2986.5 1418.6 3000 1286.4L2117.8 1473.9L2117.7 176.1C1978.5 255 1867.2 349.8 1764.5 472.4L1764.5 1549L1411.8 1623.9L1411.8 0C1272.1 79.5 1161.8 172.7 1058.5 296.1Z"/></symbol></defs></svg><section class="slide cover">
+  <div class="cv-field bleed">
+    <img class="cv-logo" src="../brand/logo_reversed.png" alt="محمد سراج عطار وأخويه · M. Siraj Attar &amp; Bros">
+    <div class="cv-text">
+      <div class="cv-prep">Prepared exclusively for <bdi lang="ar">محمد سراج عطار وأخويه</bdi></div>
+      <div class="cv-title">The Wasm Season</div>
+      <div class="cv-sub">A creative and media-buying plan for winter 2026–27, from the first cool night to Eid</div>
+    </div>
+    <div class="cv-foot"><span>A creative and media-buying proposal · November 2026</span><span class="cv-by">Proposal by <img class="es" src="../brand/everyside_wordmark_white.svg" alt="Everyside"></span></div>
+  </div>
+  <div class="cv-hero bleed"><div class="fr bleed" style="width:864px;height:1080px"><img src="img/P01_1080x1350.jpg" alt="P01"></div></div>
+</section><section class="slide line">
+  <div class="ln-img bleed"><div class="fr bleed" style="width:864px;height:1080px"><img src="img/P07_1080x1350.jpg" alt="P07"></div></div>
+  <div class="ln-text">
+    <div class="kicker">The line you chose</div>
+    <h1 class="big">80+ years of craft.<br>Every post should show it.</h1>
+    <p class="ln-other arab" lang="ar" dir="rtl">أكثر من ثمانين عامًا من الحرفة… وكل منشور يجب أن يُظهرها</p>
+    <p class="ln-body">We made it the rule of this round. Every asset carries at least one visible proof of craft:</p>
+    <ul class="proofs"><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The weave up close</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The gold-foil box</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The woven corner seal</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The hand that folds</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A heritage place</span></li></ul>
+  </div>
+  <img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:976px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">02 / 17</span></footer>
+</section><section class="slide found"><header class="hd "><div class="kicker">What we found</div><h1>Strong in the shop, quiet on the feed</h1></header>
+  <div class="bd cols3">
+    <div class="col"><h3>The heritage</h3><ol class="tl"><li><b>Makkah</b><span>Founder Abdulsalam Saleh Attar trades with pilgrims and imports from Turkey, Aden and Egypt.</span></li><li><b>1377H</b><span>The Jeddah branch opens on Qabel Street.</span></li><li><b>1389H</b><span>The Riyadh branch opens in the Deira souqs, al-Thumairi.</span></li><li><b>Today</b><span>9 branches (Riyadh 4, Jeddah 3, Makkah 1, Khobar 1), run by the founders' grandchildren.</span></li></ol></div>
+    <div class="col"><h3>On social media</h3><div class="stats2"><div class="stat"><b>16K</b><span>Instagram followers (approx.)</span></div><div class="stat"><b>9.7K</b><span>followers on X (approx.)</span></div></div>
+      <h4>TikTok followers</h4><div class="bar"><div class="bl"><span>M. Siraj Attar &amp; Bros</span><b>728</b></div><div class="bt"><i style="width:0.60%"></i></div></div><div class="bar"><div class="bl"><span>Ajlan &amp; Bros</span><b>138.7K</b></div><div class="bt"><i style="width:100.00%"></i></div></div><p class="note">Checked on the live store</p></div>
+    <div class="col"><h3>The online store</h3><div class="stats4"><div class="stat"><b>137</b><span>products</span></div><div class="stat"><b>30</b><span>categories</span></div><div class="stat"><b>109</b><span>on sale at our audit</span></div><div class="stat"><b>0</b><span>main photos show the product worn</span></div></div><p class="vat">Prices on the store are shown before VAT: <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">221.74</span></span> on the page is <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">255</span></span> at checkout (Attar Classic Amber shemagh). Every ad we make shows the price paid at checkout.</p></div>
+  </div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">03 / 17</span></footer>
+</section><section class="slide gaps"><header class="hd "><div class="kicker">The opportunity</div><h1>Six spaces the house can own</h1></header><div class="bd grid3x2"><div class="card"><span class="no">01</span><h3>The oldest living merchant story</h3><p>Ajlan &amp; Bros dates from 1979, Lomar from 2002. Only Siraj Attar goes back to the Makkah trade, with Jeddah in 1377H and Riyadh in 1389H.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A heritage series: three generations, the Deira and al-Balad shops</span></p></div><div class="card"><span class="no">02</span><h3>The white ghutra specialist</h3><p>Competitors fight over the red shemagh. The Swiss-made Attar ghutra, 100% cotton, is the house signature.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Own Eid mornings, weddings, summer and business</span></p></div><div class="card"><span class="no">03</span><h3>Head to toe from one house</h3><p>Shemagh, ghutra, Japanese and European fabrics, English and Italian wool, pashmina, perfume, Wathir underwear, agal and cufflinks.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Complete-look sets and gift boxes, with Tabby and Tamara instalments</span></p></div><div class="card"><span class="no">04</span><h3>Teach the HOW</h3><p>No house explains its craft. Only resellers post tutorials.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The mirzam crease, ironing at 110 °C, Japanese or Korean fabric, metres per thobe</span></p></div><div class="card"><span class="no">05</span><h3>One voice per piece</h3><p>Category copy mixes <bdi lang="ar">فصحى</bdi> and dialect, often in a single line, including the store's own banners.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Two clean registers, tested against each other</span></p></div><div class="card"><span class="no">06</span><h3>Winter, season by season</h3><p>English and Italian wools and pashmina shawls are rare in the category.</p><p class="angle"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Follow al-Wasm, then al-Murabba'aniyah, then al-Shabt</span></p></div></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">04 / 17</span></footer></section><section class="slide how"><header class="hd h-sm"><div class="kicker">Your question: how?</div><h1>Your product stays real. Only the scene changes.<br>Then the numbers choose the winner</h1><p class="sub">One store photo in. A finished, tested campaign out.</p></header>
+  <div class="steps"><div class="step" style="width:320px"><div class="sh"><span class="sn">01</span><h3>Your photo</h3></div><div class="frwrap"><div class="fr store" style="width:320px;height:425px;background:#EDEEF1"><img src="img/966965063_1_framed_320x425.jpg" alt=""></div><span class="chip on">As on your store</span></div><p>We start from the photo already in your store.</p></div><div class="sarr"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="step" style="width:320px"><div class="sh"><span class="sn">02</span><h3>The product, kept exactly</h3></div><div class="frwrap"><div class="fr store" style="width:320px;height:425px;background:#EDEEF1"><img src="img/966965063_1_framed_320x425.jpg" alt=""><span class="pin" style="left:34.91%;top:34.08%">1</span><span class="pin" style="left:13.14%;top:43.97%">2</span><span class="pin" style="left:65.39%;top:45.28%">3</span><span class="pin" style="left:86.39%;top:48.91%">4</span></div><ul class="legend"><li><span class="pin s">1</span>Gold-foil seal<svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li><span class="pin s">2</span>Box and lid<svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li><span class="pin s">3</span>Pattern and colour<svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li><span class="pin s">4</span>Woven corner seal<svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li></ul></div><p>Pattern, seal, box and colour are checked against your product.</p></div><div class="sarr"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="step" style="width:560px"><div class="sh"><span class="sn">03</span><h3>Two registers, one design</h3></div><div class="frwrap p3" style="width:560px;height:425px"><div class="p3pair"><figure><div class="fr " style="width:262px;height:262px"><img src="img/K05b_fusha_524x524.jpg" alt="K05b"></div><figcaption>فصحى</figcaption></figure><figure><div class="fr " style="width:262px;height:262px"><img src="img/K05b_saudi_524x524.jpg" alt="K05b"></div><figcaption>Saudi</figcaption></figure></div><div class="p3lines"><p><b>فصحى</b><span lang="ar" dir="rtl">اغسلها بماء بارد أو فاتر ودون مبيّضات</span></p><p><b>Saudi</b><span lang="ar" dir="rtl">اغسلها بموية باردة أو فاترة وبدون مبيّضات</span></p></div></div><p>The same poster in <bdi lang="ar">فصحى</bdi> and in Saudi dialect, never mixed in one line.</p></div><div class="sarr"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="step" style="width:320px"><div class="sh"><span class="sn">04</span><h3>Live and measured</h3></div><div class="frwrap p4" style="width:320px;height:425px"><div class="p4post"><div class="fr " style="width:176px;height:220px"><img src="img/K01_saudi_352x440.jpg" alt="K01"></div></div><div class="chart"><div class="ct">Budget share by hook (illustration)</div><div class="crow"><span>Day 1</span><div class="stack"><i class="k0" style="flex:34">34%</i><i class="k1" style="flex:33">33%</i><i class="k2" style="flex:33">33%</i></div></div><div class="crow"><span>After 72 h</span><div class="stack"><i class="k0" style="flex:15">15%</i><i class="k1" style="flex:70">70%</i><i class="k2" style="flex:15">15%</i></div></div><div class="leg"><span><i class="k0"></i>Hook A</span><span><i class="k1"></i>Hook B</span><span><i class="k2"></i>Hook C</span></div></div></div><p>Two registers and three formats are tested. The budget follows what sells.</p></div></div>
+  <p class="answer">From a store photo to this result: we keep the product exactly, write every line in two clean registers, check each detail by eye, and let the campaign data pick the winners.</p><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">05 / 17</span></footer>
+</section><section class="slide beforeafter"><header class="hd "><div class="kicker">Before and after</div><h1>The same product, in a scene worthy of it</h1></header>
+  <div class="bd barow">
+    <div class="bahero"><div class="subl"><span>Your store photo</span><span>Our shot</span></div><div class="pair hero"><div class="pp"><div class="ba"><div class="fr store" style="width:420px;height:525px;background:#EDEEF1"><img src="img/966965063_1_framed_420x525.jpg" alt=""></div><span class="tag before">Before</span></div><div class="ba"><div class="fr " style="width:420px;height:525px"><img src="img/P02_840x1050.jpg" alt="P02"></div><span class="tag after">After</span></div></div><div class="pcap"><b>شماغ العطار كلاسيك ياقوت</b><span>White studio <svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> travertine ledge by a Najdi mud-brick wall, late sun</span></div></div></div>
+    <div class="baside"><div class="pair"><div class="pp"><div class="ba"><div class="fr store" style="width:196px;height:245px;background:#FAF9FF"><img src="img/672063087_1_framed_196x245.jpg" alt=""></div><span class="tag before">Before</span></div><div class="ba"><div class="fr " style="width:196px;height:245px"><img src="img/P12_392x490.jpg" alt="P12"></div><span class="tag after">After</span></div></div><div class="pcap"><b>مجموعة عطور العطار</b><span>White studio <svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> brass tray, incense, lantern light</span></div></div><div class="pair"><div class="pp"><div class="ba"><div class="fr store" style="width:196px;height:245px;background:#C1C6C8"><img src="img/502827333_1_framed_196x245.jpg" alt=""></div><span class="tag before">Before</span></div><div class="ba"><div class="fr " style="width:196px;height:245px"><img src="img/P05_392x490.jpg" alt="P05"></div><span class="tag after">After</span></div></div><div class="pcap"><b>غترة العطار كلاسيك</b><span>White sweep <svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Riyadh business district, morning light</span></div></div></div>
+  </div>
+  <p class="answer">Same box, same shemagh. New setting, new light, built from your own store photo.</p><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">06 / 17</span></footer>
+</section><section class="slide calendar"><header class="hd h-cal"><div class="kicker">The campaign</div><h1>«<bdi lang="ar">موسم الوسم</bdi>» The Wasm Season</h1><p class="sub">When the first cool nights of al-Wasm arrive, Saudi men move from the white ghutra to the red shemagh. We launch on 15 November, in the heart of al-Wasm, and follow the Saudi winter moment by moment, through to Eid.</p></header>
+  <div class="cal">
+    <div class="cr axis"><div class="cl"></div><div class="cc"><div class="brk" style="inset-inline-start:10.448%;width:66.418%"><span>90-day test</span></div><div class="brk" style="inset-inline-start:77.612%;width:17.164%"><span>Ramadan and Eid flight</span></div></div><div class="cn"></div></div>
+    <div class="cr axis"><div class="cl"></div><div class="cc"><span class="mt" style="inset-inline-start:0.000%">Nov</span><span class="mt" style="inset-inline-start:22.388%">Dec</span><span class="mt" style="inset-inline-start:45.522%">Jan</span><span class="mt" style="inset-inline-start:68.657%">Feb</span><span class="mt" style="inset-inline-start:89.552%">Mar</span></div><div class="cn"></div></div>
+    <div class="calrows"><div class="gridl"><i class="vg" style="inset-inline-start:0.000%"></i><i class="vg" style="inset-inline-start:22.388%"></i><i class="vg" style="inset-inline-start:45.522%"></i><i class="vg" style="inset-inline-start:68.657%"></i><i class="vg" style="inset-inline-start:89.552%"></i></div><div class="cr"><div class="cl"><b>Al-Wasm</b><span>Launch 15 Nov · to 6 Dec</span></div><div class="cc"><i class="span season" style="inset-inline-start:0.000%;width:26.119%"></i><i class="pt season" style="inset-inline-start:10.448%"></i></div><div class="cn"><span>Launch: the shemagh season</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">Instagram</span><span class="pf">TikTok</span></div></div></div><div class="cr"><div class="cl"><b>Riyadh Season</b><span>Nov – end Dec</span></div><div class="cc"><i class="span event" style="inset-inline-start:0.000%;width:44.776%"></i></div><div class="cn"><span>Evening outfits near the 4 Riyadh branches</span><div class="pfs"><span class="pf">Snapchat geo</span></div></div></div><div class="cr"><div class="cl"><b>Salary days</b><span>26 Nov · 27 Dec · 27 Jan · 28 Feb</span></div><div class="cc"><i class="pt pay" style="inset-inline-start:18.657%"></i><i class="pt pay" style="inset-inline-start:41.791%"></i><i class="pt pay" style="inset-inline-start:64.925%"></i><i class="pt pay" style="inset-inline-start:88.806%"></i></div><div class="cn"><span>Short bursts on each payday</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">Google</span></div></div></div><div class="cr"><div class="cl"><b>White Friday</b><span>27 Nov (window 26–30 Nov)</span></div><div class="cc"><i class="span event" style="inset-inline-start:18.657%;width:2.985%"></i><i class="pt event" style="inset-inline-start:19.403%"></i></div><div class="cn"><span>Bundles and instalments, not deep discounts</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">Meta</span><span class="pf">Google Shopping</span></div></div></div><div class="cr"><div class="cl"><b>Al-Murabba'aniyah</b><span>7 Dec – 15 Jan</span></div><div class="cc"><i class="span season" style="inset-inline-start:26.866%;width:29.104%"></i><i class="pt season" style="inset-inline-start:26.866%"></i></div><div class="cn"><span>Wool, pashmina, heavy shemagh</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">TikTok</span><span class="pf">Instagram</span></div></div></div><div class="cr"><div class="cl"><b>Eid fabric peak</b><span>10 Dec – 7 Feb (Rajab and Sha'ban)</span></div><div class="cc"><i class="span trade" style="inset-inline-start:29.104%;width:44.030%"></i></div><div class="cn"><span>Order early, before the tailors' rush</span><div class="pfs"><span class="pf">Google Search</span><span class="pf">Snapchat</span><span class="pf">Instagram</span></div></div></div><div class="cr"><div class="cl"><b>Ramadan</b><span>≈ 8 Feb – 8 Mar</span></div><div class="cc"><i class="span religious" style="inset-inline-start:73.881%;width:20.896%"></i></div><div class="cn"><span>Evenings, 8 pm to 2 am</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">Instagram</span><span class="pf">Google</span></div></div></div><div class="cr"><div class="cl"><b>Founding Day</b><span>22 Feb (≈ 15 Ramadan)</span></div><div class="cc"><i class="pt national" style="inset-inline-start:84.328%"></i></div><div class="cn"><span>Heritage posters in a Ramadan tone; no flag or emblem</span><div class="pfs"><span class="pf">X</span><span class="pf">Snapchat</span></div></div></div><div class="cr"><div class="cl"><b>Eid al-Fitr</b><span>≈ 9 Mar (countdown from 3 Mar)</span></div><div class="cc"><i class="span religious" style="inset-inline-start:91.045%;width:2.239%"></i><i class="pt religious" style="inset-inline-start:95.522%"></i></div><div class="cn"><span>Headwear, perfume, gift boxes</span><div class="pfs"><span class="pf">Snapchat</span><span class="pf">Instagram</span><span class="pf">Google</span></div></div></div></div>
+  </div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">07 / 17</span></footer>
+</section><section class="slide shots"><header class="hd "><div class="kicker">The work · product shots</div><h1>Sixteen shots, sixteen perspectives</h1></header>
+  <p class="lead">Product photography for every category, built from your own store photos: boxed, folded, hanging, up close and from above, on calm minimal sets. Product truth is locked: pattern, seal, box and colour match your listing. <span class="spec">1080 × 1350 · 4:5</span></p>
+  <div class="bd g8"><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P01_403x504.jpg" alt="P01"></div><figcaption><b>Yaqoot shemagh</b><span>with the agal, three-quarter</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P02_403x504.jpg" alt="P02"></div><figcaption><b>Yaqoot in its box</b><span>high angle, travertine</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P03_403x504.jpg" alt="P03"></div><figcaption><b>Yaqoot Shalsh</b><span>macro of the weave</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P04_403x504.jpg" alt="P04"></div><figcaption><b>Zumurrud ghutra</b><span>overhead, green linen</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P05_403x504.jpg" alt="P05"></div><figcaption><b>Classic ghutra</b><span>in its box, side view</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P06_403x504.jpg" alt="P06"></div><figcaption><b>Naqsh 26</b><span>low angle, majlis</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P07_403x504.jpg" alt="P07"></div><figcaption><b>Zumurrud laser</b><span>backlit macro</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P08_403x504.jpg" alt="P08"></div><figcaption><b>Fabric 909</b><span>tailor's table</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P09_403x504.jpg" alt="P09"></div><figcaption><b>Italian wool</b><span>stacked folds</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P10_403x504.jpg" alt="P10"></div><figcaption><b>Pashmina</b><span>draped, embroidery forward</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P11_403x504.jpg" alt="P11"></div><figcaption><b>Attar 3 perfume</b><span>upright, eye level</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P12_403x504.jpg" alt="P12"></div><figcaption><b>Perfume trio</b><span>brass and incense</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P13_403x504.jpg" alt="P13"></div><figcaption><b>Silver cufflinks</b><span>on the cuff</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P14_403x504.jpg" alt="P14"></div><figcaption><b>Wathir undershirt</b><span>in its gift box</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P15_403x504.jpg" alt="P15"></div><figcaption><b>Attar agal</b><span>top-down</span></figcaption></figure><figure class="cell"><div class="fr " style="width:202px;height:252px"><img src="img/P16_403x504.jpg" alt="P16"></div><figcaption><b>Fabric library</b><span>five origins</span></figcaption></figure></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">08 / 17</span></footer>
+</section><section class="slide catalogue"><header class="hd h-side"><div class="kicker">The work · catalogue posters</div><h1>The posters you liked, tightened into one grid</h1></header>
+  <ul class="side checks"><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>One frame for every category</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The product fills 60–70% of the photo zone</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A brand ground per category, never white on white</span></li><li><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The name exactly as in your store, the price as paid at checkout</span></li></ul>
+  <div class="bd g5"><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C01_fusha_472x590.jpg" alt="C01"></div><figcaption><b>Yaqoot classic shemagh</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">309.93</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C02_fusha_472x590.jpg" alt="C02"></div><figcaption><b>Zumurrud Swiss ghutra</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">239.89</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C03_fusha_472x590.jpg" alt="C03"></div><figcaption><b>Audemar 4 shemagh</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">213.75</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C04_fusha_472x590.jpg" alt="C04"></div><figcaption><b>European shemagh</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">232</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C05_fusha_472x590.jpg" alt="C05"></div><figcaption><b>Hafawa 1 red shemagh</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">194.93</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C06_fusha_472x590.jpg" alt="C06"></div><figcaption><b>Al-Wisam 26 red shemagh</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">280</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C07_fusha_472x590.jpg" alt="C07"></div><figcaption><b>Attar 974 Korean fabric</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">80.50</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C08_fusha_472x590.jpg" alt="C08"></div><figcaption><b>William Halstead Super 130 wool</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">1,469.13</span></span></span></figcaption></figure><figure class="cell"><div class="fr " style="width:236px;height:295px"><img src="img/C09_fusha_472x590.jpg" alt="C09"></div><figcaption><b>Wathir Italian undershirt</b><span><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">60</span></span></span></figcaption></figure><div class="cell notecell" style="width:236px;height:295px"><p>Each poster ships twice: <bdi lang="ar">فصحى</bdi> and Saudi dialect, 1080 × 1350.</p><div class="pricedemo"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">309.93</span></span></div><span>VAT-inclusive, official riyal symbol</span></div></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">09 / 17</span></footer>
+</section><section class="slide row campaignwork"><header class="hd "><div class="kicker">The work · the campaign</div><h1>One campaign system, from launch night to Eid</h1><p class="sub">One system across formats. Headline, price and call to action always sit inside each platform's safe zone, and nothing covers the product.</p></header>
+  <div class="bd rowa" style="gap:16px"><figure class="cell"><div class="fr " style="width:304px;height:380px"><img src="img/K01_fusha_608x760.jpg" alt="K01"></div><figcaption>Launch feed · 15 Nov · 4:5</figcaption></figure><figure class="cell"><div class="fr " style="width:214px;height:380px"><img src="img/K02_fusha_428x760.jpg" alt="K02"></div><figcaption>Launch story · 15 Nov · 9:16</figcaption></figure><figure class="cell"><div class="fr " style="width:304px;height:380px"><img src="img/K08_fusha_608x760.jpg" alt="K08"></div><figcaption>Heritage: 80+ years, 9 branches · 4:5</figcaption></figure><figure class="cell"><div class="fr " style="width:304px;height:380px"><img src="img/K06_fusha_608x760.jpg" alt="K06"></div><figcaption>White Friday winter set · 27 Nov · 4:5</figcaption></figure><figure class="cell"><div class="fr " style="width:214px;height:380px"><img src="img/K07_fusha_428x760.jpg" alt="K07"></div><figcaption>Al-Murabba'aniyah story · 7 Dec · 9:16</figcaption></figure><figure class="cell"><div class="fr " style="width:304px;height:380px"><img src="img/K09_fusha_608x760.jpg" alt="K09"></div><figcaption>The special gift box · occasions and Eid · 4:5</figcaption></figure></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">10 / 17</span></footer>
+</section><section class="slide carousel"><header class="hd "><div class="kicker">The work · carousel</div><h1>Head to toe, from one house, in one swipe</h1><p class="sub">The idea you liked, rebuilt with clean copy: shemagh, agal, thobe fabric, perfume and cufflinks, each with its VAT-inclusive price.</p></header>
+  <div class="bd rowa car"><figure class="cell"><div class="fr " style="width:326px;height:326px"><img src="img/K04a_fusha_652x652.jpg" alt="K04a"></div><figcaption>1 · Cover</figcaption></figure><figure class="cell"><div class="fr " style="width:326px;height:326px"><img src="img/K04b_fusha_652x652.jpg" alt="K04b"></div><figcaption>2 · The head: agal</figcaption></figure><figure class="cell"><div class="fr " style="width:326px;height:326px"><img src="img/K04c_fusha_652x652.jpg" alt="K04c"></div><figcaption>3 · The thobe: Japanese fabric 909</figcaption></figure><figure class="cell"><div class="fr " style="width:326px;height:326px"><img src="img/K04d_fusha_652x652.jpg" alt="K04d"></div><figcaption>4 · The scent: Attar perfume collection</figcaption></figure><figure class="cell"><div class="fr " style="width:326px;height:326px"><img src="img/K04e_fusha_652x652.jpg" alt="K04e"></div><figcaption>5 · The finishing touch: silver cufflinks</figcaption></figure></div>
+  <div class="swipe">Swipe <svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">11 / 17</span></footer>
+</section><section class="slide registers"><header class="hd h-side"><div class="kicker">Two registers</div><h1><bdi lang="ar">فصحى</bdi> or Saudi, never both in one line</h1></header>
+  <div class="regtext"><p>You flagged «<bdi lang="ar">رأس</bdi>» next to «<bdi lang="ar">لرجلينك</bdi>». Now every poster ships twice with the same layout, and the register is chosen per version: headline, sub-line, call to action and caption all follow it.</p>
+    <table class="pairs"><thead><tr><th>فصحى (MSA)</th><th>Saudi dialect</th></tr></thead><tbody><tr><td lang="ar">من الرأس إلى القدم</td><td lang="ar">من راسك لرجلينك</td></tr><tr><td lang="ar">اسحب للمزيد</td><td lang="ar">اسحب وشوف</td></tr><tr><td lang="ar">حلّ الوسم وعاد الأحمر</td><td lang="ar">دخل الوسم ورجع الأحمر</td></tr><tr><td lang="ar">دفءٌ يرافقك طوال الشتاء</td><td lang="ar">دفا يكفيك الشتا كله</td></tr><tr><td lang="ar">اطلبه الآن</td><td lang="ar">اطلبه الحين</td></tr></tbody></table>
+    <p class="note">Lines taken from the finished posters (K04a, K01, K06).</p><p class="test">Both versions run as a live A/B test on the same design.</p></div>
+  <div class="regp"><figure><span class="rtag f">فصحى (MSA)</span><div class="fr " style="width:520px;height:520px"><img src="img/K04a_fusha_1040x1040.jpg" alt="K04a"></div></figure><figure><span class="rtag s">Saudi dialect</span><div class="fr " style="width:520px;height:520px"><img src="img/K04a_saudi_1040x1040.jpg" alt="K04a"></div></figure></div><p class="regcap">Same layout. Only the voice changes.</p><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">12 / 17</span></footer>
+</section><section class="slide row howposters"><header class="hd "><div class="kicker">The work · the HOW</div><h1>Posters that teach the craft</h1><p class="sub">The question the category never answers is how. Care, crease, fabric and metres, built only from your own product notes: iron at 110 °C, cold or lukewarm water, no bleach.</p></header>
+  <div class="bd rowa" style="gap:32px"><figure class="cell"><div class="fr " style="width:270px;height:480px"><img src="img/K03_fusha_540x960.jpg" alt="K03"></div><figcaption>Ghutra story: 100% Swiss cotton · 9:16</figcaption></figure><figure class="cell"><div class="fr " style="width:480px;height:480px"><img src="img/K05a_fusha_960x960.jpg" alt="K05a"></div><figcaption>Care 1: iron at 110 °C · 1:1</figcaption></figure><figure class="cell"><div class="fr " style="width:480px;height:480px"><img src="img/K05b_fusha_960x960.jpg" alt="K05b"></div><figcaption>Care 2: cold or lukewarm water, no bleach · 1:1</figcaption></figure><figure class="cell"><div class="fr " style="width:384px;height:480px"><img src="img/K10_fusha_768x960.jpg" alt="K10"></div><figcaption>Fabric library: metres per thobe · 4:5</figcaption></figure></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">13 / 17</span></footer>
+</section><section class="slide media"><header class="hd "><div class="kicker">Media plan</div><h1>Snapchat leads, and every channel has one job</h1></header>
+  <div class="bd mrow">
+    <div class="mleft"><h3>Budget for the first 90 days</h3><div class="tier"><span>Core</span><b><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">60,000</span></span></b><em>about <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">4,600</span></span> a week</em></div><div class="tier g"><span>Growth</span><b><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">120,000</span></span></b><em>about <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">9,200</span></span> a week</em></div><p class="vat">Media figures are net spend paid to the platforms and exclude 15% VAT.</p>
+      <p class="reach">Snapchat reaches 25.3 million people in the Kingdom, 89% of adults. The core audience, Saudi men aged 18 to 55, is about 5 million.</p><p class="note">Source: DataReportal, Digital 2026 Saudi Arabia</p></div>
+    <table class="mtab"><thead><tr><th>Channel</th><th>Share</th><th>Core</th><th>Growth</th><th>Its job</th></tr></thead><tbody><tr><th>Snapchat</th><td class="sh"><b>35%</b><div class="sb"><i style="width:100.0%"></i></div></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">21,000</span></span></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">42,000</span></span></td><td class="job">Reach Saudi men and find new customers: Story ads, Collection and catalogue ads</td></tr><tr><th>Google</th><td class="sh"><b>20%</b><div class="sb"><i style="width:57.1%"></i></div></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">12,000</span></span></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">24,000</span></span></td><td class="job">Capture existing demand (searches for Swiss ghutra, red shemagh, Japanese fabric) with Search and Shopping</td></tr><tr><th>Meta</th><td class="sh"><b>20%</b><div class="sb"><i style="width:57.1%"></i></div></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">12,000</span></span></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">24,000</span></span></td><td class="job">Retargeting, catalogue ads and Stories; the home for new followers</td></tr><tr><th>TikTok</th><td class="sh"><b>20%</b><div class="sb"><i style="width:57.1%"></i></div></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">12,000</span></span></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">24,000</span></span></td><td class="job">Photo carousel ads that teach the craft; follower growth</td></tr><tr><th>X and reserve</th><td class="sh"><b>5%</b><div class="sb"><i style="width:14.3%"></i></div></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">3,000</span></span></td><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">6,000</span></span></td><td class="job">Launches and Founding Day; a top-up for winning ads</td></tr></tbody></table>
+  </div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">14 / 17</span></footer>
+</section><section class="slide testplan"><header class="hd "><div class="kicker">Media plan · 90 days</div><h1>The first 90 days: test, learn, then scale what sells</h1></header>
+  <div class="phases"><div class="phase"><h3>Days 1–30 · Learn</h3><span class="pd">15 Nov – 14 Dec</span><ul><li>Tracking checked end to end before any spend</li><li>Launch on 15 Nov: 16 test ads, 4 ideas in two registers and two formats</li><li>Peak 26–30 Nov: salary, White Friday and the school break, then the first read-out</li></ul></div><div class="parr"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="phase"><h3>Days 31–60 · Optimise</h3><span class="pd">15 Dec – 13 Jan</span><ul><li>Weakest half of the ads cut; retargeting live</li><li>Winter set for al-Murabba'aniyah and the Eid fabric message for the tailors' peak</li><li>Salary burst 27–31 Dec; mid-year break from 8 Jan</li></ul></div><div class="parr"><svg class="arr" viewBox="0 0 26 12" aria-hidden="true"><path d="M1 6h22M17 1l6 5-6 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="phase"><h3>Days 61–90 · Scale</h3><span class="pd">14 Jan – 12 Feb</span><ul><li>Winners scaled by 20–30% every two to three days</li><li>Wool and heavy shemagh; salary burst 27–31 Jan</li><li>90-day review on 12 Feb; the Ramadan and Eid flight starts 13 Feb</li></ul></div></div>
+  <div class="blocks"><div class="blk"><h3>Creative testing</h3><ul><li><bdi lang="ar">فصحى</bdi> against Saudi on the same design: CTR, conversion rate and cost per customer, per platform</li><li>Hypothesis: Saudi leads on Snapchat and TikTok, <bdi lang="ar">فصحى</bdi> holds on Google and X</li><li>3 hooks per hero product; after 72 hours the budget moves to the winner</li><li>After 3,000 to 5,000 impressions, the bottom quarter is paused</li></ul></div><div class="blk"><h3>What we measure</h3><ul><li>Primary: cost per new customer, kept under break-even (order value × margin)</li><li>Example: a <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">300</span></span> order at 50% margin breaks even at <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">150</span></span>; the target is <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">100</span></span> or less</li><li>Secondary: return on ad spend of 3× or more, add-to-cart rate, click-through rate</li><li>A one-page report every week, a review every month</li></ul></div><div class="blk"><h3>Tracking on Salla, before any spend</h3><ul><li>Snapchat: Snap Pixel with the Conversions API</li><li>TikTok: Events API with the catalogue</li><li>Meta: pixel and Conversions API, daily catalogue sync</li><li>Google: Merchant Center with VAT-inclusive prices, GA4 through your Tag Manager</li><li>One event ID per order, so nothing is counted twice; Apple Pay, Tabby and Tamara checkouts tested</li></ul></div></div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">15 / 17</span></footer>
+</section><section class="slide offer"><header class="hd "><div class="kicker">Deliverables and investment</div><h1>What you receive each month, and the investment</h1></header>
+  <div class="bd orow">
+    <div class="oleft"><h2>Each month</h2><div class="grps"><div class="grp"><h3>Creative</h3><ul><li>16 product photographs in Saudi settings, built from your store photos</li><li>12 posters, each in <bdi lang="ar">فصحى</bdi> and Saudi (24 files)</li><li>1 seasonal set: feed, story and carousel</li><li>Final files ready to download and post, with captions in both registers</li></ul></div><div class="grp"><h3>Media buying</h3><ul><li>Set-up and daily management on Snapchat, TikTok, Meta and Google</li><li>A register test on every hero product</li><li>Fresh versions of the winners every two weeks</li></ul></div><div class="grp"><h3>Reporting</h3><ul><li>A one-page weekly report: spend, cost per customer, return, winning ads</li><li>A monthly review with next month's plan</li></ul></div><div class="grp"><h3>Quality gates</h3><ul><li>Every image checked against your product: pattern, seal, box, colour</li><li>Every price VAT-inclusive, with the official riyal symbol</li><li>Every line checked for one register</li></ul></div></div><p class="note">Proposed monthly volumes; we agree the final scope with you.</p></div>
+    <div class="oright"><h2>Investment</h2><table class="inv"><tbody><tr><th>Creative production<span>The monthly creative package on the previous page</span></th><td class="tbc">To be confirmed</td></tr><tr><th>Media management<span>Daily buying, testing and reporting, as a fixed fee or a share of spend</span></th><td class="tbc">To be confirmed</td></tr><tr><th>One-off set-up<span>Tracking audit, pixels and Conversions API, catalogue feeds</span></th><td class="tbc">To be confirmed</td></tr><tr><th>Media spend<span>Paid directly to the platforms, for the 90-day tier you choose, excluding VAT</span></th><td class="amt"><span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">60,000</span></span> Core or <span class="sar" dir="ltr"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg><span class="num">120,000</span></span> Growth</td></tr></tbody></table>
+      <h4>Terms</h4><ul class="terms"><li><span>Contract term</span><em>To be confirmed</em></li><li><span>Payment schedule</span><em>To be confirmed</em></li><li><span>Revision rounds per asset</span><em>To be confirmed</em></li><li><span>Usage rights for approved assets</span><em>To be confirmed</em></li></ul><p class="note">Fees will be quoted with the official riyal symbol and a separate VAT line.</p></div>
+  </div><img class="mark" src="../brand/roundel_color.png" alt=""><footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">16 / 17</span></footer>
+</section><section class="slide next">
+  <div class="nx-text"><header class="hd "><div class="kicker">Next steps</div><h1>Live on 15 November, in the heart of al-Wasm</h1></header><ol class="nsteps"><li><span class="nd">By 3 Nov</span><span class="nt">Approve the direction, the campaign and the two registers</span></li><li><span class="nd">By 5 Nov</span><span class="nt">Confirm the launch products: stock, and the VAT-inclusive price at checkout</span></li><li><span class="nd">By 8 Nov</span><span class="nt">Access to Salla's tracking tools and the Snapchat, TikTok, Meta and Google ad accounts</span></li><li><span class="nd">10–12 Nov</span><span class="nt">Tracking test, final files and captions in both registers</span></li><li><span class="nd">15 Nov</span><span class="nt">Launch of «<bdi lang="ar">موسم الوسم</bdi>»</span></li></ol></div>
+  <div class="nx-field bleed"><img class="nx-logo" src="../brand/logo_reversed.png" alt="محمد سراج عطار وأخويه">
+    <p class="nx-line">80+ years of craft.<br>Every post should show it.</p><p class="nx-by"><img src="../brand/everyside_wordmark_white.svg" alt="Everyside"></p></div>
+  <footer class="ft" style="inset-inline-start:96px"><span class="ftl"><img class="ft-es" src="../brand/everyside_wordmark.svg" alt="Everyside"><bdi>× محمد سراج عطار وأخويه</bdi></span><span class="pg" dir="ltr">17 / 17</span></footer>
+</section></body></html>

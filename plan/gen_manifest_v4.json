@@ -1,0 +1,125 @@
+[
+ {
+  "id": "R4_P01",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh (same red houndstooth field, same white border with red stripes, same fringe) and the black Siraj Attar agal (same cord, double ring). The shemagh folded into a neat triangle with the black agal resting on top of it, on a plain honed beige stone surface against a plain warm-beige backdrop, three-quarter high angle, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/966965063_2.jpg",
+   "data/images/1113769137_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_P05",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Classic ghutra, Swiss cotton, with its fine woven border. The ghutra folded into a crisp triangle, standing in its open dark green box with the gold-foil seal, on a plain light-grey stone surface against a plain light-grey backdrop, three-quarter view, 100mm lens, soft window light. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/502827333_1.jpg",
+   "data/images/502827333_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_P10",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the cream pashmina shawl with the navy embroidered paisley border and corner medallion. The shawl draped in soft vertical folds over a plain warm-grey seamless backdrop edge so the embroidered border and medallion face the camera, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/821325048_1.jpg",
+   "data/images/821325048_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_P13",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the silver knot cufflinks (same shape, engraving and finish). Macro: one cufflink fastened through the folded French cuff of a white thobe sleeve laid flat on a plain light surface, the second cufflink lying beside it, 100mm macro lens, soft window light. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/265256366_2.jpg",
+   "data/images/265256366_1.jpg",
+   "data/images/265256366_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_K02",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh (same red houndstooth field, same white border with red stripes, same fringe) and the black Siraj Attar agal (same cord, double ring). Vertical: the shemagh hanging in long natural folds from the top of the frame so the full pattern and striped border show, the black agal resting on a plain stone ledge below it, plain warm-beige backdrop, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/966965063_2.jpg",
+   "data/images/966965063_1.jpg",
+   "data/images/1113769137_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "9:16",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_K03",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Classic ghutra, Swiss cotton, with its fine woven border. Vertical: the white ghutra hanging in long soft folds against a plain light-grey seamless backdrop, the woven border visible, soft window light, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/502827333_1.jpg",
+   "data/images/502827333_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "9:16",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_K04a",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the five products with their true colours, patterns and logos: the green box with the red-and-white Yaqoot shemagh, the black agal on its green box, the lilac-white Japanese fabric folded flat, the green perfume box with three bottles, and the silver knot cufflinks. Top-down flat lay: the five products arranged in a clean grid with even spacing on a plain warm-beige surface, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/1113769137_1.jpg",
+   "data/images/1292393513_1.jpg",
+   "data/images/672063087_1.jpg",
+   "data/images/265256366_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_K05",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge. The ghutra laid flat on a plain white ironing surface with a modern steam iron resting on it, a light wisp of steam, 45-degree view, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/1740470085_2.jpg",
+   "data/images/1740470085_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "1:1",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R4_K07",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the cream pashmina shawl with the navy embroidered paisley border and corner medallion. Vertical: the shawl hanging in long soft folds against a plain warm-grey seamless backdrop, the embroidered border and medallion facing the camera, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin, no faces anywhere in the image. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The product fills about two-thirds of the frame, fully visible.",
+  "images": [
+   "data/images/821325048_1.jpg",
+   "data/images/821325048_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "9:16",
+   "resolution": "2k"
+  }
+ }
+]

@@ -1,0 +1,2024 @@
+{
+ "meta": {
+  "title": {
+   "en": "The Wasm Season · Proposal for M. Siraj Attar & Bros",
+   "ar": "موسم الوسم · مقترح لمحمد سراج عطار وأخويه"
+  },
+  "footer": {
+   "en": "× محمد سراج عطار وأخويه",
+   "ar": "× محمد سراج عطار وأخويه"
+  },
+  "markup": "Text fields accept: {sar:1,234} = price with the riyal SVG (LTR isolate, symbol left); **x** = strong; \\n = line break; {->} = arrow in reading direction. Arabic number ranges (16–31, 60–70%, 1080 × 1350) are wrapped in LTR isolates automatically."
+ },
+ "slides": [
+  {
+   "id": "cover",
+   "type": "cover",
+   "hero": "P01",
+   "kicker": {
+    "en": "A creative and media-buying proposal",
+    "ar": "مقترح إبداعي وخطة لشراء الإعلانات"
+   },
+   "prepared": {
+    "en": "Prepared exclusively for محمد سراج عطار وأخويه",
+    "ar": "أُعِدَّ خصيصًا لمحمد سراج عطار وأخويه"
+   },
+   "title": {
+    "en": "The Wasm Season",
+    "ar": "موسم الوسم"
+   },
+   "subtitle": {
+    "en": "A creative and media-buying plan for winter 2026–27, from the first cool night to Eid",
+    "ar": "خطة إبداعية وإعلانية لشتاء 2026–2027 من أول ليلة باردة حتى العيد"
+   },
+   "date": {
+    "en": "November 2026",
+    "ar": "نوفمبر 2026"
+   },
+   "by": {
+    "en": "Proposal by",
+    "ar": "مقدَّم من"
+   }
+  },
+  {
+   "id": "line",
+   "type": "line",
+   "image": "P07",
+   "kicker": {
+    "en": "The line you chose",
+    "ar": "العبارة التي اخترتموها"
+   },
+   "line": {
+    "en": "80+ years of craft.\nEvery post should show it.",
+    "ar": "أكثر من ثمانين عامًا من الحرفة…\nوكل منشور يجب أن يُظهرها"
+   },
+   "body": {
+    "en": "We made it the rule of this round. Every asset carries at least one visible proof of craft:",
+    "ar": "جعلناها قاعدة هذه الجولة: كل عمل يحمل دليلًا ظاهرًا واحدًا على الأقل على الحرفة"
+   },
+   "proofs": {
+    "en": [
+     "The weave up close",
+     "The gold-foil box",
+     "The woven corner seal",
+     "The hand that folds",
+     "A heritage place"
+    ],
+    "ar": [
+     "النسيج عن قرب",
+     "العلبة بختمها الذهبي",
+     "الختم المنسوج في الطرف",
+     "اليد التي تطوي",
+     "مكانٌ من التراث"
+    ]
+   }
+  },
+  {
+   "id": "found",
+   "type": "found",
+   "kicker": {
+    "en": "What we found",
+    "ar": "ما وجدناه"
+   },
+   "h1": {
+    "en": "Strong in the shop, quiet on the feed",
+    "ar": "حضورٌ راسخ في الفروع وصوتٌ خافت على المنصات"
+   },
+   "heritage": {
+    "title": {
+     "en": "The heritage",
+     "ar": "الإرث"
+    },
+    "items": [
+     {
+      "k": {
+       "en": "Makkah",
+       "ar": "مكة المكرمة"
+      },
+      "t": {
+       "en": "Founder Abdulsalam Saleh Attar trades with pilgrims and imports from Turkey, Aden and Egypt.",
+       "ar": "المؤسس عبد السلام صالح عطار يتاجر مع الحجاج ويستورد من تركيا وعدن ومصر."
+      }
+     },
+     {
+      "k": {
+       "en": "1377H",
+       "ar": "1377هـ"
+      },
+      "t": {
+       "en": "The Jeddah branch opens on Qabel Street.",
+       "ar": "افتتاح فرع جدة في شارع قابل."
+      }
+     },
+     {
+      "k": {
+       "en": "1389H",
+       "ar": "1389هـ"
+      },
+      "t": {
+       "en": "The Riyadh branch opens in the Deira souqs, al-Thumairi.",
+       "ar": "افتتاح فرع الرياض في أسواق الديرة بالثميري."
+      }
+     },
+     {
+      "k": {
+       "en": "Today",
+       "ar": "اليوم"
+      },
+      "t": {
+       "en": "9 branches (Riyadh 4, Jeddah 3, Makkah 1, Khobar 1), run by the founders' grandchildren.",
+       "ar": "تسعة فروع في الرياض وجدة ومكة المكرمة والخبر، يديرها أحفاد المؤسسين."
+      }
+     }
+    ]
+   },
+   "social": {
+    "title": {
+     "en": "On social media",
+     "ar": "على المنصات"
+    },
+    "stats": [
+     {
+      "n": {
+       "en": "16K",
+       "ar": "16 ألفًا"
+      },
+      "l": {
+       "en": "Instagram followers (approx.)",
+       "ar": "متابع على إنستغرام تقريبًا"
+      }
+     },
+     {
+      "n": {
+       "en": "9.7K",
+       "ar": "9.7 آلاف"
+      },
+      "l": {
+       "en": "followers on X (approx.)",
+       "ar": "متابع على إكس تقريبًا"
+      }
+     }
+    ],
+    "compare_title": {
+     "en": "TikTok followers",
+     "ar": "المتابعون على تيك توك"
+    },
+    "compare": [
+     {
+      "name": {
+       "en": "M. Siraj Attar & Bros",
+       "ar": "محمد سراج عطار وأخويه"
+      },
+      "v": 728,
+      "label": {
+       "en": "728",
+       "ar": "728"
+      }
+     },
+     {
+      "name": {
+       "en": "Ajlan & Bros",
+       "ar": "عجلان وإخوانه"
+      },
+      "v": 138700,
+      "label": {
+       "en": "138.7K",
+       "ar": "138.7 ألفًا"
+      }
+     }
+    ],
+    "note": {
+     "en": "Checked on the live store",
+     "ar": "تم التحقق من المتجر مباشرةً"
+    }
+   },
+   "store": {
+    "title": {
+     "en": "The online store",
+     "ar": "المتجر الإلكتروني"
+    },
+    "stats": [
+     {
+      "n": "137",
+      "l": {
+       "en": "products",
+       "ar": "منتجًا"
+      }
+     },
+     {
+      "n": "30",
+      "l": {
+       "en": "categories",
+       "ar": "فئة في القائمة"
+      }
+     },
+     {
+      "n": "109",
+      "l": {
+       "en": "on sale at our audit",
+       "ar": "منتجات مخفّضة وقت التدقيق"
+      }
+     },
+     {
+      "n": "0",
+      "l": {
+       "en": "main photos show the product worn",
+       "ar": "صور رئيسية تُظهر المنتج ملبوسًا"
+      }
+     }
+    ],
+    "vat": {
+     "en": "Prices on the store are shown before VAT: {sar:221.74} on the page is {sar:255} at checkout (Attar Classic Amber shemagh). Every ad we make shows the price paid at checkout.",
+     "ar": "تظهر الأسعار في المتجر قبل ضريبة القيمة المضافة: {sar:221.74} في صفحة المنتج تصبح {sar:255} عند الدفع (شماغ العطار كلاسيك عنبر). وكل إعلان نصمّمه يعرض السعر الذي يدفعه العميل فعلًا."
+    }
+   }
+  },
+  {
+   "id": "gaps",
+   "type": "gaps",
+   "kicker": {
+    "en": "The opportunity",
+    "ar": "الفرصة"
+   },
+   "h1": {
+    "en": "Six spaces the house can own",
+    "ar": "ستّ مساحات يستطيع البيت أن يتصدّرها"
+   },
+   "cards": [
+    {
+     "t": {
+      "en": "The oldest living merchant story",
+      "ar": "أعرق حكاية تجارية حيّة"
+     },
+     "b": {
+      "en": "Ajlan & Bros dates from 1979, Lomar from 2002. Only Siraj Attar goes back to the Makkah trade, with Jeddah in 1377H and Riyadh in 1389H.",
+      "ar": "عجلان وإخوانه منذ 1979، ولومار منذ 2002. وحده سراج عطار يمتدّ إلى تجارة مكة، مع فرع جدة عام 1377هـ وفرع الرياض عام 1389هـ."
+     },
+     "a": {
+      "en": "A heritage series: three generations, the Deira and al-Balad shops",
+      "ar": "سلسلة الإرث: ثلاثة أجيال ومحلّا الديرة والبلد"
+     }
+    },
+    {
+     "t": {
+      "en": "The white ghutra specialist",
+      "ar": "مرجع الغترة البيضاء"
+     },
+     "b": {
+      "en": "Competitors fight over the red shemagh. The Swiss-made Attar ghutra, 100% cotton, is the house signature.",
+      "ar": "ينشغل المنافسون بالشماغ الأحمر، بينما غترة العطار السويسرية من القطن الخالص هي توقيع البيت."
+     },
+     "a": {
+      "en": "Own Eid mornings, weddings, summer and business",
+      "ar": "صباح العيد والأعراس والصيف ومجالس العمل"
+     }
+    },
+    {
+     "t": {
+      "en": "Head to toe from one house",
+      "ar": "من الرأس إلى القدم من بيت واحد"
+     },
+     "b": {
+      "en": "Shemagh, ghutra, Japanese and European fabrics, English and Italian wool, pashmina, perfume, Wathir underwear, agal and cufflinks.",
+      "ar": "شماغ وغترة وأقمشة يابانية وأوروبية وصوف إنجليزي وإيطالي وباشمينا وعطور ووثير وعقال وكبك."
+     },
+     "a": {
+      "en": "Complete-look sets and gift boxes, with Tabby and Tamara instalments",
+      "ar": "أطقم الإطلالة الكاملة وصناديق الإهداء مع التقسيط عبر تابي وتمارا"
+     }
+    },
+    {
+     "t": {
+      "en": "Teach the HOW",
+      "ar": "شرح الحرفة"
+     },
+     "b": {
+      "en": "No house explains its craft. Only resellers post tutorials.",
+      "ar": "لا يشرح أيّ بيت حرفته، والشروحات يقدّمها الموزّعون وحدهم."
+     },
+     "a": {
+      "en": "The mirzam crease, ironing at 110 °C, Japanese or Korean fabric, metres per thobe",
+      "ar": "المرزام والكيّ على 110 درجات مئوية والفرق بين الأقمشة وكم مترًا يحتاج الثوب"
+     }
+    },
+    {
+     "t": {
+      "en": "One voice per piece",
+      "ar": "صوتٌ واحد في كل عمل"
+     },
+     "b": {
+      "en": "Category copy mixes فصحى and dialect, often in a single line, including the store's own banners.",
+      "ar": "تخلط نصوص هذه الفئة بين الفصحى واللهجة، أحيانًا في سطر واحد، ومنها لافتات المتجر نفسه."
+     },
+     "a": {
+      "en": "Two clean registers, tested against each other",
+      "ar": "نسختان لغويتان منضبطتان تُختبران إحداهما مقابل الأخرى"
+     }
+    },
+    {
+     "t": {
+      "en": "Winter, season by season",
+      "ar": "الشتاء بمواسمه"
+     },
+     "b": {
+      "en": "English and Italian wools and pashmina shawls are rare in the category.",
+      "ar": "الأصواف الإنجليزية والإيطالية وشالات الباشمينا نادرة في هذه الفئة."
+     },
+     "a": {
+      "en": "Follow al-Wasm, then al-Murabba'aniyah, then al-Shabt",
+      "ar": "نرافق الوسم ثم المربعانية ثم الشبط"
+     }
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "type": "how",
+   "kicker": {
+    "en": "Your question: how?",
+    "ar": "سؤالكم: كيف؟"
+   },
+   "h1": {
+    "en": "Your product stays real. Only the scene changes.\nThen the numbers choose the winner",
+    "ar": "منتجكم يبقى كما هو، والمشهد وحده يتغيّر… ثم تختار الأرقام الإعلان الرابح"
+   },
+   "sub": {
+    "en": "One store photo in. A finished, tested campaign out.",
+    "ar": "صورة واحدة من متجركم… وحملة مكتملة ومختبرة"
+   },
+   "store_photo": "data/images/966965063_1.jpg",
+   "poster": "K01",
+   "pins": [
+    {
+     "x": 0.4,
+     "y": 0.28,
+     "l": {
+      "en": "Gold-foil seal",
+      "ar": "الختم الذهبي"
+     }
+    },
+    {
+     "x": 0.2,
+     "y": 0.43,
+     "l": {
+      "en": "Box and lid",
+      "ar": "العلبة والغطاء"
+     }
+    },
+    {
+     "x": 0.68,
+     "y": 0.45,
+     "l": {
+      "en": "Pattern and colour",
+      "ar": "النقشة واللون"
+     }
+    },
+    {
+     "x": 0.873,
+     "y": 0.505,
+     "l": {
+      "en": "Woven corner seal",
+      "ar": "الختم المنسوج"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "t": {
+      "en": "Your photo",
+      "ar": "صورتكم"
+     },
+     "b": {
+      "en": "We start from the photo already in your store.",
+      "ar": "نبدأ من الصورة الموجودة في متجركم."
+     },
+     "chip": {
+      "en": "As on your store",
+      "ar": "كما في متجركم"
+     }
+    },
+    {
+     "t": {
+      "en": "The product, kept exactly",
+      "ar": "المنتج كما هو"
+     },
+     "b": {
+      "en": "Pattern, seal, box and colour are checked against your product.",
+      "ar": "نطابق النقشة والختم والعلبة واللون مع منتجكم."
+     }
+    },
+    {
+     "t": {
+      "en": "Two registers, one design",
+      "ar": "نسختان: فصحى وسعودي"
+     },
+     "b": {
+      "en": "The same poster in فصحى and in Saudi dialect, never mixed in one line.",
+      "ar": "الملصق نفسه بالفصحى وباللهجة السعودية، دون خلطهما في سطر واحد."
+     },
+     "regs": {
+      "en": [
+       "فصحى",
+       "Saudi"
+      ],
+      "ar": [
+       "فصحى",
+       "سعودي"
+      ]
+     },
+     "lines": {
+      "fusha": "اغسلها بماء بارد أو فاتر ودون مبيّضات",
+      "saudi": "اغسلها بموية باردة أو فاترة وبدون مبيّضات"
+     }
+    },
+    {
+     "t": {
+      "en": "Live and measured",
+      "ar": "إعلانٌ يُنشر ويُقاس"
+     },
+     "b": {
+      "en": "Two registers and three formats are tested. The budget follows what sells.",
+      "ar": "نختبر النسختين اللغويتين والمقاسات الثلاثة، والميزانية تتبع ما يبيع."
+     },
+     "regs": {
+      "en": [
+       "فصحى",
+       "Saudi"
+      ],
+      "ar": [
+       "فصحى",
+       "سعودي"
+      ]
+     },
+     "chart": {
+      "title": {
+       "en": "Budget share by hook (illustration)",
+       "ar": "توزيع الميزانية بين الأفكار (مثال توضيحي)"
+      },
+      "rows": [
+       {
+        "l": {
+         "en": "Day 1",
+         "ar": "اليوم الأول"
+        },
+        "v": [
+         34,
+         33,
+         33
+        ]
+       },
+       {
+        "l": {
+         "en": "After 72 h",
+         "ar": "بعد 72 ساعة"
+        },
+        "v": [
+         15,
+         70,
+         15
+        ]
+       }
+      ],
+      "keys": {
+       "en": [
+        "Hook A",
+        "Hook B",
+        "Hook C"
+       ],
+       "ar": [
+        "الفكرة أ",
+        "الفكرة ب",
+        "الفكرة ج"
+       ]
+      }
+     }
+    }
+   ],
+   "answer": {
+    "en": "From a store photo to this result: we keep the product exactly, write every line in two clean registers, check each detail by eye, and let the campaign data pick the winners.",
+    "ar": "من صورة المتجر إلى هذه النتيجة: نحافظ على المنتج كما هو، ونكتب كل سطر بنسختين لغويتين منضبطتين، ونراجع كل تفصيلة بالعين، ثم نترك بيانات الحملة تختار الإعلان الرابح."
+   },
+   "pair": "K05b",
+   "poster_reg": "saudi"
+  },
+  {
+   "id": "beforeafter",
+   "type": "beforeafter",
+   "kicker": {
+    "en": "Before and after",
+    "ar": "قبل وبعد"
+   },
+   "h1": {
+    "en": "The same product, in a scene worthy of it",
+    "ar": "المنتج نفسه… في مشهدٍ يليق به"
+   },
+   "labels": {
+    "before": {
+     "en": "Before",
+     "ar": "قبل"
+    },
+    "after": {
+     "en": "After",
+     "ar": "بعد"
+    }
+   },
+   "sublabels": {
+    "before": {
+     "en": "Your store photo",
+     "ar": "صورة متجركم"
+    },
+    "after": {
+     "en": "Our shot",
+     "ar": "لقطتنا"
+    }
+   },
+   "pairs": [
+    {
+     "before": "data/images/966965063_1.jpg",
+     "after": "P02",
+     "name": "شماغ العطار كلاسيك ياقوت",
+     "change": {
+      "en": "White studio {->} travertine ledge by a Najdi mud-brick wall, late sun",
+      "ar": "استوديو أبيض {->} حجر ترافرتين بجوار جدار طيني نجدي في شمس العصر"
+     }
+    },
+    {
+     "before": "data/images/672063087_1.jpg",
+     "after": "P12",
+     "name": "مجموعة عطور العطار",
+     "change": {
+      "en": "White studio {->} brass tray, incense, lantern light",
+      "ar": "استوديو أبيض {->} صينية نحاسية وبخور وضوء فانوس"
+     }
+    },
+    {
+     "before": "data/images/502827333_1.jpg",
+     "after": "P05",
+     "name": "غترة العطار كلاسيك",
+     "change": {
+      "en": "White sweep {->} Riyadh business district, morning light",
+      "ar": "خلفية بيضاء {->} حيّ الأعمال في الرياض بضوء الصباح"
+     }
+    }
+   ],
+   "caption": {
+    "en": "Same box, same shemagh. New setting, new light, built from your own store photo.",
+    "ar": "العلبة نفسها والشماغ نفسه… مكانٌ جديد وضوءٌ جديد انطلاقًا من صورة متجركم"
+   }
+  },
+  {
+   "id": "campaign",
+   "type": "calendar",
+   "kicker": {
+    "en": "The campaign",
+    "ar": "الحملة"
+   },
+   "h1": {
+    "en": "«موسم الوسم» The Wasm Season",
+    "ar": "«موسم الوسم»"
+   },
+   "sub": {
+    "en": "When the first cool nights of al-Wasm arrive, Saudi men move from the white ghutra to the red shemagh. We launch on 15 November, in the heart of al-Wasm, and follow the Saudi winter moment by moment, through to Eid.",
+    "ar": "مع أولى ليالي الوسم الباردة ينتقل الرجل السعودي من الغترة البيضاء إلى الشماغ الأحمر. نُطلق الحملة في 15 نوفمبر في قلب موسم الوسم، ونرافق الشتاء السعودي لحظةً بلحظة حتى العيد."
+   },
+   "range": [
+    "2026-11-01",
+    "2027-03-15"
+   ],
+   "months": {
+    "en": [
+     "Nov",
+     "Dec",
+     "Jan",
+     "Feb",
+     "Mar"
+    ],
+    "ar": [
+     "نوفمبر",
+     "ديسمبر",
+     "يناير",
+     "فبراير",
+     "مارس"
+    ]
+   },
+   "brackets": [
+    {
+     "from": "2026-11-15",
+     "to": "2027-02-12",
+     "l": {
+      "en": "90-day test",
+      "ar": "اختبار التسعين يومًا"
+     }
+    },
+    {
+     "from": "2027-02-13",
+     "to": "2027-03-08",
+     "l": {
+      "en": "Ramadan and Eid flight",
+      "ar": "حملة رمضان والعيد"
+     }
+    }
+   ],
+   "rows": [
+    {
+     "kind": "season",
+     "spans": [
+      [
+       "2026-11-01",
+       "2026-12-06"
+      ]
+     ],
+     "points": [
+      "2026-11-15"
+     ],
+     "n": {
+      "en": "Al-Wasm",
+      "ar": "الوسم"
+     },
+     "d": {
+      "en": "Launch 15 Nov · to 6 Dec",
+      "ar": "الإطلاق 15 نوفمبر · حتى 6 ديسمبر"
+     },
+     "note": {
+      "en": "Launch: the shemagh season",
+      "ar": "الإطلاق: موسم الشماغ"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "Instagram",
+       "TikTok"
+      ],
+      "ar": [
+       "سناب شات",
+       "إنستغرام",
+       "تيك توك"
+      ]
+     }
+    },
+    {
+     "kind": "event",
+     "spans": [
+      [
+       "2026-11-01",
+       "2026-12-31"
+      ]
+     ],
+     "n": {
+      "en": "Riyadh Season",
+      "ar": "موسم الرياض"
+     },
+     "d": {
+      "en": "Nov – end Dec",
+      "ar": "نوفمبر – نهاية ديسمبر"
+     },
+     "note": {
+      "en": "Evening outfits near the 4 Riyadh branches",
+      "ar": "إطلالات المساء قرب فروع الرياض الأربعة"
+     },
+     "p": {
+      "en": [
+       "Snapchat geo"
+      ],
+      "ar": [
+       "سناب شات جغرافيًا"
+      ]
+     }
+    },
+    {
+     "kind": "pay",
+     "points": [
+      "2026-11-26",
+      "2026-12-27",
+      "2027-01-27",
+      "2027-02-28"
+     ],
+     "n": {
+      "en": "Salary days",
+      "ar": "أيام الرواتب"
+     },
+     "d": {
+      "en": "26 Nov · 27 Dec · 27 Jan · 28 Feb",
+      "ar": "26 نوفمبر · 27 ديسمبر · 27 يناير · 28 فبراير"
+     },
+     "note": {
+      "en": "Short bursts on each payday",
+      "ar": "دفعات إعلانية قصيرة مع كل راتب"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "Google"
+      ],
+      "ar": [
+       "سناب شات",
+       "جوجل"
+      ]
+     }
+    },
+    {
+     "kind": "event",
+     "spans": [
+      [
+       "2026-11-26",
+       "2026-11-30"
+      ]
+     ],
+     "points": [
+      "2026-11-27"
+     ],
+     "n": {
+      "en": "White Friday",
+      "ar": "الجمعة البيضاء"
+     },
+     "d": {
+      "en": "27 Nov (window 26–30 Nov)",
+      "ar": "27 نوفمبر (من 26 إلى 30 نوفمبر)"
+     },
+     "note": {
+      "en": "Bundles and instalments, not deep discounts",
+      "ar": "أطقم وتقسيط بدل الخصومات العميقة"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "Meta",
+       "Google Shopping"
+      ],
+      "ar": [
+       "سناب شات",
+       "ميتا",
+       "تسوّق جوجل"
+      ]
+     }
+    },
+    {
+     "kind": "season",
+     "spans": [
+      [
+       "2026-12-07",
+       "2027-01-15"
+      ]
+     ],
+     "points": [
+      "2026-12-07"
+     ],
+     "n": {
+      "en": "Al-Murabba'aniyah",
+      "ar": "المربعانية"
+     },
+     "d": {
+      "en": "7 Dec – 15 Jan",
+      "ar": "7 ديسمبر – 15 يناير"
+     },
+     "note": {
+      "en": "Wool, pashmina, heavy shemagh",
+      "ar": "الصوف والباشمينا والشماغ الثقيل"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "TikTok",
+       "Instagram"
+      ],
+      "ar": [
+       "سناب شات",
+       "تيك توك",
+       "إنستغرام"
+      ]
+     }
+    },
+    {
+     "kind": "trade",
+     "spans": [
+      [
+       "2026-12-10",
+       "2027-02-07"
+      ]
+     ],
+     "n": {
+      "en": "Eid fabric peak",
+      "ar": "ذروة أقمشة العيد"
+     },
+     "d": {
+      "en": "10 Dec – 7 Feb (Rajab and Sha'ban)",
+      "ar": "10 ديسمبر – 7 فبراير (رجب وشعبان)"
+     },
+     "note": {
+      "en": "Order early, before the tailors' rush",
+      "ar": "الطلب المبكر قبل ازدحام الخيّاطين"
+     },
+     "p": {
+      "en": [
+       "Google Search",
+       "Snapchat",
+       "Instagram"
+      ],
+      "ar": [
+       "بحث جوجل",
+       "سناب شات",
+       "إنستغرام"
+      ]
+     }
+    },
+    {
+     "kind": "religious",
+     "spans": [
+      [
+       "2027-02-08",
+       "2027-03-08"
+      ]
+     ],
+     "n": {
+      "en": "Ramadan",
+      "ar": "رمضان"
+     },
+     "d": {
+      "en": "≈ 8 Feb – 8 Mar",
+      "ar": "نحو 8 فبراير – 8 مارس"
+     },
+     "note": {
+      "en": "Evenings, 8 pm to 2 am",
+      "ar": "المساء من الثامنة حتى الثانية فجرًا"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "Instagram",
+       "Google"
+      ],
+      "ar": [
+       "سناب شات",
+       "إنستغرام",
+       "جوجل"
+      ]
+     }
+    },
+    {
+     "kind": "national",
+     "points": [
+      "2027-02-22"
+     ],
+     "n": {
+      "en": "Founding Day",
+      "ar": "يوم التأسيس"
+     },
+     "d": {
+      "en": "22 Feb (≈ 15 Ramadan)",
+      "ar": "22 فبراير (نحو 15 رمضان)"
+     },
+     "note": {
+      "en": "Heritage posters in a Ramadan tone; no flag or emblem",
+      "ar": "ملصقات الإرث بروح رمضان دون العلم أو الشعار"
+     },
+     "p": {
+      "en": [
+       "X",
+       "Snapchat"
+      ],
+      "ar": [
+       "إكس",
+       "سناب شات"
+      ]
+     }
+    },
+    {
+     "kind": "religious",
+     "spans": [
+      [
+       "2027-03-03",
+       "2027-03-06"
+      ]
+     ],
+     "points": [
+      "2027-03-09"
+     ],
+     "n": {
+      "en": "Eid al-Fitr",
+      "ar": "عيد الفطر"
+     },
+     "d": {
+      "en": "≈ 9 Mar (countdown from 3 Mar)",
+      "ar": "نحو 9 مارس، والعدّ من 3 مارس"
+     },
+     "note": {
+      "en": "Headwear, perfume, gift boxes",
+      "ar": "الأشمغة والعطور وصناديق الإهداء"
+     },
+     "p": {
+      "en": [
+       "Snapchat",
+       "Instagram",
+       "Google"
+      ],
+      "ar": [
+       "سناب شات",
+       "إنستغرام",
+       "جوجل"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "shots",
+   "type": "shots",
+   "kicker": {
+    "en": "The work · product shots",
+    "ar": "الأعمال · لقطات المنتجات"
+   },
+   "h1": {
+    "en": "Sixteen shots, sixteen perspectives",
+    "ar": "ستّ عشرة لقطة… ستّ عشرة زاوية"
+   },
+   "body": {
+    "en": "Product photography for every category, built from your own store photos: boxed, folded, hanging, up close and from above, on calm minimal sets. Product truth is locked: pattern, seal, box and colour match your listing.",
+    "ar": "تصوير منتجات لكل فئة مبنيّ على صور متجركم: في علبته، ومطويًّا، ومعلّقًا، وعن قرب، ومن الأعلى، في مشاهد هادئة بسيطة. وصدق المنتج ثابت: النقشة والختم والعلبة واللون تطابق صفحة المنتج."
+   },
+   "spec": {
+    "en": "1080 × 1350 · 4:5",
+    "ar": "1080 × 1350 · بمقاس 4:5"
+   },
+   "items": [
+    {
+     "id": "P01",
+     "n": {
+      "en": "Yaqoot shemagh",
+      "ar": "شماغ ياقوت"
+     },
+     "a": {
+      "en": "with the agal, three-quarter",
+      "ar": "مع العقال، زاوية جانبية"
+     }
+    },
+    {
+     "id": "P02",
+     "n": {
+      "en": "Yaqoot in its box",
+      "ar": "ياقوت في علبته"
+     },
+     "a": {
+      "en": "high angle, travertine",
+      "ar": "زاوية علوية"
+     }
+    },
+    {
+     "id": "P03",
+     "n": {
+      "en": "Yaqoot Shalsh",
+      "ar": "ياقوت شلش"
+     },
+     "a": {
+      "en": "macro of the weave",
+      "ar": "النسيج عن قرب"
+     }
+    },
+    {
+     "id": "P04",
+     "n": {
+      "en": "Zumurrud ghutra",
+      "ar": "غترة زمرد"
+     },
+     "a": {
+      "en": "overhead, green linen",
+      "ar": "من الأعلى"
+     }
+    },
+    {
+     "id": "P05",
+     "n": {
+      "en": "Classic ghutra",
+      "ar": "غترة كلاسيك"
+     },
+     "a": {
+      "en": "in its box, side view",
+      "ar": "في علبتها، زاوية جانبية"
+     }
+    },
+    {
+     "id": "P06",
+     "n": {
+      "en": "Naqsh 26",
+      "ar": "نقش العطار 26"
+     },
+     "a": {
+      "en": "low angle, majlis",
+      "ar": "زاوية منخفضة"
+     }
+    },
+    {
+     "id": "P07",
+     "n": {
+      "en": "Zumurrud laser",
+      "ar": "زمرد بنقشة الليزر"
+     },
+     "a": {
+      "en": "backlit macro",
+      "ar": "إضاءة خلفية"
+     }
+    },
+    {
+     "id": "P08",
+     "n": {
+      "en": "Fabric 909",
+      "ar": "قماش 909"
+     },
+     "a": {
+      "en": "tailor's table",
+      "ar": "طاولة الخيّاط"
+     }
+    },
+    {
+     "id": "P09",
+     "n": {
+      "en": "Italian wool",
+      "ar": "صوف إيطالي"
+     },
+     "a": {
+      "en": "stacked folds",
+      "ar": "طيّات متراصّة"
+     }
+    },
+    {
+     "id": "P10",
+     "n": {
+      "en": "Pashmina",
+      "ar": "باشمينا"
+     },
+     "a": {
+      "en": "draped, embroidery forward",
+      "ar": "منسدلة، والتطريز ظاهر"
+     }
+    },
+    {
+     "id": "P11",
+     "n": {
+      "en": "Attar 3 perfume",
+      "ar": "عطر العطار 3"
+     },
+     "a": {
+      "en": "upright, eye level",
+      "ar": "قائمة بمستوى العين"
+     }
+    },
+    {
+     "id": "P12",
+     "n": {
+      "en": "Perfume trio",
+      "ar": "عطور العطار"
+     },
+     "a": {
+      "en": "brass and incense",
+      "ar": "نحاس وبخور"
+     }
+    },
+    {
+     "id": "P13",
+     "n": {
+      "en": "Silver cufflinks",
+      "ar": "كبك فضي"
+     },
+     "a": {
+      "en": "on the cuff",
+      "ar": "على طرف الكمّ"
+     }
+    },
+    {
+     "id": "P14",
+     "n": {
+      "en": "Wathir undershirt",
+      "ar": "قميص وثير"
+     },
+     "a": {
+      "en": "in its gift box",
+      "ar": "في علبة الإهداء"
+     }
+    },
+    {
+     "id": "P15",
+     "n": {
+      "en": "Attar agal",
+      "ar": "عقال العطار"
+     },
+     "a": {
+      "en": "top-down",
+      "ar": "من الأعلى"
+     }
+    },
+    {
+     "id": "P16",
+     "n": {
+      "en": "Fabric library",
+      "ar": "مكتبة الأقمشة"
+     },
+     "a": {
+      "en": "five origins",
+      "ar": "خمسة مناشئ"
+     }
+    }
+   ]
+  },
+  {
+   "id": "catalogue",
+   "type": "catalogue",
+   "kicker": {
+    "en": "The work · catalogue posters",
+    "ar": "الأعمال · ملصقات الكتالوج"
+   },
+   "h1": {
+    "en": "The posters you liked, tightened into one grid",
+    "ar": "الملصقات التي أعجبتكم… في شبكة واحدة أكثر إحكامًا"
+   },
+   "bullets": {
+    "en": [
+     "One frame for every category",
+     "The product fills 60–70% of the photo zone",
+     "A brand ground per category, never white on white",
+     "The name exactly as in your store, the price as paid at checkout"
+    ],
+    "ar": [
+     "إطار واحد لكل الفئات",
+     "المنتج يملأ 60–70% من مساحة الصورة",
+     "أرضية من ألوان البيت لكل فئة، فلا أبيض على أبيض",
+     "اسم المنتج كما في متجركم، والسعر كما يُدفع عند الشراء"
+    ]
+   },
+   "note": {
+    "en": "Each poster ships twice: فصحى and Saudi dialect, 1080 × 1350.",
+    "ar": "كل ملصق بنسختين: الفصحى واللهجة السعودية، بمقاس 1080 × 1350."
+   },
+   "price_label": {
+    "en": "VAT-inclusive, official riyal symbol",
+    "ar": "شامل الضريبة برمز الريال الرسمي"
+   },
+   "price_sample": "309.93",
+   "items": [
+    {
+     "id": "C01",
+     "n": "شماغ العطار كلاسيك ياقوت",
+     "en": "Yaqoot classic shemagh",
+     "price": "309.93"
+    },
+    {
+     "id": "C02",
+     "n": "غتر العطار زمرد",
+     "en": "Zumurrud Swiss ghutra",
+     "price": "239.89"
+    },
+    {
+     "id": "C03",
+     "n": "شماغ أوديمار 4",
+     "en": "Audemar 4 shemagh",
+     "price": "213.75"
+    },
+    {
+     "id": "C04",
+     "n": "شماغ العطار الأوربي",
+     "en": "European shemagh",
+     "price": "232"
+    },
+    {
+     "id": "C05",
+     "n": "شماغ حفاوة العطار 1 الاحمر",
+     "en": "Hafawa 1 red shemagh",
+     "price": "194.93"
+    },
+    {
+     "id": "C06",
+     "n": "شماغ الوسام 26 الأحمر",
+     "en": "Al-Wisam 26 red shemagh",
+     "price": "280"
+    },
+    {
+     "id": "C07",
+     "n": "قماش العطار 974",
+     "en": "Attar 974 Korean fabric",
+     "price": "80.50"
+    },
+    {
+     "id": "C08",
+     "n": "صوف ويليام هليستد سوبر 130 ساده",
+     "en": "William Halstead Super 130 wool",
+     "price": "1,469.13"
+    },
+    {
+     "id": "C09",
+     "n": "قميص داخلي وثير إيطالي (قطعة واحدة)",
+     "en": "Wathir Italian undershirt",
+     "price": "60"
+    }
+   ]
+  },
+  {
+   "id": "campaignwork",
+   "type": "row",
+   "height": 380,
+   "gap": 16,
+   "kicker": {
+    "en": "The work · the campaign",
+    "ar": "الأعمال · الحملة"
+   },
+   "h1": {
+    "en": "One campaign system, from launch night to Eid",
+    "ar": "نظام واحد للحملة من ليلة الإطلاق حتى العيد"
+   },
+   "sub": {
+    "en": "One system across formats. Headline, price and call to action always sit inside each platform's safe zone, and nothing covers the product.",
+    "ar": "نظام واحد لكل المقاسات: العنوان والسعر والدعوة إلى الشراء داخل المنطقة الآمنة لكل منصة دائمًا، ولا شيء يغطي المنتج."
+   },
+   "items": [
+    {
+     "id": "K01",
+     "ratio": [
+      4,
+      5
+     ],
+     "c": {
+      "en": "Launch feed · 15 Nov · 4:5",
+      "ar": "منشور الإطلاق · 15 نوفمبر · 4:5"
+     }
+    },
+    {
+     "id": "K02",
+     "ratio": [
+      9,
+      16
+     ],
+     "c": {
+      "en": "Launch story · 15 Nov · 9:16",
+      "ar": "قصة الإطلاق · 15 نوفمبر · 9:16"
+     }
+    },
+    {
+     "id": "K08",
+     "ratio": [
+      4,
+      5
+     ],
+     "c": {
+      "en": "Heritage: 80+ years, 9 branches · 4:5",
+      "ar": "الإرث: أكثر من 80 عامًا وتسعة فروع · 4:5"
+     }
+    },
+    {
+     "id": "K06",
+     "ratio": [
+      4,
+      5
+     ],
+     "c": {
+      "en": "White Friday winter set · 27 Nov · 4:5",
+      "ar": "طقم الشتاء للجمعة البيضاء · 27 نوفمبر · 4:5"
+     }
+    },
+    {
+     "id": "K07",
+     "ratio": [
+      9,
+      16
+     ],
+     "c": {
+      "en": "Al-Murabba'aniyah story · 7 Dec · 9:16",
+      "ar": "قصة المربعانية · 7 ديسمبر · 9:16"
+     }
+    },
+    {
+     "id": "K09",
+     "ratio": [
+      4,
+      5
+     ],
+     "c": {
+      "en": "The special gift box · occasions and Eid · 4:5",
+      "ar": "صندوق الإهداء الخاص · المناسبات والعيد · 4:5"
+     }
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "type": "carousel",
+   "kicker": {
+    "en": "The work · carousel",
+    "ar": "الأعمال · منشور متعدد الصور"
+   },
+   "h1": {
+    "en": "Head to toe, from one house, in one swipe",
+    "ar": "من الرأس إلى القدم… من بيتٍ واحد في تمريرة واحدة"
+   },
+   "sub": {
+    "en": "The idea you liked, rebuilt with clean copy: shemagh, agal, thobe fabric, perfume and cufflinks, each with its VAT-inclusive price.",
+    "ar": "الفكرة التي أعجبتكم بنصوص منضبطة هذه المرة: الشماغ والعقال وقماش الثوب والعطر والكبك، ولكلٍّ منها سعره شاملًا الضريبة."
+   },
+   "swipe": {
+    "en": "Swipe",
+    "ar": "مرّر"
+   },
+   "items": [
+    {
+     "id": "K04a",
+     "c": {
+      "en": "1 · Cover",
+      "ar": "1 · الغلاف"
+     }
+    },
+    {
+     "id": "K04b",
+     "c": {
+      "en": "2 · The head: agal",
+      "ar": "2 · الرأس: العقال"
+     }
+    },
+    {
+     "id": "K04c",
+     "c": {
+      "en": "3 · The thobe: Japanese fabric 909",
+      "ar": "3 · الثوب: القماش الياباني 909"
+     }
+    },
+    {
+     "id": "K04d",
+     "c": {
+      "en": "4 · The scent: Attar perfume collection",
+      "ar": "4 · العطر: مجموعة عطور العطار"
+     }
+    },
+    {
+     "id": "K04e",
+     "c": {
+      "en": "5 · The finishing touch: silver cufflinks",
+      "ar": "5 · اللمسة الأخيرة: الكبك الفضي"
+     }
+    }
+   ]
+  },
+  {
+   "id": "registers",
+   "type": "registers",
+   "poster": "K04a",
+   "kicker": {
+    "en": "Two registers",
+    "ar": "نسختان لغويتان"
+   },
+   "h1": {
+    "en": "فصحى or Saudi, never both in one line",
+    "ar": "الفصحى أو اللهجة السعودية… لا تجتمعان في سطر واحد"
+   },
+   "body": {
+    "en": "You flagged «رأس» next to «لرجلينك». Now every poster ships twice with the same layout, and the register is chosen per version: headline, sub-line, call to action and caption all follow it.",
+    "ar": "لاحظتم اجتماع «رأس» مع «لرجلينك» في سطر واحد. الآن يصدر كل ملصق بنسختين بالتصميم نفسه، وتُحدَّد اللغة لكل نسخة كاملة: العنوان والسطر الفرعي والدعوة إلى الشراء والتعليق."
+   },
+   "labels": {
+    "en": [
+     "فصحى (MSA)",
+     "Saudi dialect"
+    ],
+    "ar": [
+     "فصحى",
+     "سعودي"
+    ]
+   },
+   "pairs": [
+    [
+     "من الرأس إلى القدم",
+     "من راسك لرجلينك"
+    ],
+    [
+     "اسحب للمزيد",
+     "اسحب وشوف"
+    ],
+    [
+     "حلّ الوسم وعاد الأحمر",
+     "دخل الوسم ورجع الأحمر"
+    ],
+    [
+     "دفءٌ يرافقك طوال الشتاء",
+     "دفا يكفيك الشتا كله"
+    ],
+    [
+     "اطلبه الآن",
+     "اطلبه الحين"
+    ]
+   ],
+   "test": {
+    "en": "Both versions run as a live A/B test on the same design.",
+    "ar": "وتعمل النسختان اختبارًا مباشرًا (A/B) على التصميم نفسه."
+   },
+   "caption": {
+    "en": "Same layout. Only the voice changes.",
+    "ar": "التصميم نفسه… والصوت وحده يتغيّر"
+   },
+   "pairs_note": {
+    "en": "Lines taken from the finished posters (K04a, K01, K06).",
+    "ar": "سطور من الملصقات النهائية نفسها."
+   }
+  },
+  {
+   "id": "howposters",
+   "type": "row",
+   "height": 480,
+   "kicker": {
+    "en": "The work · the HOW",
+    "ar": "الأعمال · محتوى «كيف»"
+   },
+   "h1": {
+    "en": "Posters that teach the craft",
+    "ar": "ملصقات تشرح الحرفة"
+   },
+   "sub": {
+    "en": "The question the category never answers is how. Care, crease, fabric and metres, built only from your own product notes: iron at 110 °C, cold or lukewarm water, no bleach.",
+    "ar": "السؤال الذي لا تجيب عنه هذه الفئة هو: كيف؟ العناية والكيّ والقماش والأمتار، مبنيّة على ملاحظات منتجاتكم وحدها: الكيّ على 110 درجات مئوية، والماء البارد أو الفاتر، ودون مبيّضات."
+   },
+   "items": [
+    {
+     "id": "K03",
+     "ratio": [
+      9,
+      16
+     ],
+     "c": {
+      "en": "Ghutra story: 100% Swiss cotton · 9:16",
+      "ar": "قصة الغترة: قطن سويسري خالص · 9:16"
+     }
+    },
+    {
+     "id": "K05a",
+     "ratio": [
+      1,
+      1
+     ],
+     "c": {
+      "en": "Care 1: iron at 110 °C · 1:1",
+      "ar": "العناية 1: الكيّ على 110 درجات مئوية · 1:1"
+     }
+    },
+    {
+     "id": "K05b",
+     "ratio": [
+      1,
+      1
+     ],
+     "c": {
+      "en": "Care 2: cold or lukewarm water, no bleach · 1:1",
+      "ar": "العناية 2: ماء بارد أو فاتر دون مبيّضات · 1:1"
+     }
+    },
+    {
+     "id": "K10",
+     "ratio": [
+      4,
+      5
+     ],
+     "c": {
+      "en": "Fabric library: metres per thobe · 4:5",
+      "ar": "مكتبة الأقمشة: كم مترًا يحتاج الثوب · 4:5"
+     }
+    }
+   ]
+  },
+  {
+   "id": "media",
+   "type": "media",
+   "kicker": {
+    "en": "Media plan",
+    "ar": "خطة الإعلان"
+   },
+   "h1": {
+    "en": "Snapchat leads, and every channel has one job",
+    "ar": "سناب شات في المقدّمة… ولكل منصة مهمّة واحدة"
+   },
+   "tiers_title": {
+    "en": "Budget for the first 90 days",
+    "ar": "ميزانية أول تسعين يومًا"
+   },
+   "tiers": [
+    {
+     "n": {
+      "en": "Core",
+      "ar": "الأساسية"
+     },
+     "v": "60,000",
+     "w": {
+      "en": "about {sar:4,600} a week",
+      "ar": "نحو {sar:4,600} أسبوعيًا"
+     }
+    },
+    {
+     "n": {
+      "en": "Growth",
+      "ar": "النمو"
+     },
+     "v": "120,000",
+     "w": {
+      "en": "about {sar:9,200} a week",
+      "ar": "نحو {sar:9,200} أسبوعيًا"
+     }
+    }
+   ],
+   "vat": {
+    "en": "Media figures are net spend paid to the platforms and exclude 15% VAT.",
+    "ar": "أرقام الإعلان صافي ما يُدفع للمنصات، ولا تشمل ضريبة القيمة المضافة 15%."
+   },
+   "reach": {
+    "en": "Snapchat reaches 25.3 million people in the Kingdom, 89% of adults. The core audience, Saudi men aged 18 to 55, is about 5 million.",
+    "ar": "يصل سناب شات إلى 25.3 مليون شخص في المملكة، أي 89% من البالغين. والجمهور الأساسي، الرجال السعوديون من 18 إلى 55 عامًا، نحو خمسة ملايين."
+   },
+   "source": {
+    "en": "Source: DataReportal, Digital 2026 Saudi Arabia",
+    "ar": "المصدر: DataReportal، تقرير Digital 2026 للمملكة"
+   },
+   "cols": {
+    "en": [
+     "Channel",
+     "Share",
+     "Core",
+     "Growth",
+     "Its job"
+    ],
+    "ar": [
+     "المنصة",
+     "الحصة",
+     "الأساسية",
+     "النمو",
+     "مهمّتها"
+    ]
+   },
+   "rows": [
+    {
+     "n": {
+      "en": "Snapchat",
+      "ar": "سناب شات"
+     },
+     "s": 35,
+     "c": "21,000",
+     "g": "42,000",
+     "j": {
+      "en": "Reach Saudi men and find new customers: Story ads, Collection and catalogue ads",
+      "ar": "الوصول إلى الرجال السعوديين واستقطاب عملاء جدد: إعلانات القصص والمجموعات والكتالوج"
+     }
+    },
+    {
+     "n": {
+      "en": "Google",
+      "ar": "جوجل"
+     },
+     "s": 20,
+     "c": "12,000",
+     "g": "24,000",
+     "j": {
+      "en": "Capture existing demand (searches for Swiss ghutra, red shemagh, Japanese fabric) with Search and Shopping",
+      "ar": "التقاط الطلب القائم: «غترة سويسري» و«شماغ أحمر» و«قماش ياباني» عبر البحث والتسوّق"
+     }
+    },
+    {
+     "n": {
+      "en": "Meta",
+      "ar": "ميتا"
+     },
+     "s": 20,
+     "c": "12,000",
+     "g": "24,000",
+     "j": {
+      "en": "Retargeting, catalogue ads and Stories; the home for new followers",
+      "ar": "إعادة الاستهداف وإعلانات الكتالوج والقصص، وبيت المتابعين الجدد"
+     }
+    },
+    {
+     "n": {
+      "en": "TikTok",
+      "ar": "تيك توك"
+     },
+     "s": 20,
+     "c": "12,000",
+     "g": "24,000",
+     "j": {
+      "en": "Photo carousel ads that teach the craft; follower growth",
+      "ar": "إعلانات الصور المتعددة التي تشرح الحرفة، ونموّ المتابعين"
+     }
+    },
+    {
+     "n": {
+      "en": "X and reserve",
+      "ar": "إكس والاحتياطي"
+     },
+     "s": 5,
+     "c": "3,000",
+     "g": "6,000",
+     "j": {
+      "en": "Launches and Founding Day; a top-up for winning ads",
+      "ar": "الإطلاقات ويوم التأسيس، ودعم إضافي للإعلانات الرابحة"
+     }
+    }
+   ]
+  },
+  {
+   "id": "testplan",
+   "type": "testplan",
+   "kicker": {
+    "en": "Media plan · 90 days",
+    "ar": "خطة الإعلان · تسعون يومًا"
+   },
+   "h1": {
+    "en": "The first 90 days: test, learn, then scale what sells",
+    "ar": "أول تسعين يومًا: نختبر ثم نتعلّم ثم نُضاعف ما يبيع"
+   },
+   "phases": [
+    {
+     "t": {
+      "en": "Days 1–30 · Learn",
+      "ar": "الأيام 1–30 · نتعلّم"
+     },
+     "d": {
+      "en": "15 Nov – 14 Dec",
+      "ar": "15 نوفمبر – 14 ديسمبر"
+     },
+     "b": {
+      "en": [
+       "Tracking checked end to end before any spend",
+       "Launch on 15 Nov: 16 test ads, 4 ideas in two registers and two formats",
+       "Peak 26–30 Nov: salary, White Friday and the school break, then the first read-out"
+      ],
+      "ar": [
+       "فحص التتبع كاملًا قبل أي إنفاق",
+       "الإطلاق في 15 نوفمبر: 16 إعلانًا تجريبيًا من 4 أفكار بنسختين لغويتين وبمقاسين",
+       "ذروة 26–30 نوفمبر: الراتب والجمعة البيضاء وإجازة المدارس، ثم أول قراءة للنتائج"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Days 31–60 · Optimise",
+      "ar": "الأيام 31–60 · نحسّن"
+     },
+     "d": {
+      "en": "15 Dec – 13 Jan",
+      "ar": "15 ديسمبر – 13 يناير"
+     },
+     "b": {
+      "en": [
+       "Weakest half of the ads cut; retargeting live",
+       "Winter set for al-Murabba'aniyah and the Eid fabric message for the tailors' peak",
+       "Salary burst 27–31 Dec; mid-year break from 8 Jan"
+      ],
+      "ar": [
+       "إيقاف النصف الأضعف من الإعلانات وتفعيل إعادة الاستهداف",
+       "طقم المربعانية ورسالة أقمشة العيد قبل ذروة الخيّاطين",
+       "دفعة الراتب 27–31 ديسمبر وإجازة منتصف العام من 8 يناير"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Days 61–90 · Scale",
+      "ar": "الأيام 61–90 · نتوسّع"
+     },
+     "d": {
+      "en": "14 Jan – 12 Feb",
+      "ar": "14 يناير – 12 فبراير"
+     },
+     "b": {
+      "en": [
+       "Winners scaled by 20–30% every two to three days",
+       "Wool and heavy shemagh; salary burst 27–31 Jan",
+       "90-day review on 12 Feb; the Ramadan and Eid flight starts 13 Feb"
+      ],
+      "ar": [
+       "زيادة ميزانية الرابح 20–30% كل يومين إلى ثلاثة",
+       "الصوف والشماغ الثقيل ودفعة الراتب 27–31 يناير",
+       "مراجعة التسعين يومًا في 12 فبراير وانطلاق حملة رمضان والعيد في 13 فبراير"
+      ]
+     }
+    }
+   ],
+   "blocks": [
+    {
+     "t": {
+      "en": "Creative testing",
+      "ar": "اختبار الإبداع"
+     },
+     "b": {
+      "en": [
+       "فصحى against Saudi on the same design: CTR, conversion rate and cost per customer, per platform",
+       "Hypothesis: Saudi leads on Snapchat and TikTok, فصحى holds on Google and X",
+       "3 hooks per hero product; after 72 hours the budget moves to the winner",
+       "After 3,000 to 5,000 impressions, the bottom quarter is paused"
+      ],
+      "ar": [
+       "الفصحى مقابل اللهجة السعودية على التصميم نفسه: نسبة النقر ونسبة التحويل وتكلفة العميل لكل منصة",
+       "الفرضية: تتقدّم اللهجة السعودية على سناب شات وتيك توك، وتصمد الفصحى على جوجل وإكس",
+       "ثلاث أفكار لكل منتج رئيسي، وبعد 72 ساعة تنتقل الميزانية إلى الرابح",
+       "بعد 3,000 إلى 5,000 ظهور نوقف الربع الأضعف"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "What we measure",
+      "ar": "ما نقيسه"
+     },
+     "b": {
+      "en": [
+       "Primary: cost per new customer, kept under break-even (order value × margin)",
+       "Example: a {sar:300} order at 50% margin breaks even at {sar:150}; the target is {sar:100} or less",
+       "Secondary: return on ad spend of 3× or more, add-to-cart rate, click-through rate",
+       "A one-page report every week, a review every month"
+      ],
+      "ar": [
+       "المؤشر الرئيسي: تكلفة العميل الجديد دون نقطة التعادل (قيمة الطلب × هامش الربح)",
+       "مثال: طلب بقيمة {sar:300} بهامش 50% يتعادل عند {sar:150}، والهدف {sar:100} أو أقل",
+       "مؤشرات مساندة: عائد الإنفاق 3 أضعاف أو أكثر، ونسبة الإضافة إلى السلة، ونسبة النقر",
+       "تقرير في صفحة واحدة كل أسبوع ومراجعة كل شهر"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Tracking on Salla, before any spend",
+      "ar": "التتبع في سلة قبل أي إنفاق"
+     },
+     "b": {
+      "en": [
+       "Snapchat: Snap Pixel with the Conversions API",
+       "TikTok: Events API with the catalogue",
+       "Meta: pixel and Conversions API, daily catalogue sync",
+       "Google: Merchant Center with VAT-inclusive prices, GA4 through your Tag Manager",
+       "One event ID per order, so nothing is counted twice; Apple Pay, Tabby and Tamara checkouts tested"
+      ],
+      "ar": [
+       "سناب شات: Snap Pixel مع Conversions API",
+       "تيك توك: Events API مع الكتالوج",
+       "ميتا: البكسل مع Conversions API ومزامنة يومية للكتالوج",
+       "جوجل: Merchant Center بأسعار شاملة الضريبة، وGA4 عبر Tag Manager لديكم",
+       "معرّف واحد لكل طلب حتى لا يُحتسب مرتين، واختبار الدفع عبر Apple Pay وتابي وتمارا"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "offer",
+   "type": "offer",
+   "kicker": {
+    "en": "Deliverables and investment",
+    "ar": "المخرجات والاستثمار"
+   },
+   "h1": {
+    "en": "What you receive each month, and the investment",
+    "ar": "ما تستلمونه كل شهر… والاستثمار"
+   },
+   "groups_title": {
+    "en": "Each month",
+    "ar": "كل شهر"
+   },
+   "groups": [
+    {
+     "t": {
+      "en": "Creative",
+      "ar": "الإبداع"
+     },
+     "b": {
+      "en": [
+       "16 product photographs in Saudi settings, built from your store photos",
+       "12 posters, each in فصحى and Saudi (24 files)",
+       "1 seasonal set: feed, story and carousel",
+       "Final files ready to download and post, with captions in both registers"
+      ],
+      "ar": [
+       "16 صورة منتج في أماكن سعودية، مبنيّة على صور متجركم",
+       "12 ملصقًا بنسختين، الفصحى واللهجة السعودية (24 ملفًا)",
+       "مجموعة موسمية: منشور وقصة ومنشور متعدد الصور",
+       "ملفات نهائية جاهزة للتنزيل والنشر مع التعليقات بالنسختين"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Media buying",
+      "ar": "شراء الإعلانات"
+     },
+     "b": {
+      "en": [
+       "Set-up and daily management on Snapchat, TikTok, Meta and Google",
+       "A register test on every hero product",
+       "Fresh versions of the winners every two weeks"
+      ],
+      "ar": [
+       "الإعداد والإدارة اليومية على سناب شات وتيك توك وميتا وجوجل",
+       "اختبار النسختين اللغويتين على كل منتج رئيسي",
+       "نسخ جديدة من الإعلانات الرابحة كل أسبوعين"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Reporting",
+      "ar": "التقارير"
+     },
+     "b": {
+      "en": [
+       "A one-page weekly report: spend, cost per customer, return, winning ads",
+       "A monthly review with next month's plan"
+      ],
+      "ar": [
+       "تقرير أسبوعي في صفحة واحدة: الإنفاق وتكلفة العميل والعائد والإعلانات الرابحة",
+       "مراجعة شهرية مع خطة الشهر التالي"
+      ]
+     }
+    },
+    {
+     "t": {
+      "en": "Quality gates",
+      "ar": "معايير الجودة"
+     },
+     "b": {
+      "en": [
+       "Every image checked against your product: pattern, seal, box, colour",
+       "Every price VAT-inclusive, with the official riyal symbol",
+       "Every line checked for one register"
+      ],
+      "ar": [
+       "مطابقة كل صورة لمنتجكم: النقشة والختم والعلبة واللون",
+       "كل سعر شامل الضريبة برمز الريال الرسمي",
+       "تدقيق كل سطر ليبقى في نسخة لغوية واحدة"
+      ]
+     }
+    }
+   ],
+   "note": {
+    "en": "Proposed monthly volumes; we agree the final scope with you.",
+    "ar": "أحجام شهرية مقترحة، ونتفق معكم على النطاق النهائي."
+   },
+   "inv_title": {
+    "en": "Investment",
+    "ar": "الاستثمار"
+   },
+   "rows": [
+    {
+     "t": {
+      "en": "Creative production",
+      "ar": "الإنتاج الإبداعي"
+     },
+     "c": {
+      "en": "The monthly creative package on the previous page",
+      "ar": "الباقة الإبداعية الشهرية في الصفحة السابقة"
+     },
+     "a": {
+      "en": "To be confirmed",
+      "ar": "قيد التأكيد"
+     },
+     "tbc": true
+    },
+    {
+     "t": {
+      "en": "Media management",
+      "ar": "إدارة الإعلانات"
+     },
+     "c": {
+      "en": "Daily buying, testing and reporting, as a fixed fee or a share of spend",
+      "ar": "الشراء اليومي والاختبار والتقارير، برسم ثابت أو بنسبة من الإنفاق"
+     },
+     "a": {
+      "en": "To be confirmed",
+      "ar": "قيد التأكيد"
+     },
+     "tbc": true
+    },
+    {
+     "t": {
+      "en": "One-off set-up",
+      "ar": "الإعداد لمرة واحدة"
+     },
+     "c": {
+      "en": "Tracking audit, pixels and Conversions API, catalogue feeds",
+      "ar": "تدقيق التتبع والبكسلات وConversions API وموجزات الكتالوج"
+     },
+     "a": {
+      "en": "To be confirmed",
+      "ar": "قيد التأكيد"
+     },
+     "tbc": true
+    },
+    {
+     "t": {
+      "en": "Media spend",
+      "ar": "الإنفاق الإعلاني"
+     },
+     "c": {
+      "en": "Paid directly to the platforms, for the 90-day tier you choose, excluding VAT",
+      "ar": "يُدفع للمنصات مباشرة حسب الباقة التي تختارونها للتسعين يومًا، ولا يشمل الضريبة"
+     },
+     "a": {
+      "en": "{sar:60,000} Core or {sar:120,000} Growth",
+      "ar": "{sar:60,000} الأساسية أو {sar:120,000} النمو"
+     }
+    }
+   ],
+   "terms_title": {
+    "en": "Terms",
+    "ar": "الشروط"
+   },
+   "terms": [
+    {
+     "t": {
+      "en": "Contract term",
+      "ar": "مدة العقد"
+     }
+    },
+    {
+     "t": {
+      "en": "Payment schedule",
+      "ar": "جدول الدفعات"
+     }
+    },
+    {
+     "t": {
+      "en": "Revision rounds per asset",
+      "ar": "جولات التعديل لكل عمل"
+     }
+    },
+    {
+     "t": {
+      "en": "Usage rights for approved assets",
+      "ar": "حقوق استخدام الأعمال المعتمدة"
+     }
+    }
+   ],
+   "tbc": {
+    "en": "To be confirmed",
+    "ar": "قيد التأكيد"
+   },
+   "inv_note": {
+    "en": "Fees will be quoted with the official riyal symbol and a separate VAT line.",
+    "ar": "ستُقدَّم الرسوم برمز الريال الرسمي مع سطر مستقل لضريبة القيمة المضافة."
+   }
+  },
+  {
+   "id": "next",
+   "type": "next",
+   "kicker": {
+    "en": "Next steps",
+    "ar": "الخطوات التالية"
+   },
+   "h1": {
+    "en": "Live on 15 November, in the heart of al-Wasm",
+    "ar": "الانطلاق في 15 نوفمبر في قلب موسم الوسم"
+   },
+   "steps": [
+    {
+     "d": {
+      "en": "By 3 Nov",
+      "ar": "بحلول 3 نوفمبر"
+     },
+     "t": {
+      "en": "Approve the direction, the campaign and the two registers",
+      "ar": "اعتماد التوجّه والحملة والنسختين اللغويتين"
+     }
+    },
+    {
+     "d": {
+      "en": "By 5 Nov",
+      "ar": "بحلول 5 نوفمبر"
+     },
+     "t": {
+      "en": "Confirm the launch products: stock, and the VAT-inclusive price at checkout",
+      "ar": "تأكيد منتجات الإطلاق: المخزون والسعر شاملًا الضريبة عند الدفع"
+     }
+    },
+    {
+     "d": {
+      "en": "By 8 Nov",
+      "ar": "بحلول 8 نوفمبر"
+     },
+     "t": {
+      "en": "Access to Salla's tracking tools and the Snapchat, TikTok, Meta and Google ad accounts",
+      "ar": "منحنا صلاحية أدوات التتبع في سلة وحسابات الإعلانات على سناب شات وتيك توك وميتا وجوجل"
+     }
+    },
+    {
+     "d": {
+      "en": "10–12 Nov",
+      "ar": "10–12 نوفمبر"
+     },
+     "t": {
+      "en": "Tracking test, final files and captions in both registers",
+      "ar": "اختبار التتبع وتسليم الملفات النهائية والتعليقات بالنسختين"
+     }
+    },
+    {
+     "d": {
+      "en": "15 Nov",
+      "ar": "15 نوفمبر"
+     },
+     "t": {
+      "en": "Launch of «موسم الوسم»",
+      "ar": "إطلاق «موسم الوسم»"
+     }
+    }
+   ],
+   "line": {
+    "en": "80+ years of craft.\nEvery post should show it.",
+    "ar": "أكثر من ثمانين عامًا من الحرفة…\nوكل منشور يجب أن يُظهرها"
+   }
+  }
+ ]
+}

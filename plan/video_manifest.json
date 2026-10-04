@@ -1,0 +1,28 @@
+[
+ {
+  "id": "V1",
+  "model": "kling3_0",
+  "prompt": "A gentle desert breeze lifts the loose ends of the red-and-white shemagh; the man slowly turns his head toward the setting sun and settles into a calm, proud gaze; slow cinematic push-in; warm golden light; the shemagh pattern stays exactly the same. No text.",
+  "images": [],
+  "start_image": "gen/V1_start.png",
+  "params": {
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "mode": "std",
+   "sound": "off"
+  }
+ },
+ {
+  "id": "V2",
+  "model": "kling3_0",
+  "prompt": "A thin ribbon of incense smoke rises and curls slowly behind the open green perfume box; the lantern flame flickers softly; very slow dolly-in toward the three bottles; the box, bottles and labels stay exactly the same. No text.",
+  "images": [],
+  "start_image": "gen/V2_start.png",
+  "params": {
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "mode": "std",
+   "sound": "off"
+  }
+ }
+]

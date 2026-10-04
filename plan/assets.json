@@ -1,0 +1,608 @@
+[
+ {
+  "id": "P01",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R4_P01.png",
+  "product_ids": [
+   "966965063"
+  ],
+  "brief": null,
+  "title_en": "Yaqoot red shemagh worn: three-quarter waist-up, Diriyah mud-brick terrace, golden hour",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P02",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P02.png",
+  "product_ids": [
+   "966965063"
+  ],
+  "brief": null,
+  "title_en": "Yaqoot shemagh in its green box: three-quarter high angle on travertine by a mud-brick wall",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P03",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P03.png",
+  "product_ids": [
+   "1988908934"
+  ],
+  "brief": null,
+  "title_en": "Yaqoot Shalsh red shemagh: macro weave texture, sculptural folds",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P04",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P04.png",
+  "product_ids": [
+   "1740470085"
+  ],
+  "brief": null,
+  "title_en": "Zumurrud white Swiss ghutra: overhead flat lay on green linen with its box",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P05",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R4_P05.png",
+  "product_ids": [
+   "502827333"
+  ],
+  "brief": null,
+  "title_en": "Classic white ghutra worn: side profile, Riyadh business district morning",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P06",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P06.png",
+  "product_ids": [
+   "1664674203"
+  ],
+  "brief": null,
+  "title_en": "Naqsh 26 red shemagh: low-angle hero on a carved majlis chest, lantern night",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P07",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P07.png",
+  "product_ids": [
+   "2124457749"
+  ],
+  "brief": null,
+  "title_en": "Zumurrud laser-pattern white shemagh: backlit macro",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P08",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R3_P08.png",
+  "product_ids": [
+   "1292393513"
+  ],
+  "brief": null,
+  "title_en": "Japanese thobe fabric 909: top-down on a tailor's cutting table",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P09",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P09.png",
+  "product_ids": [
+   "1449104353"
+  ],
+  "brief": null,
+  "title_en": "Italian Super 140 wool: stacked folds on an oak shelf, side light",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P10",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R4_P10.png",
+  "product_ids": [
+   "821325048"
+  ],
+  "brief": null,
+  "title_en": "Pashmina shawl worn: three-quarter back view by a desert campfire, blue hour",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P11",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R5_P11.png",
+  "product_ids": [
+   "189452492"
+  ],
+  "brief": null,
+  "title_en": "Attar 3 perfume: upright, eye level",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P12",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P12.png",
+  "product_ids": [
+   "672063087"
+  ],
+  "brief": null,
+  "title_en": "Attar perfume trio box: low-angle hero on a brass tray, incense smoke",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P13",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R4_P13.png",
+  "product_ids": [
+   "265256366"
+  ],
+  "brief": null,
+  "title_en": "Silver cufflinks: in-hand macro on a white thobe cuff",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P14",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P14.png",
+  "product_ids": [
+   "892978768"
+  ],
+  "brief": null,
+  "title_en": "Wathir Italian undershirt: overhead three-quarter in its gift box on linen",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "P15",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R2_P15.png",
+  "product_ids": [
+   "1113769137",
+   "966965063"
+  ],
+  "brief": null,
+  "title_en": "Attar agal: top-down on its box with a shemagh corner",
+  "engine": "nano_banana_pro"
+ },
+ {
+  "id": "P16",
+  "kind": "product_shot",
+  "layout": null,
+  "format": "4:5",
+  "image": "gen/out/R_P16.png",
+  "product_ids": [
+   "1292393513",
+   "1668806182",
+   "1449104353",
+   "1029444903",
+   "563952490"
+  ],
+  "brief": null,
+  "title_en": "Fabric library: Japanese, Korean, Italian wool, English wool and Italian voile stacked",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C01",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R5_C01.png",
+  "product_ids": [
+   "966965063"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Yaqoot classic shemagh",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C02",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R5_C02.png",
+  "product_ids": [
+   "1740470085"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Zumurrud white Swiss ghutra",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C03",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R_C03.png",
+  "product_ids": [
+   "1604079293"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Audemar 4 shemagh (open-ended offer)",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C04",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R_C04.png",
+  "product_ids": [
+   "1949762576"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "European shemagh (open-ended offer)",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C05",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R_C05.png",
+  "product_ids": [
+   "1471159401"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Hafawa 1 red shemagh",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C06",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R_C06.png",
+  "product_ids": [
+   "1546150268"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Al-Wisam 26 red shemagh (Asala collection)",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C07",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R5_C07.png",
+  "product_ids": [
+   "1668806182"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Attar 974 Korean fabric",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C08",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R_C08.png",
+  "product_ids": [
+   "1029444903"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "William Halstead Super 130 English wool",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "C09",
+  "kind": "poster",
+  "layout": "catalogue",
+  "format": "4:5",
+  "image": "gen/out/R5_C09.png",
+  "product_ids": [
+   "892978768"
+  ],
+  "brief": {
+   "hook": "catalogue",
+   "message": "Name the product verbatim, one short benefit line built ONLY from its catalogue specs (material, origin, size range or metres), the price, a short CTA."
+  },
+  "title_en": "Wathir Italian undershirt",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K01",
+  "kind": "campaign_feed",
+  "layout": "hero",
+  "format": "4:5",
+  "image": "gen/out/R5_K01.png",
+  "product_ids": [
+   "966965063"
+  ],
+  "brief": {
+   "hook": "season",
+   "message": "Campaign launch: the Wasm season has begun (winter, shemagh season). Pride, heritage of 80+ years, the Yaqoot shemagh. Headline 2-5 words, subline one line, price, CTA."
+  },
+  "title_en": "Launch hero feed",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K02",
+  "kind": "campaign_story",
+  "layout": "story",
+  "format": "9:16",
+  "image": "gen/out/R4_K02.png",
+  "product_ids": [
+   "966965063"
+  ],
+  "brief": {
+   "hook": "season",
+   "message": "Story teaser for the launch: short punchy line about the Wasm season and the shemagh, price, swipe-up CTA."
+  },
+  "title_en": "Launch story",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K03",
+  "kind": "campaign_story",
+  "layout": "story",
+  "format": "9:16",
+  "image": "gen/out/R4_K03.png",
+  "product_ids": [
+   "502827333"
+  ],
+  "brief": {
+   "hook": "how",
+   "message": "The white ghutra specialist. HOW hook: 100% Swiss cotton is why it stays bright white and holds its crease all day (only claims from specs: Swiss made, 100% cotton, sizes 50-62). Price, CTA."
+  },
+  "title_en": "Ghutra story (HOW)",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K04a",
+  "kind": "carousel_slide",
+  "layout": "look-cover",
+  "format": "1:1",
+  "image": "gen/out/R5_K04a.png",
+  "product_ids": [
+   "966965063",
+   "1113769137",
+   "1292393513",
+   "672063087",
+   "265256366"
+  ],
+  "brief": {
+   "hook": "look",
+   "message": "Carousel cover: from head to toe, one house (shemagh, agal, thobe fabric, perfume, cufflinks). Swipe cue. Register must be pure in each version: فصحى 'من الرأس إلى القدم' vs سعودي 'من راسك لرجلينك'."
+  },
+  "title_en": "Complete look carousel cover",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K04b",
+  "kind": "carousel_slide",
+  "layout": "look-item",
+  "format": "1:1",
+  "image": "gen/out/R5_K04b.png",
+  "product_ids": [
+   "1113769137"
+  ],
+  "brief": {
+   "hook": "look",
+   "message": "Slide 2: the head: agal (German mohair wool, made in Saudi Arabia). Name + price."
+  },
+  "title_en": "Carousel: agal",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K04c",
+  "kind": "carousel_slide",
+  "layout": "look-item",
+  "format": "1:1",
+  "image": "gen/out/R5_K04c.png",
+  "product_ids": [
+   "1292393513"
+  ],
+  "brief": {
+   "hook": "look",
+   "message": "Slide 3: the thobe: Japanese fabric 909 (90% tetron 10% tencel, 5 m, one width, enough for one thobe). Name + price."
+  },
+  "title_en": "Carousel: thobe fabric",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K04d",
+  "kind": "carousel_slide",
+  "layout": "look-item",
+  "format": "1:1",
+  "image": "gen/out/R5_K04d.png",
+  "product_ids": [
+   "672063087"
+  ],
+  "brief": {
+   "hook": "look",
+   "message": "Slide 4: the scent: Attar perfume collection (three bottles in the green box). Name + price."
+  },
+  "title_en": "Carousel: perfume",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K04e",
+  "kind": "carousel_slide",
+  "layout": "look-item",
+  "format": "1:1",
+  "image": "gen/out/R5_K04e.png",
+  "product_ids": [
+   "265256366"
+  ],
+  "brief": {
+   "hook": "look",
+   "message": "Slide 5: the finishing touch: silver cufflinks (multiple options). Name + price + final CTA."
+  },
+  "title_en": "Carousel: cufflinks",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K05a",
+  "kind": "carousel_slide",
+  "layout": "how-step",
+  "format": "1:1",
+  "image": "gen/out/R5_K05a.png",
+  "product_ids": [
+   "1740470085"
+  ],
+  "brief": {
+   "hook": "care",
+   "message": "HOW carousel slide 1 of 2: how to keep your ghutra bright white: iron at 110 degrees Celsius, no more no less (from the store's care notes). Step number 1."
+  },
+  "title_en": "Care carousel: ironing",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K05b",
+  "kind": "carousel_slide",
+  "layout": "how-step",
+  "format": "1:1",
+  "image": "gen/out/R5_K05b.png",
+  "product_ids": [
+   "1740470085"
+  ],
+  "brief": {
+   "hook": "care",
+   "message": "HOW carousel slide 2 of 2: wash in cold or lukewarm water only, never bleach (from the care notes). Step number 2. End with product name + price."
+  },
+  "title_en": "Care carousel: washing",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K06",
+  "kind": "campaign_feed",
+  "layout": "bundle",
+  "format": "4:5",
+  "image": "gen/out/R5_K06.png",
+  "product_ids": [
+   "966965063",
+   "189452492",
+   "1113769137",
+   "265256366"
+  ],
+  "brief": {
+   "hook": "offer",
+   "message": "White Friday (27 Nov) winter set: shemagh, shawl, perfume, agal. Do NOT invent a discount: list the four items with their prices; mention paying in instalments (Tabby/Tamara) only if BRAND_FACTS confirms the store offers them. Headline, CTA."
+  },
+  "title_en": "White Friday winter set",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K07",
+  "kind": "campaign_story",
+  "layout": "story",
+  "format": "9:16",
+  "image": "gen/out/R4_K07.png",
+  "product_ids": [
+   "821325048"
+  ],
+  "brief": {
+   "hook": "season",
+   "message": "Al-Murabba'aniyah has begun (7 Dec, the coldest 40 nights): pashmina shawl, warmth with elegance. Price, CTA."
+  },
+  "title_en": "Murabba'aniyah story",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K08",
+  "kind": "campaign_feed",
+  "layout": "heritage",
+  "format": "4:5",
+  "image": "gen/out/R5_K08.png",
+  "product_ids": [],
+  "brief": {
+   "hook": "heritage",
+   "message": "Heritage: 80+ years of craft. Jeddah 1377H, Riyadh 1389H, roots in Makkah trade, 9 branches today (Riyadh 4, Jeddah 3, Makkah 1, Khobar 1). No price. CTA: visit a branch or the store."
+  },
+  "title_en": "Heritage feed",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K09",
+  "kind": "campaign_feed",
+  "layout": "hero",
+  "format": "4:5",
+  "image": "gen/out/R5_K09.png",
+  "product_ids": [
+   "1381142749"
+  ],
+  "brief": {
+   "hook": "occasion",
+   "message": "Gifting: the special gift box (shemagh, perfume, cufflinks) for occasions and Eid. Price, CTA."
+  },
+  "title_en": "Gift box feed",
+  "engine": "seedream_5_0_flash"
+ },
+ {
+  "id": "K10",
+  "kind": "campaign_feed",
+  "layout": "fabric-library",
+  "format": "4:5",
+  "image": "gen/out/R5_K10.png",
+  "product_ids": [
+   "1292393513",
+   "1668806182",
+   "1449104353",
+   "1029444903",
+   "563952490"
+  ],
+  "brief": {
+   "hook": "how",
+   "message": "Pre-Ramadan tailoring (fabric peak): how many metres does your thobe need? Use ONLY spec facts: Japanese 909 = 5 m one width enough for one thobe; Italian wool = 3.5 m one thobe; English wool = 3.5 m one thobe; Italian voile = 3.5 m. List 4 fabrics with origin and 'from' price. CTA: order before tailors close for Eid."
+  },
+  "title_en": "Fabric library feed (HOW)",
+  "engine": "seedream_5_0_flash"
+ }
+]

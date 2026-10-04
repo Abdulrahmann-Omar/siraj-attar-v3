@@ -1,0 +1,1834 @@
+{
+  "source": "https://github.com/google/fonts (ofl/)",
+  "families": [
+    {
+      "family": "Cairo",
+      "group": "arabic",
+      "dir": "fonts/cairo",
+      "license": "OFL",
+      "license_file": "fonts/cairo/OFL.txt",
+      "designer": "Mohamed Gaber, Accademia di Belle Arti di Urbino",
+      "category": "DISPLAY",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "max": 1000.0
+        }
+      ],
+      "files": [
+        {
+          "file": "Cairo[slnt,wght].ttf",
+          "bytes": 599548,
+          "sha256": "667c987182391c91",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo%5Bslnt%2Cwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 958,
+          "sha256": "a9c61e22be71cb5e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 977,
+          "sha256": "64cd7d2893f75e69",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4473,
+          "sha256": "a4554e1799d42e14",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "IBM Plex Sans Arabic",
+      "group": "arabic",
+      "dir": "fonts/ibmplexsansarabic",
+      "license": "OFL",
+      "license_file": "fonts/ibmplexsansarabic/OFL.txt",
+      "designer": "Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "cyrillic-ext",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 961,
+          "sha256": "966764937c471886",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "IBMPlexSansArabic-Bold.ttf",
+          "bytes": 246992,
+          "sha256": "691e0c891a38637a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Bold.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-ExtraLight.ttf",
+          "bytes": 241652,
+          "sha256": "4d4137f37a1acd61",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-ExtraLight.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-Light.ttf",
+          "bytes": 238564,
+          "sha256": "0af9d1effbb36ff7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Light.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-Medium.ttf",
+          "bytes": 242100,
+          "sha256": "b8363ab9f733dfa4",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Medium.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-Regular.ttf",
+          "bytes": 235924,
+          "sha256": "6f611412270a132b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-SemiBold.ttf",
+          "bytes": 244616,
+          "sha256": "597bd5502e5997be",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf"
+        },
+        {
+          "file": "IBMPlexSansArabic-Thin.ttf",
+          "bytes": 242204,
+          "sha256": "f8e1f556f815e3d2",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Thin.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 3704,
+          "sha256": "9c9130e70b6ed0b3",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Alexandria",
+      "group": "arabic",
+      "dir": "fonts/alexandria",
+      "license": "OFL",
+      "license_file": "fonts/alexandria/OFL.txt",
+      "designer": "Mohamed Gaber, Julieta Ulanovsky",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "Alexandria[wght].ttf",
+          "bytes": 332488,
+          "sha256": "db8ae03b62d55a65",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/Alexandria%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1470,
+          "sha256": "efc0210a8ff46300",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1028,
+          "sha256": "de47778dbd05198e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4483,
+          "sha256": "56372aed19c2701f",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Readex Pro",
+      "group": "arabic",
+      "dir": "fonts/readexpro",
+      "license": "OFL",
+      "license_file": "fonts/readexpro/OFL.txt",
+      "designer": "Thomas Jockin, Nadine Chahine, Bonnie Shaver-Troup, Santiago Orozco, Héctor Gómez",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "HEXP",
+          "min": 0.0,
+          "max": 100.0
+        },
+        {
+          "tag": "wght",
+          "min": 160.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "METADATA.pb",
+          "bytes": 1059,
+          "sha256": "fa46895ddcf3bd85",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/readexpro/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4444,
+          "sha256": "b41267a3903a4595",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/readexpro/OFL.txt"
+        },
+        {
+          "file": "ReadexPro[HEXP,wght].ttf",
+          "bytes": 278544,
+          "sha256": "268bba7e1e8f3b14",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/readexpro/ReadexPro%5BHEXP%2Cwght%5D.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Noto Kufi Arabic",
+      "group": "arabic",
+      "dir": "fonts/notokufiarabic",
+      "license": "OFL",
+      "license_file": "fonts/notokufiarabic/OFL.txt",
+      "designer": "Google",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "math",
+        "menu",
+        "symbols"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 300,
+          "sha256": "3d0a281e02dfbdd1",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notokufiarabic/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 4275,
+          "sha256": "241a4283bce393f3",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notokufiarabic/METADATA.pb"
+        },
+        {
+          "file": "NotoKufiArabic[wght].ttf",
+          "bytes": 434204,
+          "sha256": "494f6b61469d7a02",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notokufiarabic/NotoKufiArabic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4382,
+          "sha256": "07fc70bfeb985cc1",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notokufiarabic/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Noto Naskh Arabic",
+      "group": "arabic",
+      "dir": "fonts/notonaskharabic",
+      "license": "OFL",
+      "license_file": "fonts/notonaskharabic/OFL.txt",
+      "designer": "Google",
+      "category": "SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "math",
+        "menu",
+        "symbols"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 305,
+          "sha256": "72b4a09327be0a37",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notonaskharabic/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 4340,
+          "sha256": "764bf357c5009432",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notonaskharabic/METADATA.pb"
+        },
+        {
+          "file": "NotoNaskhArabic[wght].ttf",
+          "bytes": 307592,
+          "sha256": "67b5a525a661b607",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notonaskharabic/NotoNaskhArabic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4382,
+          "sha256": "a7a5a25eb188bf1c",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notonaskharabic/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Noto Sans Arabic",
+      "group": "arabic",
+      "dir": "fonts/notosansarabic",
+      "license": "OFL",
+      "license_file": "fonts/notosansarabic/OFL.txt",
+      "designer": "Google",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "math",
+        "menu",
+        "symbols"
+      ],
+      "axes": [
+        {
+          "tag": "wdth",
+          "min": 62.5,
+          "max": 100.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 270,
+          "sha256": "a80577db5136a932",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 4424,
+          "sha256": "514bf8961fb28742",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/METADATA.pb"
+        },
+        {
+          "file": "NotoSansArabic[wdth,wght].ttf",
+          "bytes": 844676,
+          "sha256": "63111b5b2e074dd4",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/NotoSansArabic%5Bwdth%2Cwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4382,
+          "sha256": "07fc70bfeb985cc1",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Amiri",
+      "group": "arabic",
+      "dir": "fonts/amiri",
+      "license": "OFL",
+      "license_file": "fonts/amiri/OFL.txt",
+      "designer": "Khaled Hosny, Sebastian Kosch",
+      "category": "SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "Amiri-Bold.ttf",
+          "bytes": 413480,
+          "sha256": "cfccb794268e7d57",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Bold.ttf"
+        },
+        {
+          "file": "Amiri-BoldItalic.ttf",
+          "bytes": 409692,
+          "sha256": "241300e2dcb2c541",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-BoldItalic.ttf"
+        },
+        {
+          "file": "Amiri-Italic.ttf",
+          "bytes": 428532,
+          "sha256": "770e4da44d0459c0",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Italic.ttf"
+        },
+        {
+          "file": "Amiri-Regular.ttf",
+          "bytes": 431116,
+          "sha256": "ab391c4147d054c4",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Regular.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 481,
+          "sha256": "7755d16fa625b754",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1857,
+          "sha256": "3df4f62489d9b01b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4389,
+          "sha256": "72de68e5954f4fdd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Aref Ruqaa",
+      "group": "arabic",
+      "dir": "fonts/arefruqaa",
+      "license": "OFL",
+      "license_file": "fonts/arefruqaa/OFL.txt",
+      "designer": "Abdullah Aref, Khaled Hosny, Hermann Zapf",
+      "category": "SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "ArefRuqaa-Bold.ttf",
+          "bytes": 123852,
+          "sha256": "247071015b7eefd6",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Bold.ttf"
+        },
+        {
+          "file": "ArefRuqaa-Regular.ttf",
+          "bytes": 110696,
+          "sha256": "ceb786d83ba92f35",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Regular.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 422,
+          "sha256": "551a9a1acb7f6c3c",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 968,
+          "sha256": "5d9cddef58c8283a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4464,
+          "sha256": "41ac14451a624c69",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Reem Kufi",
+      "group": "arabic",
+      "dir": "fonts/reemkufi",
+      "license": "OFL",
+      "license_file": "fonts/reemkufi/OFL.txt",
+      "designer": "Khaled Hosny, Santiago Orozco",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1021,
+          "sha256": "20f2102bc1c38c98",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reemkufi/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 966,
+          "sha256": "24c45f49aacbfd1a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reemkufi/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4434,
+          "sha256": "3e1dea8822e6e400",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reemkufi/OFL.txt"
+        },
+        {
+          "file": "ReemKufi[wght].ttf",
+          "bytes": 127152,
+          "sha256": "33ead1986cd48c13",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reemkufi/ReemKufi%5Bwght%5D.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Tajawal",
+      "group": "arabic",
+      "dir": "fonts/tajawal",
+      "license": "OFL",
+      "license_file": "fonts/tajawal/OFL.txt",
+      "designer": "Boutros Fonts, Mourad Boutros, Soulaf Khalifeh",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 485,
+          "sha256": "5886cdaf30fc51dd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1956,
+          "sha256": "3d3fd314884c894a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4464,
+          "sha256": "9b584984f9db0ee3",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/OFL.txt"
+        },
+        {
+          "file": "Tajawal-Black.ttf",
+          "bytes": 59028,
+          "sha256": "da582a579d320086",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-Black.ttf"
+        },
+        {
+          "file": "Tajawal-Bold.ttf",
+          "bytes": 59988,
+          "sha256": "0342ab6b74b6bd1b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-Bold.ttf"
+        },
+        {
+          "file": "Tajawal-ExtraBold.ttf",
+          "bytes": 59648,
+          "sha256": "3d1298b747c22579",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-ExtraBold.ttf"
+        },
+        {
+          "file": "Tajawal-ExtraLight.ttf",
+          "bytes": 55784,
+          "sha256": "a12ffbfaaec30ab8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-ExtraLight.ttf"
+        },
+        {
+          "file": "Tajawal-Light.ttf",
+          "bytes": 61864,
+          "sha256": "ab26ed3e0c5af2c7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-Light.ttf"
+        },
+        {
+          "file": "Tajawal-Medium.ttf",
+          "bytes": 62280,
+          "sha256": "1ff8bd943a261c9d",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-Medium.ttf"
+        },
+        {
+          "file": "Tajawal-Regular.ttf",
+          "bytes": 60364,
+          "sha256": "6882892da3e03527",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tajawal/Tajawal-Regular.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Almarai",
+      "group": "arabic",
+      "dir": "fonts/almarai",
+      "license": "OFL",
+      "license_file": "fonts/almarai/OFL.txt",
+      "designer": "Boutros Fonts, Mourad Boutros",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "Almarai-Bold.ttf",
+          "bytes": 156672,
+          "sha256": "06401391b5b39fbc",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Bold.ttf"
+        },
+        {
+          "file": "Almarai-ExtraBold.ttf",
+          "bytes": 168292,
+          "sha256": "9f8f72f1cb06db78",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-ExtraBold.ttf"
+        },
+        {
+          "file": "Almarai-Light.ttf",
+          "bytes": 149480,
+          "sha256": "a57bca270340202a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Light.ttf"
+        },
+        {
+          "file": "Almarai-Regular.ttf",
+          "bytes": 152824,
+          "sha256": "5b5cad33c8e59220",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Regular.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 763,
+          "sha256": "fa57246c61866df5",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1225,
+          "sha256": "fb7bddd8f770903b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4391,
+          "sha256": "142e053c374dd465",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Changa",
+      "group": "arabic",
+      "dir": "fonts/changa",
+      "license": "OFL",
+      "license_file": "fonts/changa/OFL.txt",
+      "designer": "Eduardo Tunni",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "max": 800.0
+        }
+      ],
+      "files": [
+        {
+          "file": "Changa[wght].ttf",
+          "bytes": 132140,
+          "sha256": "7c4f7a14d4b70ac8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/changa/Changa%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 649,
+          "sha256": "13e61893fd37b430",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/changa/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 885,
+          "sha256": "8035cb2eb63d96b8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/changa/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4388,
+          "sha256": "6b12c8d417bb766f",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/changa/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Rubik",
+      "group": "arabic",
+      "dir": "fonts/rubik",
+      "license": "OFL",
+      "license_file": "fonts/rubik/OFL.txt",
+      "designer": "Hubert and Fischer, Meir Sadan, Cyreal, Daniel Grumer, Omaima Dajani",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "cyrillic",
+        "cyrillic-ext",
+        "hebrew",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 749,
+          "sha256": "dd6a3795b17193be",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1310,
+          "sha256": "2e81cc9a038e89bc",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4384,
+          "sha256": "472cbe7c25441df6",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/OFL.txt"
+        },
+        {
+          "file": "Rubik-Italic[wght].ttf",
+          "bytes": 354984,
+          "sha256": "08c6c4018a5ada8b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/Rubik-Italic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "Rubik[wght].ttf",
+          "bytes": 359804,
+          "sha256": "1b3a7437ba2af80e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/Rubik%5Bwght%5D.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Lalezar",
+      "group": "arabic",
+      "dir": "fonts/lalezar",
+      "license": "OFL",
+      "license_file": "fonts/lalezar/OFL.txt",
+      "designer": "Borna Izadpanah",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1305,
+          "sha256": "15c9ea0a8b6037e8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lalezar/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Lalezar-Regular.ttf",
+          "bytes": 290016,
+          "sha256": "7b80807bc831f141",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lalezar/Lalezar-Regular.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 601,
+          "sha256": "f510ffe21bab8e7e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lalezar/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4383,
+          "sha256": "327bac41d89cf9f3",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lalezar/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Marhey",
+      "group": "arabic",
+      "dir": "fonts/marhey",
+      "license": "OFL",
+      "license_file": "fonts/marhey/OFL.txt",
+      "designer": "Nur Syamsi, Bustanul Arifin",
+      "category": "DISPLAY",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 409,
+          "sha256": "ce31ccd271bdd516",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1002,
+          "sha256": "aee90756966e13c5",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/METADATA.pb"
+        },
+        {
+          "file": "Marhey[wght].ttf",
+          "bytes": 198704,
+          "sha256": "19c30686157ec965",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/Marhey%5Bwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4477,
+          "sha256": "096744f008d41839",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Baloo Bhaijaan 2",
+      "group": "arabic",
+      "dir": "fonts/baloobhaijaan2",
+      "license": "OFL",
+      "license_file": "fonts/baloobhaijaan2/OFL.txt",
+      "designer": "Ek Type",
+      "category": "DISPLAY",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 800.0
+        }
+      ],
+      "files": [
+        {
+          "file": "BalooBhaijaan2[wght].ttf",
+          "bytes": 285508,
+          "sha256": "3e9f07fbc796c0dd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhaijaan2/BalooBhaijaan2%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1958,
+          "sha256": "17c0b47d0c798089",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhaijaan2/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1084,
+          "sha256": "8e6e555d96123aed",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhaijaan2/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4384,
+          "sha256": "ad09b05dc8bc678c",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhaijaan2/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "El Messiri",
+      "group": "arabic",
+      "dir": "fonts/elmessiri",
+      "license": "OFL",
+      "license_file": "fonts/elmessiri/OFL.txt",
+      "designer": "Mohamed Gaber, Jovanny Lemonad",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "cyrillic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 943,
+          "sha256": "7abf0a397ceffe51",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "ElMessiri[wght].ttf",
+          "bytes": 138664,
+          "sha256": "5d58d5259d2acccc",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/ElMessiri%5Bwght%5D.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 924,
+          "sha256": "430e97504d06d65c",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4390,
+          "sha256": "b69113722df50071",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Zain",
+      "group": "arabic",
+      "dir": "fonts/zain",
+      "license": "OFL",
+      "license_file": "fonts/zain/OFL.txt",
+      "designer": "Boutros Fonts",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 874,
+          "sha256": "e2c61bb160a3b61d",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 3185,
+          "sha256": "5521720fb05a8e20",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4474,
+          "sha256": "ccbcfbce2bc74fe5",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/OFL.txt"
+        },
+        {
+          "file": "Zain-Black.ttf",
+          "bytes": 193168,
+          "sha256": "fb9146db13654b0e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-Black.ttf"
+        },
+        {
+          "file": "Zain-Bold.ttf",
+          "bytes": 189816,
+          "sha256": "4dc98e7b1a9cac93",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-Bold.ttf"
+        },
+        {
+          "file": "Zain-ExtraBold.ttf",
+          "bytes": 190584,
+          "sha256": "1f28878c4fd73456",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-ExtraBold.ttf"
+        },
+        {
+          "file": "Zain-ExtraLight.ttf",
+          "bytes": 180536,
+          "sha256": "0fed2aeaa4a13676",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-ExtraLight.ttf"
+        },
+        {
+          "file": "Zain-Italic.ttf",
+          "bytes": 202788,
+          "sha256": "ed2fd21e100b0675",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-Italic.ttf"
+        },
+        {
+          "file": "Zain-Light.ttf",
+          "bytes": 189212,
+          "sha256": "21ac8d8c63f1d037",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-Light.ttf"
+        },
+        {
+          "file": "Zain-LightItalic.ttf",
+          "bytes": 211528,
+          "sha256": "0681b370f399f997",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-LightItalic.ttf"
+        },
+        {
+          "file": "Zain-Regular.ttf",
+          "bytes": 188468,
+          "sha256": "2a2b8af3804039c7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zain/Zain-Regular.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Kufam",
+      "group": "arabic",
+      "dir": "fonts/kufam",
+      "license": "OFL",
+      "license_file": "fonts/kufam/OFL.txt",
+      "designer": "Original Type, Wael Morcos, Artur Schmal",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1052,
+          "sha256": "a8799c04a8542bf6",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Kufam-Italic[wght].ttf",
+          "bytes": 437568,
+          "sha256": "37c5cf29cb515099",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam-Italic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "Kufam[wght].ttf",
+          "bytes": 428544,
+          "sha256": "f17a89b518c833de",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam%5Bwght%5D.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1310,
+          "sha256": "3877314fe8d8c478",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4383,
+          "sha256": "2b79a19d4c611849",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Lateef",
+      "group": "arabic",
+      "dir": "fonts/lateef",
+      "license": "OFL",
+      "license_file": "fonts/lateef/OFL.txt",
+      "designer": "SIL International",
+      "category": "SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 492,
+          "sha256": "a09b8256b0dd4e75",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Lateef-Bold.ttf",
+          "bytes": 243260,
+          "sha256": "eee405eeb4e81491",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Bold.ttf"
+        },
+        {
+          "file": "Lateef-ExtraBold.ttf",
+          "bytes": 244116,
+          "sha256": "ee6406b63af32993",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraBold.ttf"
+        },
+        {
+          "file": "Lateef-ExtraLight.ttf",
+          "bytes": 240832,
+          "sha256": "d22920471ea9305e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraLight.ttf"
+        },
+        {
+          "file": "Lateef-Light.ttf",
+          "bytes": 239892,
+          "sha256": "f5c18f8c66cc30a6",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Light.ttf"
+        },
+        {
+          "file": "Lateef-Medium.ttf",
+          "bytes": 242052,
+          "sha256": "b08e71723c6bdcc7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Medium.ttf"
+        },
+        {
+          "file": "Lateef-Regular.ttf",
+          "bytes": 241092,
+          "sha256": "fcbd9e0227a4d723",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Regular.ttf"
+        },
+        {
+          "file": "Lateef-SemiBold.ttf",
+          "bytes": 242260,
+          "sha256": "ac0ba34269c19062",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-SemiBold.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 2686,
+          "sha256": "2399f0ca600cafef",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4603,
+          "sha256": "63fbda065921d34b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Scheherazade New",
+      "group": "arabic",
+      "dir": "fonts/scheherazadenew",
+      "license": "OFL",
+      "license_file": "fonts/scheherazadenew/OFL.txt",
+      "designer": "SIL International",
+      "category": "SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 658,
+          "sha256": "7d0c2d6c65bcf266",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 2674,
+          "sha256": "a2f4a3301ee5fdc7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4495,
+          "sha256": "5b9fd21ce2377fc5",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/OFL.txt"
+        },
+        {
+          "file": "ScheherazadeNew-Bold.ttf",
+          "bytes": 593472,
+          "sha256": "91363517a63dbc74",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/ScheherazadeNew-Bold.ttf"
+        },
+        {
+          "file": "ScheherazadeNew-Medium.ttf",
+          "bytes": 582492,
+          "sha256": "060b801307ec55d9",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/ScheherazadeNew-Medium.ttf"
+        },
+        {
+          "file": "ScheherazadeNew-Regular.ttf",
+          "bytes": 331504,
+          "sha256": "794bac8dc9e83d1d",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/ScheherazadeNew-Regular.ttf"
+        },
+        {
+          "file": "ScheherazadeNew-SemiBold.ttf",
+          "bytes": 589896,
+          "sha256": "155056d27ea5a34a",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/scheherazadenew/ScheherazadeNew-SemiBold.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Harmattan",
+      "group": "arabic",
+      "dir": "fonts/harmattan",
+      "license": "OFL",
+      "license_file": "fonts/harmattan/OFL.txt",
+      "designer": "SIL International",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1840,
+          "sha256": "4d37de1dd13448dd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Harmattan-Bold.ttf",
+          "bytes": 559624,
+          "sha256": "eb9de49ecb72d34e",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Bold.ttf"
+        },
+        {
+          "file": "Harmattan-Medium.ttf",
+          "bytes": 579456,
+          "sha256": "e83a209c87145152",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Medium.ttf"
+        },
+        {
+          "file": "Harmattan-Regular.ttf",
+          "bytes": 573500,
+          "sha256": "5fbaafc51ad21663",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Regular.ttf"
+        },
+        {
+          "file": "Harmattan-SemiBold.ttf",
+          "bytes": 561880,
+          "sha256": "83479450450a50da",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-SemiBold.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 3286,
+          "sha256": "c1eecb0b648c3260",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4777,
+          "sha256": "8625c5d464ebfe45",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Mada",
+      "group": "arabic",
+      "dir": "fonts/mada",
+      "license": "OFL",
+      "license_file": "fonts/mada/OFL.txt",
+      "designer": "Khaled Hosny, Paul D. Hunt",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 589,
+          "sha256": "ba6780aef9812c38",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 930,
+          "sha256": "9e38b8b57f01aaba",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/METADATA.pb"
+        },
+        {
+          "file": "Mada[wght].ttf",
+          "bytes": 181408,
+          "sha256": "bf4d193ee78cea2f",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/Mada%5Bwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4419,
+          "sha256": "e15f74b13b1a30c8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Vazirmatn",
+      "group": "arabic",
+      "dir": "fonts/vazirmatn",
+      "license": "OFL",
+      "license_file": "fonts/vazirmatn/OFL.txt",
+      "designer": "Saber Rastikerdar",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 869,
+          "sha256": "f69cd1264ba97e51",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/vazirmatn/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 854,
+          "sha256": "4dcbe0c29d4e0c28",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/vazirmatn/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4391,
+          "sha256": "17e355067c8284f4",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/vazirmatn/OFL.txt"
+        },
+        {
+          "file": "Vazirmatn[wght].ttf",
+          "bytes": 241328,
+          "sha256": "696249a2c74b39ff",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/vazirmatn/Vazirmatn%5Bwght%5D.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Beiruti",
+      "group": "arabic",
+      "dir": "fonts/beiruti",
+      "license": "OFL",
+      "license_file": "fonts/beiruti/OFL.txt",
+      "designer": "Boutros Fonts, Arlette Boutros, Volker Schnebel",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "arabic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "Beiruti[wght].ttf",
+          "bytes": 678740,
+          "sha256": "c31f26b93e90ac91",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/beiruti/Beiruti%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 668,
+          "sha256": "2d99b293bc628bc8",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/beiruti/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 971,
+          "sha256": "6854b85d48199eac",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/beiruti/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4481,
+          "sha256": "3f45003d401898d7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/beiruti/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Manrope",
+      "group": "latin",
+      "dir": "fonts/manrope",
+      "license": "OFL",
+      "license_file": "fonts/manrope/OFL.txt",
+      "designer": "Mikhail Sharanda",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "max": 800.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 311,
+          "sha256": "e5634b4e305fc263",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 732,
+          "sha256": "fb204147a7c16d00",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/METADATA.pb"
+        },
+        {
+          "file": "Manrope[wght].ttf",
+          "bytes": 164700,
+          "sha256": "3ae11c49db0455a3",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4387,
+          "sha256": "58172e0c0fac2cda",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Inter",
+      "group": "latin",
+      "dir": "fonts/inter",
+      "license": "OFL",
+      "license_file": "fonts/inter/OFL.txt",
+      "designer": "Rasmus Andersson",
+      "category": "SANS_SERIF",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 14.0,
+          "max": 32.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 627,
+          "sha256": "09f457d2dc12647d",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Inter-Italic[opsz,wght].ttf",
+          "bytes": 906596,
+          "sha256": "acd98e64795781b2",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz%2Cwght%5D.ttf"
+        },
+        {
+          "file": "Inter[opsz,wght].ttf",
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddca",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1342,
+          "sha256": "79e4721ef4f72251",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Playfair Display",
+      "group": "latin",
+      "dir": "fonts/playfairdisplay",
+      "license": "OFL",
+      "license_file": "fonts/playfairdisplay/OFL.txt",
+      "designer": "Claus Eggers Sørensen",
+      "category": "SERIF",
+      "subsets": [
+        "cyrillic",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1599,
+          "sha256": "e4086951503d2bb0",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1202,
+          "sha256": "c9e6a996754f710f",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4449,
+          "sha256": "566be814f8e96e93",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt"
+        },
+        {
+          "file": "PlayfairDisplay-Italic[wght].ttf",
+          "bytes": 278688,
+          "sha256": "a5e26dc5e2e77fb2",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "PlayfairDisplay[wght].ttf",
+          "bytes": 300724,
+          "sha256": "c40f2293766a503b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Cormorant",
+      "group": "latin",
+      "dir": "fonts/cormorant",
+      "license": "OFL",
+      "license_file": "fonts/cormorant/OFL.txt",
+      "designer": "Christian Thalmann",
+      "category": "SERIF",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "Cormorant-Italic[wght].ttf",
+          "bytes": 350096,
+          "sha256": "2c4e1c43fa126b51",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant-Italic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "Cormorant[wght].ttf",
+          "bytes": 572892,
+          "sha256": "8f12cb21f05b6164",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1796,
+          "sha256": "aa8fde2fd467c8dd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1307,
+          "sha256": "925cf62ef2731546",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4387,
+          "sha256": "60700d351cac4650",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "group": "latin",
+      "dir": "fonts/cormorantgaramond",
+      "license": "OFL",
+      "license_file": "fonts/cormorantgaramond/OFL.txt",
+      "designer": "Christian Thalmann",
+      "category": "SERIF",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "max": 700.0
+        }
+      ],
+      "files": [
+        {
+          "file": "CormorantGaramond-Italic[wght].ttf",
+          "bytes": 715644,
+          "sha256": "0f48ea6abb208453",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf"
+        },
+        {
+          "file": "CormorantGaramond[wght].ttf",
+          "bytes": 1195560,
+          "sha256": "b20b7d9626dd956b",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf"
+        },
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1796,
+          "sha256": "aa8fde2fd467c8dd",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1426,
+          "sha256": "faa16a5e79613ca7",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4387,
+          "sha256": "60700d351cac4650",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "family": "Fraunces",
+      "group": "latin",
+      "dir": "fonts/fraunces",
+      "license": "OFL",
+      "license_file": "fonts/fraunces/OFL.txt",
+      "designer": "Undercase Type, Phaedra Charles, Flavia Zimbardi",
+      "category": "SERIF",
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "menu",
+        "vietnamese"
+      ],
+      "axes": [
+        {
+          "tag": "SOFT",
+          "min": 0.0,
+          "max": 100.0
+        },
+        {
+          "tag": "WONK",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "tag": "opsz",
+          "min": 9.0,
+          "max": 144.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "files": [
+        {
+          "file": "DESCRIPTION.en_us.html",
+          "bytes": 1117,
+          "sha256": "e6760d82bc65846d",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/DESCRIPTION.en_us.html"
+        },
+        {
+          "file": "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+          "bytes": 414904,
+          "sha256": "b24448c43702fac4",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf"
+        },
+        {
+          "file": "Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "bytes": 360440,
+          "sha256": "177ff6c0f14e5550",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf"
+        },
+        {
+          "file": "METADATA.pb",
+          "bytes": 1197,
+          "sha256": "812aeaea90af8021",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/METADATA.pb"
+        },
+        {
+          "file": "OFL.txt",
+          "bytes": 4391,
+          "sha256": "bdf4c22802eaf804",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt"
+        }
+      ],
+      "status": "ok"
+    }
+  ]
+}

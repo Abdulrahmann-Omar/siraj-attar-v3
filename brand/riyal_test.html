@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" dir="ltr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riyal Symbol Test</title>
+<style>
+@font-face{font-family:'Cairo';src:url('../fonts/cairo/Cairo%5Bslnt%2Cwght%5D.ttf') format('truetype');font-weight:200 1000;font-display:block}
+@font-face{font-family:'Noto Naskh Arabic';src:url('../fonts/notonaskharabic/NotoNaskhArabic%5Bwght%5D.ttf') format('truetype');font-weight:400 700;font-display:block}
+@font-face{font-family:'El Messiri';src:url('../fonts/elmessiri/ElMessiri%5Bwght%5D.ttf') format('truetype');font-weight:400 700;font-display:block}
+@font-face{font-family:'Manrope';src:url('../fonts/manrope/Manrope%5Bwght%5D.ttf') format('truetype');font-weight:200 800;font-display:block}
+@font-face{font-family:'Inter';src:url('../fonts/inter/Inter%5Bopsz%2Cwght%5D.ttf') format('truetype');font-weight:100 900;font-display:block}
+@font-face{font-family:'Playfair Display';src:url('../fonts/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf') format('truetype');font-weight:400 900;font-display:block}
+:root { --ink:#1c1b19; --paper:#f5f0e6; --card:#fffdf8; --green:#0d3b2e; --gold:#a8834a; --muted:#6f6a61; --line:#e4dccb; --guide:#d2442f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink:#f2ede3; --paper:#14130f; --card:#1d1c18; --green:#7fbfa4; --gold:#d2b07a; --muted:#a49d90; --line:#34312a; } }
+:root[data-theme="dark"] { --ink:#f2ede3; --paper:#14130f; --card:#1d1c18; --green:#7fbfa4; --gold:#d2b07a; --muted:#a49d90; --line:#34312a; }
+.f-cairo { font-family:'Cairo', sans-serif; --riyal-ar:0.677em; --riyal-lat:0.670em; }
+.f-naskh { font-family:'Noto Naskh Arabic', sans-serif; --riyal-ar:0.640em; --riyal-lat:0.723em; }
+.f-messiri { font-family:'El Messiri', sans-serif; --riyal-ar:0.620em; --riyal-lat:0.680em; }
+.f-manrope { font-family:'Manrope', sans-serif; --riyal-ar:0.723em; --riyal-lat:0.733em; }
+.f-inter { font-family:'Inter', sans-serif; --riyal-ar:0.723em; --riyal-lat:0.740em; }
+.f-playfair { font-family:'Playfair Display', sans-serif; --riyal-ar:0.723em; --riyal-lat:0.723em; }
+* { box-sizing:border-box; margin:0; padding:0 }
+body { background:var(--paper); color:var(--ink); font-family:'Inter',sans-serif; padding:48px; }
+h1 { font-family:'Playfair Display',serif; font-weight:600; color:var(--green); font-size:40px; direction:ltr; text-align:left }
+h2 { font-family:'Inter',sans-serif; font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); font-weight:600; margin:40px 0 14px; direction:ltr; text-align:left }
+.intro { direction:ltr; text-align:left; color:var(--muted); max-width:1100px; line-height:1.55; margin-top:8px; font-size:15px }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:26px 30px }
+
+/* ---------- the recommended component (see brand/RIYAL.md) ---------- */
+.sar { display:inline-flex; align-items:baseline; gap:calc(var(--riyal-h) / 3);
+        direction:ltr; unicode-bidi:isolate; white-space:nowrap; }
+.sar[data-d="ar"]  { --riyal-h: var(--riyal-ar, 0.68em); }
+.sar[data-d="lat"] { --riyal-h: var(--riyal-lat, 0.72em); }
+.sar[data-d="cap"] { --riyal-h: 1cap; }
+.riyal { height:var(--riyal-h); width:calc(var(--riyal-h) * 3000 / 3353); flex:none; fill:currentColor; overflow:visible }
+/* -------------------------------------------------------------------- */
+
+.hero { display:flex; gap:28px; flex-wrap:wrap; direction:ltr }
+.sw { width:300px; height:300px; border-radius:6px; display:grid; place-items:center; position:relative }
+.sw svg { height:150px; width:calc(150px * 3000 / 3353) }
+.sw .cz { position:absolute; inset:calc(50% - 75px - 50px) calc(50% - 67px - 50px); border:1px dashed currentColor; opacity:.45 }
+.sw p { position:absolute; bottom:10px; left:12px; font-size:11px; opacity:.75 }
+.proofs { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; direction:ltr }
+.proof { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:16px 22px 22px; }
+.proof .lbl { font-family:'Inter',sans-serif; font-size:12px; color:var(--muted); font-weight:400 }
+.proof .line { position:relative; font-size:108px; line-height:1.3; text-align:center; overflow:hidden }
+.proof .bl { display:inline-block; width:0; height:0; vertical-align:baseline }
+.guide { position:absolute; left:-10px; right:-10px; border-top:1.5px solid var(--guide); pointer-events:none }
+.guide.top { border-top-style:dashed }
+table { border-collapse:collapse; width:100%; table-layout:fixed; direction:ltr; background:var(--card); border:1px solid var(--line) }
+th, td { padding:8px 14px; border-bottom:1px solid var(--line); text-align:center; vertical-align:middle }
+thead th { font-size:12.5px; font-weight:600; color:var(--green); }
+thead th span { font-weight:400; color:var(--muted); font-size:11.5px }
+th.sz { font-size:12px; color:var(--muted); font-weight:500; width:70px }
+td.generic { background:rgba(168,131,74,.07) }
+.ctx { display:grid; grid-template-columns:1fr 1fr; gap:20px }
+.ctx .panel p { font-size:22px; line-height:1.9 }
+.ctx .panel p + p { margin-top:6px }
+.old { color:var(--muted); text-decoration:line-through; text-decoration-thickness:.06em; font-size:.8em }
+.badge { display:inline-flex; align-items:baseline; border:2px solid currentColor; border-radius:999px; padding:.02em .55em .12em; }
+.dont { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; direction:ltr }
+.dont .panel { text-align:center; font-family:'Cairo'; font-weight:700; font-size:40px; position:relative }
+.dont .panel small { display:block; font-family:'Inter'; font-weight:400; font-size:12px; color:var(--muted); margin-top:8px }
+.dont .panel.bad::after { content:"\2715"; position:absolute; top:8px; right:12px; font-size:18px; color:var(--guide) }
+.dont .panel.good::after { content:"\2713"; position:absolute; top:8px; right:12px; font-size:18px; color:#2e7d4f }
+.big { height:1.4em !important; width:calc(1.4em * 3000 / 3353) !important }
+@media (max-width:900px) { body { padding:24px 16px } .proofs, .ctx, .dont { grid-template-columns:1fr } table { display:block; overflow-x:auto } }
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="riyal" viewBox="0 0 3000 3353"><path fill="currentColor" d="M1866.9 2970.2C1812.2 3092.4 1778.7 3220.1 1764.4 3353L2897.7 3112.2C2951.8 2989.3 2986.8 2863.1 3000 2729.3L1866.9 2970.2ZM1058.5 296.1L1058.5 1699L268.8 1866.8C210.7 1999.7 182.8 2105.8 166.3 2249.7L1058.5 2060.1L1058.5 2514.2L102.3 2717.4C45.6 2844.2 15.5 2962.7 0 3100.3L1014.5 2884.4C1027.5 2881.7 1040.1 2876.9 1052.4 2872.1C1098.7 2854.2 1140.6 2824.6 1173.4 2787.5C1179.3 2780.9 1185.5 2774.1 1190.5 2766.7L1387.1 2475.4C1400.1 2456 1411.4 2419.6 1411.4 2396.4L1411.8 1985.1L1764.5 1910.1L1764.5 2631.7L2897.7 2390.8C2954.5 2263.3 2984.5 2146.2 3000 2007.8L2117.8 2195.5L2117.7 1835L2897.7 1669.3C2952.2 1547.8 2986.5 1418.6 3000 1286.4L2117.8 1473.9L2117.7 176.1C1978.5 255 1867.2 349.8 1764.5 472.4L1764.5 1549L1411.8 1623.9L1411.8 0C1272.1 79.5 1161.8 172.7 1058.5 296.1Z"/></symbol></defs></svg>
+
+<h1>Saudi Riyal symbol &middot; type test</h1>
+<p class="intro">Vector: brand/riyal.svg (from SAMA's official artwork, IoU 0.998 vs the PNG at 3000&nbsp;px). SAMA rules applied:
+symbol to the <b>left</b> of the number in every language, a space between them, symbol height = text (numeral) height,
+clear space = &frac13; of the symbol height. Here the gap is exactly &frac13; of the symbol height and the height is the measured
+ink height of each font's digits (red guides below show baseline and digit top).</p>
+
+<h2>Artwork &middot; clear space &frac13; height &middot; colour via currentColor</h2>
+<div class="hero">
+  <div class="sw" style="background:#fffdf8;color:#1c1b19;border:1px solid var(--line)"><svg><use href="#riyal"/></svg><span class="cz"></span><p>ink on ivory</p></div>
+  <div class="sw" style="background:#0d3b2e;color:#fbf7ef"><svg><use href="#riyal"/></svg><span class="cz"></span><p>ivory on brand green</p></div>
+  <div class="sw" style="background:#0d3b2e;color:#c9a46a"><svg><use href="#riyal"/></svg><span class="cz"></span><p>gold on brand green</p></div>
+  <div class="sw" style="background:#1c1b19;color:#fbf7ef"><svg><use href="#riyal"/></svg><span class="cz"></span><p>ivory on ink</p></div>
+</div>
+
+<h2>Alignment proof at 108&nbsp;px (solid = baseline, dashed = digit top)</h2>
+<div class="proofs"><div class="proof f-cairo" style="font-weight:800"><span class="lbl">Cairo &middot; Arabic-Indic</span><div class="line"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span><i class="bl"></i></div></div><div class="proof f-cairo" style="font-weight:800"><span class="lbl">Cairo &middot; Western</span><div class="line"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span><i class="bl"></i></div></div><div class="proof f-manrope" style="font-weight:600"><span class="lbl">Manrope &middot; Western</span><div class="line"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span><i class="bl"></i></div></div></div>
+
+<h2>Size ladder &middot; per-font digit height vs generic 1cap</h2>
+<table><thead><tr><th></th><th>Cairo<br><span>Arabic-Indic &middot; riyal 0.677em</span></th><th>Cairo<br><span>Western &middot; riyal 0.670em</span></th><th>Noto Naskh Arabic<br><span>Arabic-Indic &middot; riyal 0.640em</span></th><th>Manrope<br><span>Western &middot; riyal 0.733em</span></th><th>Playfair Display<br><span>Western &middot; riyal 0.723em</span></th><th>Cairo, generic<br><span>height: 1cap</span></th></tr></thead><tbody><tr><th class='sz'>12px</th><td class="f-cairo" style="font-size:12px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:12px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:12px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:12px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:12px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:12px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>14px</th><td class="f-cairo" style="font-size:14px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:14px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:14px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:14px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:14px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:14px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>16px</th><td class="f-cairo" style="font-size:16px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:16px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:16px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:16px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:16px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:16px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>20px</th><td class="f-cairo" style="font-size:20px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:20px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:20px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:20px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:20px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:20px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>24px</th><td class="f-cairo" style="font-size:24px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:24px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:24px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:24px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:24px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:24px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>32px</th><td class="f-cairo" style="font-size:32px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:32px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:32px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:32px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:32px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:32px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>40px</th><td class="f-cairo" style="font-size:40px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:40px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:40px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:40px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:40px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:40px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr><tr><th class='sz'>48px</th><td class="f-cairo" style="font-size:48px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-cairo" style="font-size:48px;font-weight:700"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-naskh" style="font-size:48px;font-weight:700"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></td><td class="f-manrope" style="font-size:48px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-playfair" style="font-size:48px;font-weight:600"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td><td class="f-cairo generic" style="font-size:48px;font-weight:700"><span class="sar" dir="ltr" data-d="cap"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>157.82</span></td></tr></tbody></table>
+
+<h2>In context</h2>
+<div class="ctx">
+  <div class="panel f-cairo" dir="rtl" lang="ar">
+    <p style="font-weight:400">السعر <span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span> شامل ضريبة القيمة المضافة.</p>
+    <p style="font-weight:700;font-size:34px;color:var(--green)"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span> <span class="old"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>٣٣٠</span></span></p>
+    <p style="font-weight:800;font-size:44px"><span class="badge"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span></span></p>
+    <p style="font-weight:400;font-size:16px">النص الصغير: الشحن مجاني للطلبات فوق <span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>٢٠٠</span> داخل المملكة.</p>
+  </div>
+  <div class="panel f-manrope" dir="ltr" lang="en">
+    <p style="font-weight:400">Price <span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg>157.82</span> including VAT.</p>
+    <p style="font-weight:700;font-size:34px;color:var(--green)"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg>157.82</span> <span class="old"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg>330</span></span></p>
+    <p class="f-cairo" style="font-weight:800;font-size:44px"><span class="badge"><span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg>157.82</span></span></p>
+    <p style="font-weight:400;font-size:16px">Small print: free delivery in the Kingdom on orders over <span class="sar" dir="ltr" data-d="lat"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="Saudi riyals"><use href="#riyal"/></svg>200</span>.</p>
+  </div>
+</div>
+
+<h2>Do / don't</h2>
+<div class="dont">
+  <div class="panel good" dir="rtl"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal" viewBox="0 0 3000 3353" role="img" aria-label="ريال سعودي"><use href="#riyal"/></svg>١٥٧٫٨٢</span><small>symbol left, &frac13;-height gap, digit height</small></div>
+  <div class="panel bad" dir="rtl"><span dir="ltr" style="unicode-bidi:isolate">١٥٧٫٨٢ ر.س</span><small dir="ltr">&ldquo;ر.س&rdquo; or &ldquo;SAR&rdquo; reads as not knowing the market</small></div>
+  <div class="panel bad" dir="rtl"><span dir="ltr" class="sar" data-d="ar" style="unicode-bidi:isolate">١٥٧٫٨٢<svg class="riyal" viewBox="0 0 3000 3353"><use href="#riyal"/></svg></span><small>symbol on the right of the number</small></div>
+  <div class="panel bad" dir="rtl"><span class="sar" dir="ltr" data-d="ar"><svg class="riyal big" viewBox="0 0 3000 3353"><use href="#riyal"/></svg>١٥٧٫٨٢</span><small>symbol taller than the numerals</small></div>
+</div>
+
+<script>
+// Draw baseline + digit-top guides on the proofs from the same --riyal-h the component uses.
+document.fonts.ready.then(() => {
+  for (const pr of document.querySelectorAll('.proof .line')) {
+    const s = pr.querySelector('.sar'), bl = pr.querySelector('.bl'), svg = s.querySelector('svg');
+    const box = pr.getBoundingClientRect(), b = bl.getBoundingClientRect().bottom - box.top;
+    const h = svg.getBoundingClientRect().height;
+    for (const [y, cls] of [[b, 'guide'], [b - h, 'guide top']]) {
+      const g = document.createElement('i'); g.className = cls; g.style.top = y + 'px'; pr.appendChild(g); }
+  }
+  document.body.dataset.ready = '1';
+});
+</script>
+</body></html>

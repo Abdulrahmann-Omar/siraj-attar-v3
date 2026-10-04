@@ -1,0 +1,49 @@
+{
+  "source": "riyal.png",
+  "source_size": [
+    3000,
+    3353
+  ],
+  "offset_in_source": [
+    0.0,
+    0.0
+  ],
+  "viewBox": [
+    0,
+    0,
+    3000.0,
+    3353.0
+  ],
+  "aspect_w_over_h": 0.89472,
+  "contours": [
+    {
+      "hole": false,
+      "corners": 4,
+      "lines": 2,
+      "curves": 2
+    },
+    {
+      "hole": false,
+      "corners": 23,
+      "lines": 19,
+      "curves": 10
+    }
+  ],
+  "bytes": 1003,
+  "tolerance_px": 0.5,
+  "verification": {
+    "renderer": "Microsoft Edge (Playwright channel=msedge)",
+    "size": [
+      3000,
+      3353
+    ],
+    "iou": 0.9984,
+    "soft_iou": 0.99946,
+    "png_px": 3544910,
+    "svg_px": 3539584,
+    "only_png_px": 5491,
+    "only_svg_px": 165,
+    "max_edge_deviation_px": 3.0,
+    "p99_edge_deviation_px": 1.0
+  }
+}

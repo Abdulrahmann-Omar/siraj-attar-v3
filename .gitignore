@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+# Everyside internal planning notes (not part of this client project)
+planning/

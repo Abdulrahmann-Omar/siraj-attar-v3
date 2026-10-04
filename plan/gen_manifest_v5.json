@@ -1,0 +1,233 @@
+[
+ {
+  "id": "R5_C01",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering, and the red-and-white Yaqoot shemagh (same red houndstooth field, same white border with red stripes, same fringe) folded inside with one corner draped out. The open box on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 85mm lens, window light from the left. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/966965063_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_C02",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge line, and the dark green box with its gold-foil round seal and gold lettering. Top-down: the ghutra folded into a neat triangle in its open box on a plain deep green linen cloth, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1740470085_1.jpg",
+   "data/images/1740470085_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_C07",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the white Korean thobe-length fabric with its gold printed selvedge mark and logo, same weave and sheen. The fabric folded flat into neat rectangular layers like a cloth merchant's bolt, the gold selvedge print visible along the top edge, on a plain light oak surface against a plain warm-white backdrop, three-quarter view, 85mm lens. It is plain cloth only; there is no clothing anywhere in the image. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1668806182_1.jpg",
+   "data/images/1668806182_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_C09",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the Wathir Italian undershirt and its kraft gift box with the botanical print and window, same printed marks. The box standing upright, slightly angled, on a plain cream surface against a plain warm-white backdrop, soft window light, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/892978768_2.jpg",
+   "data/images/892978768_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K01",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the red-and-white Yaqoot shemagh (same red houndstooth field, same white border with red stripes, same fringe) and the black Siraj Attar agal (same cord, double ring). The shemagh folded into a neat triangle with the black agal resting on top, on a plain honed beige stone surface against a plain warm-white backdrop, three-quarter high angle, 85mm lens. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/966965063_2.jpg",
+   "data/images/1113769137_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K06",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the four products with their true colours, patterns and logos: the green box with the red-and-white Yaqoot shemagh, the Attar 3 glass perfume bottle with its label, the black agal on its green box, and the silver knot cufflinks. Top-down flat lay: the four products evenly spaced in a clean row-and-column grid on a plain deep green linen cloth, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/189452492_1.jpg",
+   "data/images/1113769137_1.jpg",
+   "data/images/265256366_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K08",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the dark green box with its gold-foil round seal and gold lettering holding the red-and-white shemagh, and the lilac-white Japanese fabric with its gold selvedge print. The open shemagh box and a neatly folded flat stack of the plain fabric side by side on a plain worn wooden counter against a plain dark backdrop, soft daylight from the left, three-quarter view, 85mm lens. The fabric is plain cloth only; there is no clothing anywhere in the image. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K09",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the black Siraj Attar gift box with gold seal holding the folded red-and-white shemagh, the perfume bottle and the cufflinks, same arrangement. The open gift box on a plain warm stone surface against a plain warm-beige backdrop, three-quarter high angle, 85mm lens, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1381142749_3.webp",
+   "data/images/1381142749_1.webp"
+  ],
+  "params": {
+   "aspect_ratio": "4:3",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K04a",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the five products with their true colours, patterns and logos: the green box with the red-and-white Yaqoot shemagh, the black agal on its green box, the lilac-white Japanese fabric folded flat, the green perfume box with three bottles, and the silver knot cufflinks. Top-down flat lay: the five products arranged in one clean row with even spacing on a plain warm-beige surface, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/966965063_1.jpg",
+   "data/images/1113769137_1.jpg",
+   "data/images/1292393513_1.jpg",
+   "data/images/672063087_1.jpg",
+   "data/images/265256366_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K04b",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the black Siraj Attar agal (same cord and double ring) resting on its dark green box with the gold-foil round seal and its printed lettering exactly as in the reference. Top-down: the agal on its box on a plain honed beige stone surface against a plain warm-white backdrop, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1113769137_1.jpg",
+   "data/images/1113769137_4.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K04c",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the soft lilac-white Japanese cotton-blend fabric with its gold printed selvedge mark. The fabric folded flat into neat rectangular layers like a cloth merchant's bolt on a plain light oak surface, the gold selvedge print visible, three-quarter view, soft daylight. It is plain cloth only; there is no clothing anywhere in the image. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1292393513_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K04d",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the open dark green gift box with its three glass perfume bottles, same caps, labels and arrangement. The open box on a plain warm stone surface against a plain warm-beige backdrop, three-quarter view, 85mm lens, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/672063087_1.jpg",
+   "data/images/672063087_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K04e",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the silver knot cufflinks (same shape, engraving and finish). The pair of cufflinks resting on the folded French cuff of a white thobe sleeve laid flat on a plain light surface, 100mm macro lens, soft window light. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/265256366_2.jpg",
+   "data/images/265256366_1.jpg",
+   "data/images/265256366_3.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K05a",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge. The ghutra laid flat on a plain white ironing surface with a modern steam iron resting on it, a light wisp of steam, 45-degree view, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1740470085_2.jpg",
+   "data/images/1740470085_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K05b",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the bright white Swiss cotton voile ghutra with its woven selvedge line, and the dark green box with its gold-foil round seal and gold lettering. Top-down: the ghutra folded into a neat triangle beside its open box on a plain deep green linen cloth, soft daylight. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1740470085_1.jpg",
+   "data/images/1740470085_2.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_K10",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the five fabrics with their true colours, weave and printed selvedges: lilac-white Japanese fabric with gold print, white Korean fabric with gold print, Italian pinstripe wool, solid navy English wool, cream-white Italian voile. The five fabrics as neatly folded flat lengths stacked in one column on a plain light oak surface against a plain warm-grey backdrop, three-quarter view, 85mm lens, window light. Plain cloth only; no clothing anywhere. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/1292393513_1.jpg",
+   "data/images/1668806182_1.jpg",
+   "data/images/1449104353_4.jpg",
+   "data/images/1029444903_1.jpg",
+   "data/images/563952490_1.jpg"
+  ],
+  "params": {
+   "aspect_ratio": "3:2",
+   "resolution": "2k"
+  }
+ },
+ {
+  "id": "R5_P11",
+  "model": "seedream_5_0_flash",
+  "prompt": "Keep the product EXACTLY as in the reference photos: the Attar 3 glass perfume bottle with its cap and label exactly as in the reference. The bottle standing upright on a plain honed beige stone surface against a plain warm-white backdrop, eye-level, 100mm lens, soft window light from the left. Real commercial product photograph, not a render: natural daylight, realistic soft contact shadow, true colours, real material texture, no CGI look. Product only: no people, no hands, no mannequin. No added text or letters. Minimal set: only the product on one plain real surface against a plain seamless backdrop; no props. The whole product is fully visible and centred with a clear margin of empty space on every side; nothing touches or crosses the frame edges.",
+  "images": [
+   "data/images/189452492_1.jpg",
+   "data/images/189452492_2.jpg",
+   "data/images/189452492_3.png"
+  ],
+  "params": {
+   "aspect_ratio": "3:4",
+   "resolution": "2k"
+  }
+ }
+]

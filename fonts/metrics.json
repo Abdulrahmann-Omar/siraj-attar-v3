@@ -1,0 +1,258 @@
+{
+  "Cairo": {
+    "cap": 0.69,
+    "x": 0.5,
+    "lat_digits": 0.67,
+    "ar_digits": 0.6767,
+    "ar_digits_desc": 0.01,
+    "alef": 0.7167
+  },
+  "IBM Plex Sans Arabic": {
+    "cap": 0.7,
+    "x": 0.5167,
+    "lat_digits": 0.71,
+    "ar_digits": 0.62,
+    "ar_digits_desc": 0.0133,
+    "alef": 0.74
+  },
+  "Alexandria": {
+    "cap": 0.7,
+    "x": 0.53,
+    "lat_digits": 0.7067,
+    "ar_digits": 0.81,
+    "ar_digits_desc": 0.0067,
+    "alef": 0.82
+  },
+  "Readex Pro": {
+    "cap": 0.7,
+    "x": 0.5267,
+    "lat_digits": 0.7167,
+    "ar_digits": 0.68,
+    "ar_digits_desc": 0.0167,
+    "alef": 0.74
+  },
+  "Noto Kufi Arabic": {
+    "cap": 0.7133,
+    "x": 0.5367,
+    "lat_digits": 0.7233,
+    "ar_digits": 0.7,
+    "ar_digits_desc": 0.01,
+    "alef": 0.76
+  },
+  "Noto Naskh Arabic": {
+    "cap": 0.7133,
+    "x": 0.5367,
+    "lat_digits": 0.7233,
+    "ar_digits": 0.64,
+    "ar_digits_desc": 0,
+    "alef": 0.67
+  },
+  "Noto Sans Arabic": {
+    "cap": 0.7133,
+    "x": 0.5367,
+    "lat_digits": 0.7233,
+    "ar_digits": 0.6967,
+    "ar_digits_desc": 0.0233,
+    "alef": 0.7133
+  },
+  "Amiri": {
+    "cap": 0.6467,
+    "x": 0.43,
+    "lat_digits": 0.63,
+    "ar_digits": 0.5667,
+    "ar_digits_desc": 0.1133,
+    "alef": 0.6933
+  },
+  "Aref Ruqaa": {
+    "cap": 0.69,
+    "x": 0.4633,
+    "lat_digits": 0.72,
+    "ar_digits": 0.5933,
+    "ar_digits_desc": 0.0033,
+    "alef": 0.6833
+  },
+  "Reem Kufi": {
+    "cap": 0.7267,
+    "x": 0.46,
+    "lat_digits": 0.68,
+    "ar_digits": 0.62,
+    "ar_digits_desc": 0.02,
+    "alef": 0.8
+  },
+  "Tajawal": {
+    "cap": 0.6333,
+    "x": 0.4533,
+    "lat_digits": 0.6467,
+    "ar_digits": 0.5767,
+    "ar_digits_desc": 0.0133,
+    "alef": 0.6433
+  },
+  "Almarai": {
+    "cap": 0.7167,
+    "x": 0.5133,
+    "lat_digits": 0.73,
+    "ar_digits": 0.6867,
+    "ar_digits_desc": 0.01,
+    "alef": 0.7167
+  },
+  "Changa": {
+    "cap": 0.6267,
+    "x": 0.5,
+    "lat_digits": 0.64,
+    "ar_digits": 0.64,
+    "ar_digits_desc": 0.0167,
+    "alef": 0.63
+  },
+  "Rubik": {
+    "cap": 0.7,
+    "x": 0.52,
+    "lat_digits": 0.71,
+    "ar_digits": 0.63,
+    "ar_digits_desc": 0.0133,
+    "alef": 0.75
+  },
+  "Lalezar": {
+    "cap": 0.57,
+    "x": 0.46,
+    "lat_digits": 0.5933,
+    "ar_digits": 0.5967,
+    "ar_digits_desc": 0.0267,
+    "alef": 0.5667
+  },
+  "Marhey": {
+    "cap": 0.77,
+    "x": 0.4667,
+    "lat_digits": 0.72,
+    "ar_digits": 0.65,
+    "ar_digits_desc": 0.04,
+    "alef": 0.7333
+  },
+  "Baloo Bhaijaan 2": {
+    "cap": 0.6133,
+    "x": 0.47,
+    "lat_digits": 0.6233,
+    "ar_digits": 0.6767,
+    "ar_digits_desc": 0.01,
+    "alef": 0.67
+  },
+  "El Messiri": {
+    "cap": 0.66,
+    "x": 0.47,
+    "lat_digits": 0.68,
+    "ar_digits": 0.62,
+    "ar_digits_desc": 0.0167,
+    "alef": 0.66
+  },
+  "Zain": {
+    "cap": 0.6967,
+    "x": 0.46,
+    "lat_digits": 0.7067,
+    "ar_digits": 0.7067,
+    "ar_digits_desc": 0.0133,
+    "alef": 0.6967
+  },
+  "Kufam": {
+    "cap": 0.72,
+    "x": 0.5433,
+    "lat_digits": 0.73,
+    "ar_digits": 0.7833,
+    "ar_digits_desc": 0,
+    "alef": 0.76
+  },
+  "Lateef": {
+    "cap": 0.4633,
+    "x": 0.34,
+    "lat_digits": 0.4733,
+    "ar_digits": 0.5567,
+    "ar_digits_desc": 0.01,
+    "alef": 0.53
+  },
+  "Scheherazade New": {
+    "cap": 0.6,
+    "x": 0.4033,
+    "lat_digits": 0.6133,
+    "ar_digits": 0.5667,
+    "ar_digits_desc": 0.1067,
+    "alef": 0.7
+  },
+  "Harmattan": {
+    "cap": 0.5367,
+    "x": 0.3733,
+    "lat_digits": 0.5433,
+    "ar_digits": 0.54,
+    "ar_digits_desc": 0.0167,
+    "alef": 0.53
+  },
+  "Mada": {
+    "cap": 0.6567,
+    "x": 0.4867,
+    "lat_digits": 0.6467,
+    "ar_digits": 0.6667,
+    "ar_digits_desc": 0.0333,
+    "alef": 0.6233
+  },
+  "Vazirmatn": {
+    "cap": 0.71,
+    "x": 0.53,
+    "lat_digits": 0.72,
+    "ar_digits": 0.67,
+    "ar_digits_desc": 0.0267,
+    "alef": 0.6733
+  },
+  "Beiruti": {
+    "cap": 0.6033,
+    "x": 0.39,
+    "lat_digits": 0.6067,
+    "ar_digits": 0.63,
+    "ar_digits_desc": 0.0033,
+    "alef": 0.63
+  },
+  "Manrope": {
+    "cap": 0.72,
+    "x": 0.54,
+    "lat_digits": 0.7333,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  },
+  "Inter": {
+    "cap": 0.7267,
+    "x": 0.5167,
+    "lat_digits": 0.74,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  },
+  "Playfair Display": {
+    "cap": 0.7067,
+    "x": 0.52,
+    "lat_digits": 0.7233,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  },
+  "Cormorant": {
+    "cap": 0.6267,
+    "x": 0.4167,
+    "lat_digits": 0.66,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  },
+  "Cormorant Garamond": {
+    "cap": 0.6267,
+    "x": 0.4167,
+    "lat_digits": 0.66,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  },
+  "Fraunces": {
+    "cap": 0.7133,
+    "x": 0.44,
+    "lat_digits": 0.73,
+    "ar_digits": 0.7233,
+    "ar_digits_desc": -0.1433,
+    "alef": 0.7367
+  }
+}
