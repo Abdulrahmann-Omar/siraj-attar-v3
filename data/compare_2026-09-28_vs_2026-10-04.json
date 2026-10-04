@@ -1,0 +1,1022 @@
+{
+ "new_products": [
+  {
+   "id": "196810152",
+   "title": "غترة زفير",
+   "price": 152.17,
+   "categories": [
+    "الغتر"
+   ],
+   "in_menu_category": true,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/غترة-زفير/p196810152"
+  },
+  {
+   "id": "1302660631",
+   "title": "قماش999",
+   "price": 135.32,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش999/p1302660631"
+  },
+  {
+   "id": "1147628411",
+   "title": "قماش 9426",
+   "price": 98.92,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-9426/p1147628411"
+  },
+  {
+   "id": "2134309440",
+   "title": "قماش ارزونا",
+   "price": 276,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-ارزونا/p2134309440"
+  },
+  {
+   "id": "1124224097",
+   "title": "قماش 933",
+   "price": 193.13,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-933/p1124224097"
+  },
+  {
+   "id": "1369622053",
+   "title": "قماش ايطالي تيستا بوارنو",
+   "price": 303.33,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-ايطالي-تيستا-بوارنو/p1369622053"
+  },
+  {
+   "id": "1393879881",
+   "title": "قماش ايطالي تيستا بالميرول 25،%مشروك",
+   "price": 303.33,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-ايطالي-تيستا-بالميرول-25،مشروك/p1393879881"
+  },
+  {
+   "id": "787951805",
+   "title": "قماش العطار رومنسي",
+   "price": 316.25,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-العطار-رومنسي/p787951805"
+  },
+  {
+   "id": "1935723405",
+   "title": "قماش العطار 404",
+   "price": 178.75,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-العطار-404/p1935723405"
+  },
+  {
+   "id": "183743361",
+   "title": "شال باشمينا Q2S55",
+   "price": 886.96,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/شال-باشمينا-q2s55/p183743361"
+  },
+  {
+   "id": "2049055147",
+   "title": "شال باشميناQ6S55",
+   "price": 886.96,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/شال-باشميناq6s55/p2049055147"
+  },
+  {
+   "id": "1129261946",
+   "title": "شال البيداء نص ترمه m7s60",
+   "price": 340,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/شال-البيداء-نص-ترمه-m7s60/p1129261946"
+  },
+  {
+   "id": "987219575",
+   "title": "910",
+   "price": 308.75,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/910/p987219575"
+  },
+  {
+   "id": "1762305910",
+   "title": "قماش 906",
+   "price": 201.6,
+   "categories": [],
+   "in_menu_category": false,
+   "availability": "in_stock",
+   "url": "https://sirajattarbros.com/ar/قماش-906/p1762305910"
+  }
+ ],
+ "removed_products": [],
+ "price_changes": [
+  {
+   "id": "1546150268",
+   "title": "شماغ الوسام 26 الأحمر",
+   "old_price": 195.5,
+   "new_price": 207,
+   "old_regular": 243.48,
+   "new_regular": 243.48,
+   "change_pct": 5.9
+  }
+ ],
+ "offers_ended": [],
+ "offers_started": [],
+ "offers_continuing": [
+  {
+   "id": "337691313",
+   "title": "شماغ العطار كلاسيك مرجان",
+   "price": 208.7,
+   "compare_at": 260.87,
+   "discount_pct": 20.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1357196057",
+   "title": "شماغ كلاسيك عنبر صافي",
+   "price": 218.04,
+   "compare_at": 256.52,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1211546059",
+   "title": "شماغ ياقوت أبيض",
+   "price": 218.04,
+   "compare_at": 260.8,
+   "discount_pct": 16.4,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2120850122",
+   "title": "شماغ العطار كلاسيك مرجان صافي",
+   "price": 208.7,
+   "compare_at": 260.87,
+   "discount_pct": 20.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1499162789",
+   "title": "غترة العطار مكثل",
+   "price": 110.86,
+   "compare_at": 130.4,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "193975872",
+   "title": "شماغ العطار كلاسيك عنبر",
+   "price": 221.74,
+   "compare_at": 256.52,
+   "discount_pct": 13.6,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "966965063",
+   "title": "شماغ العطار كلاسيك ياقوت",
+   "price": 229.07,
+   "compare_at": 269.5,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1983204219",
+   "title": "شماغ العطار كلاسيك عقيق",
+   "price": 240.21,
+   "compare_at": 282.6,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "333921099",
+   "title": "شماغ العطار الذهبي",
+   "price": 123.91,
+   "compare_at": 247.8,
+   "discount_pct": 50.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1604079293",
+   "title": "شماغ أوديمار 4",
+   "price": 185.87,
+   "compare_at": 247.83,
+   "discount_pct": 25.0,
+   "sale_ends": null
+  },
+  {
+   "id": "24078165",
+   "title": "شماغ ختم العطار 26 الاحمر",
+   "price": 221.73,
+   "compare_at": 260.86,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "160018205",
+   "title": "شماغ الهدا",
+   "price": 181.08,
+   "compare_at": 213.04,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1949762576",
+   "title": "شماغ العطار الأوربي",
+   "price": 201.74,
+   "compare_at": 252.17,
+   "discount_pct": 20.0,
+   "sale_ends": null
+  },
+  {
+   "id": "470478398",
+   "title": "شماغ نقش العطار 25 الذهبي",
+   "price": 139.13,
+   "compare_at": 272,
+   "discount_pct": 48.8,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1664674203",
+   "title": "نقش العطار 26 الأحمر",
+   "price": 181.08,
+   "compare_at": 213.04,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1546150268",
+   "title": "شماغ الوسام 26 الأحمر",
+   "price": 207,
+   "compare_at": 243.48,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1471159401",
+   "title": "شماغ حفاوة العطار 1 الاحمر",
+   "price": 144.08,
+   "compare_at": 169.5,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "99351912",
+   "title": "شماغ حفاوة العطار 2 الاحمر",
+   "price": 144.08,
+   "compare_at": 169.5,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1988908934",
+   "title": "شماغ ياقوت شلش أحمر",
+   "price": 221.73,
+   "compare_at": 260.87,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "437508308",
+   "title": "شماغ نقش العطار 25 الاحمر",
+   "price": 272,
+   "compare_at": 278.26,
+   "discount_pct": 2.2,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1842109012",
+   "title": "شماغ برنيني ذهبي",
+   "price": 194.78,
+   "compare_at": 320,
+   "discount_pct": 39.1,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2125369422",
+   "title": "شماغ برنيني أحمر",
+   "price": 196.93,
+   "compare_at": 323.5,
+   "discount_pct": 39.1,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2024205944",
+   "title": "شماغ كلاسيك زفير",
+   "price": 157.82,
+   "compare_at": 330,
+   "discount_pct": 52.2,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1782560358",
+   "title": "غترة العطار بريميوم",
+   "price": 92,
+   "compare_at": 143.4,
+   "discount_pct": 35.8,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1316325476",
+   "title": "غترة العطار إسبيشل",
+   "price": 92,
+   "compare_at": 152.1,
+   "discount_pct": 39.5,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1176249105",
+   "title": "غترة العطار سوبر",
+   "price": 92,
+   "compare_at": 165,
+   "discount_pct": 44.2,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1712185778",
+   "title": "غترة العطار العصرية",
+   "price": 148.5,
+   "compare_at": 165,
+   "discount_pct": 10.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "290704026",
+   "title": "نقش العطار 26 الأبيض",
+   "price": 181.05,
+   "compare_at": 213,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1721304177",
+   "title": "شماغ حفاوة العطار 1 الأبيض",
+   "price": 144.08,
+   "compare_at": 169.5,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2012800981",
+   "title": "سروال طويل كومفورت",
+   "price": 44.34,
+   "compare_at": 60,
+   "discount_pct": 26.1,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "892978768",
+   "title": "قميص داخلي وثير إيطالي (قطعة واحدة)",
+   "price": 44.34,
+   "compare_at": 52.17,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "708681311",
+   "title": "قماش العطار برو",
+   "price": 276.96,
+   "compare_at": 426.09,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1526727261",
+   "title": "قماش العطار 096",
+   "price": 136.5,
+   "compare_at": 241.5,
+   "discount_pct": 43.5,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1117574161",
+   "title": "قماش العطار ريو",
+   "price": 276.96,
+   "compare_at": 426.09,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "512779702",
+   "title": "قماش العطار اسباني قطن 23",
+   "price": 174.58,
+   "compare_at": 309,
+   "discount_pct": 43.5,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1502977199",
+   "title": "قماش لوفر 95",
+   "price": 208.7,
+   "compare_at": 260.87,
+   "discount_pct": 20.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "972290889",
+   "title": "العطار 404",
+   "price": 122.5,
+   "compare_at": 175,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2029457986",
+   "title": "العطار 913",
+   "price": 125.12,
+   "compare_at": 192.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "17848842",
+   "title": "قماش العطار 265",
+   "price": 113.04,
+   "compare_at": 173.91,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "927677193",
+   "title": "قماش العطار 263",
+   "price": 113.04,
+   "compare_at": 173.91,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "967106062",
+   "title": "قماش العطار 267",
+   "price": 121.74,
+   "compare_at": 173.91,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "502435852",
+   "title": "قماش العطار 292",
+   "price": 113.04,
+   "compare_at": 173.88,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1075081475",
+   "title": "قماش العطار اسبيشل",
+   "price": 102.37,
+   "compare_at": 157.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1984909826",
+   "title": "قماش العطار 270",
+   "price": 113.04,
+   "compare_at": 173.88,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "2025387271",
+   "title": "قماش العطار الابداع",
+   "price": 102.37,
+   "compare_at": 157.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "785634822",
+   "title": "قماش العطار الحلم",
+   "price": 102.37,
+   "compare_at": 157.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1559672581",
+   "title": "قماش القمة",
+   "price": 110.25,
+   "compare_at": 157.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "827099451",
+   "title": "قماش العطار سهيل",
+   "price": 110.25,
+   "compare_at": 157.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "362367801",
+   "title": "قماش العطار 300",
+   "price": 97.5,
+   "compare_at": 150,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1002187832",
+   "title": "قماش العطار 2110",
+   "price": 97.5,
+   "compare_at": 150,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1775701311",
+   "title": "قماش العطار 2206",
+   "price": 97.5,
+   "compare_at": 150,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1668806182",
+   "title": "قماش العطار 974",
+   "price": 49,
+   "compare_at": 70,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "296408869",
+   "title": "قماش العطار 978",
+   "price": 49,
+   "compare_at": 70,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1204668452",
+   "title": "قماش العطار 975",
+   "price": 49,
+   "compare_at": 70,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1977657819",
+   "title": "قماش العطار 977",
+   "price": 49,
+   "compare_at": 70,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1312648153",
+   "title": "قماش العطار 976",
+   "price": 49,
+   "compare_at": 70,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "347923824",
+   "title": "قماش 918",
+   "price": 249.93,
+   "compare_at": 384.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1937398379",
+   "title": "قماش 990",
+   "price": 249.93,
+   "compare_at": 384.5,
+   "discount_pct": 35.0,
+   "sale_ends": null
+  },
+  {
+   "id": "563952490",
+   "title": "قماش إيطالي بوسل-D955082",
+   "price": 385.61,
+   "compare_at": 593.25,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1265128194",
+   "title": "العطار بوبلين لورد أسباني",
+   "price": 125.12,
+   "compare_at": 192.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1292393513",
+   "title": "العطار 909",
+   "price": 249.93,
+   "compare_at": 384.5,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "152164309",
+   "title": "قماش ايطالي تيستا دايمونتي",
+   "price": 303.33,
+   "compare_at": 466.66,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1150351142",
+   "title": "العطار سويسري S- 2920",
+   "price": 364,
+   "compare_at": 560,
+   "discount_pct": 35.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1744147328",
+   "title": "شال سادة",
+   "price": 133.04,
+   "compare_at": 156.52,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1852126853",
+   "title": "صوف بيور إيطالي كاروه",
+   "price": 710,
+   "compare_at": 1015,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1449104353",
+   "title": "صوف ايطالي انجليكو سوبر 140 مقلم",
+   "price": 710,
+   "compare_at": 1015,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1489975014",
+   "title": "صوف إيطالي دولفينو سوبر 140 مقلم",
+   "price": 967.75,
+   "compare_at": 1382.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "916844931",
+   "title": "شال باشميناQ1S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1691931266",
+   "title": "شال باشمينا Q1S60",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "957781120",
+   "title": "شال باشمينا Q2S58",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "493049478",
+   "title": "شال باشمينا Q2S60",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "668731835",
+   "title": "شال باشمينا Q3S58",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "285519455",
+   "title": "شال البيداء نص ترمه m16s58",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "1053178443",
+   "title": "شال البيداء نص ترمه m2s60",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "320666697",
+   "title": "شال البيداء نص ترمهm3s60",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "630038350",
+   "title": "شال البيداء نص ترمه m4s60",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "4977729",
+   "title": "شال البيداء نص ترمهm6s55",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "663088504",
+   "title": "شال البيداء نص ترمه m11s60",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "1438174847",
+   "title": "شال البيداء نص ترمهm12s60",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "74544352",
+   "title": "صوف ايطالي انجليكو سوبر 140 سادة",
+   "price": 710,
+   "compare_at": 1015,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1419600434",
+   "title": "صوف omc سوبر 150 مقلم",
+   "price": 943.25,
+   "compare_at": 1347.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "220325430",
+   "title": "صوف ويليام هليستد سوبر 130 مؤنس",
+   "price": 894.25,
+   "compare_at": 1277.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1029444903",
+   "title": "صوف ويليام هليستد سوبر 130 ساده",
+   "price": 894.25,
+   "compare_at": 1277.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1870697154",
+   "title": "شال باشمينا Q1S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "47352825",
+   "title": "شال باشمينا Q3S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "821325048",
+   "title": "شال باشمينا Q4S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "531874291",
+   "title": "شال باشمينا Q5S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "681314293",
+   "title": "شال باشمينا Q6S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1629527017",
+   "title": "شال باشمينا Q7S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1341059308",
+   "title": "شال باشمينا Q9S55",
+   "price": 886.96,
+   "compare_at": 1043.47,
+   "discount_pct": 15.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1023740132",
+   "title": "صوف ويليام هالستد سوبر 130 مقلم",
+   "price": 894.25,
+   "compare_at": 1277.5,
+   "discount_pct": 30.0,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1239830174",
+   "title": "شال البيداء نص تورمه M2S55",
+   "price": 340,
+   "compare_at": 400,
+   "discount_pct": 15.0,
+   "sale_ends": null
+  },
+  {
+   "id": "265256366",
+   "title": "كبك فضي (خيارات متعددة)",
+   "price": 53,
+   "compare_at": 86.96,
+   "discount_pct": 39.1,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1610956716",
+   "title": "كبك أزرق (خيارات متعددة)",
+   "price": 53,
+   "compare_at": 86.96,
+   "discount_pct": 39.1,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "14237135",
+   "title": "ِAttar 1 _ العطار 1",
+   "price": 143.46,
+   "compare_at": 275,
+   "discount_pct": 47.8,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "1696071629",
+   "title": "Attar2 _العطار 2",
+   "price": 143.46,
+   "compare_at": 275,
+   "discount_pct": 47.8,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  },
+  {
+   "id": "189452492",
+   "title": "Attar 3 _ العطار 3",
+   "price": 119.55,
+   "compare_at": 275,
+   "discount_pct": 56.5,
+   "sale_ends": "2026-10-06T02:59:59+03:00"
+  }
+ ],
+ "availability_changes": [
+  {
+   "id": "333921099",
+   "title": "شماغ العطار الذهبي",
+   "was_available": true,
+   "now": "out_of_stock"
+  },
+  {
+   "id": "1842109012",
+   "title": "شماغ برنيني ذهبي",
+   "was_available": true,
+   "now": "out_of_stock"
+  }
+ ],
+ "title_changes": [
+  {
+   "id": "470478398",
+   "old": "شماغ  نقش العطار 25 الذهبي",
+   "new": "شماغ نقش العطار 25 الذهبي",
+   "whitespace_only": true
+  },
+  {
+   "id": "1471159401",
+   "old": "شماغ حفاوة  العطار 1 الاحمر",
+   "new": "شماغ حفاوة العطار 1 الاحمر",
+   "whitespace_only": true
+  },
+  {
+   "id": "1705326923",
+   "old": "سروال  داخلي رجالي كومفورت",
+   "new": "سروال داخلي رجالي كومفورت",
+   "whitespace_only": true
+  },
+  {
+   "id": "870973619",
+   "old": "جوارب وثير الرسمية  (ألوان متعددة)",
+   "new": "جوارب وثير الرسمية (ألوان متعددة)",
+   "whitespace_only": true
+  },
+  {
+   "id": "512779702",
+   "old": "قماش العطار اسباني قطن  23",
+   "new": "قماش العطار اسباني قطن 23",
+   "whitespace_only": true
+  },
+  {
+   "id": "1559672581",
+   "old": "قماش  القمة",
+   "new": "قماش القمة",
+   "whitespace_only": true
+  },
+  {
+   "id": "144922964",
+   "old": "شال البيداء نص ترمه  m1s60",
+   "new": "شال البيداء نص ترمه m1s60",
+   "whitespace_only": true
+  },
+  {
+   "id": "1023740132",
+   "old": "صوف ويليام هالستد سوبر 130  مقلم",
+   "new": "صوف ويليام هالستد سوبر 130 مقلم",
+   "whitespace_only": true
+  }
+ ],
+ "category_changes": [],
+ "image_changes": [],
+ "category_count_changes": [
+  {
+   "id": "23035657",
+   "name": "الغتر",
+   "old": 7,
+   "new": 8
+  }
+ ],
+ "summary": {
+  "new_products": 14,
+  "removed_products": 0,
+  "price_changes": 1,
+  "offers_ended": 0,
+  "offers_started": 0,
+  "offers_continuing": 97,
+  "availability_changes": 2,
+  "title_changes": 8,
+  "category_changes": 0,
+  "image_changes": 0,
+  "category_count_changes": 1,
+  "old_products": 123,
+  "new_products_total": 137,
+  "old_scrape": "2026-09-28",
+  "new_scrape": "2026-10-04",
+  "old_on_sale": 97,
+  "new_on_sale": 109,
+  "new_on_sale_among_previous_123": 97,
+  "sale_end_dates": [
+   "2026-10-06T02:59:59+03:00",
+   "None"
+  ]
+ }
+}

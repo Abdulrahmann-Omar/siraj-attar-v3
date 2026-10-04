@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html
+	lang="ar" dir="rtl" 
+		class="selia-theme ">
+	<!-- بسم الله الرحمن الرحيم -->
+	<!-- Selia Tech تم تطوير هذا القالب بواسطة شركة  -->
+	<!-- https://selia-tech.com -->
+		
+														
+										
+																
+
+																													<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+
+				<script type="module" src="https://sirajattarbros.com/.webmcp/bridge.js" data-packs="c2pa"></script><style>
+			.loading-overlay {
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				z-index: 99999;
+				left: 0;
+				top: 0;
+								backdrop-filter: blur(20px);
+				-webkit-backdrop-filter: blur(20px);
+				-moz-backdrop-filter: blur(20px);
+				background-color: rgb(255 255 255 / 0.5%);
+							}
+			.loading-overlay .spinner {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			}
+								</style>
+				<link rel="preload" href="https://cdn.assets.salla.network/themes/581928698/1.220.0/product-card.js" as="script" crossorigin="anonymous">
+
+						<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="74c5be4cc59d07047fd37ce0-|49"></script><link rel="preload" href="https://cdn.assets.salla.network/themes/581928698/1.220.0/vendor-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="https://cdn.assets.salla.network/themes/581928698/1.220.0/vendor-styles.css"></noscript>
+
+				<link rel="stylesheet" href="https://cdn.assets.salla.network/themes/581928698/1.220.0/app.css">
+
+								<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="74c5be4cc59d07047fd37ce0-|49"></script><link rel="preload" href="https://cdn.salla.sa/themes/custom_fonts/946211295/alfont_com29LTAzer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+			<noscript><link rel="stylesheet" href="https://cdn.salla.sa/themes/custom_fonts/946211295/alfont_com29LTAzer.css"></noscript>
+		
+				<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="74c5be4cc59d07047fd37ce0-|49"></script><link rel="preload" href="https://cdn.salla.network/fonts/sallaicons.css?v=2.0.5" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="https://cdn.salla.network/fonts/sallaicons.css?v=2.0.5"></noscript>
+
+				<script data-cfasync="false">
+			(function(){
+				function activate(l){l.onload=function(){this.media='all'};if(l.sheet)l.media='all';}
+				document.querySelectorAll('.s-deferred-css').forEach(activate);
+				new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){
+					if(n.nodeType===1&&n.classList&&n.classList.contains('s-deferred-css'))activate(n);
+				});});}).observe(document.head,{childList:true});
+			})();
+			if(localStorage.getItem('promotionBanner')==='hidden'){
+				document.documentElement.classList.add('promotion-hidden');
+			}
+		</script>
+													
+
+		<style>
+		:root{
+			--font-main: 'alfont_com29LTAzer';
+			--color-primary: #004738;
+			--bg-primary: #ffffff;
+			--bg-secondary: #ffffff;
+			--header-bg: #ffffff;
+			--header-text-color: #111827;
+			--store-text-primary: #111827;
+			--store-text-secondary: #4b5563;
+			--product-bg: #ffffff;
+			--color-primary-dark: #002112;
+			--color-primary-light: #266d5e;
+			--color-primary-reverse: #ccffff;
+			/* Theme specific variables */
+			--s-radius: .75rem;
+			--product-image-height: 17rem;
+			--product-border-color: #eeeeee;
+			--product-enhanced-btn-bg: #004736;
+			--product-enhanced-btn-color: #ffffff;
+			--products-per-row: 4;
+			--footer-bg: #ededed;
+			--footer-text-color: #004838;
+			--bottom-footer-bg: #F9FAFB;
+			--countdown-bg: #f3f4f6;
+			--countdown-color: #111827;
+			--countdown-border-color: #f3f4f6;
+			--bottom-nav-bg: #ffffff;
+			--bottom-nav-text-color: #111827;
+			--wa-btn-bg: #22c55e;
+			--wa-btn-text-color: #ffffff;
+		}
+		.dark{
+				--bg-primary: #1d1f1f;
+				--bg-secondary: #0e0f0f;
+				--header-bg: #0e0f0f;
+				--header-text-color: #ffffff;
+				--store-text-primary: #ffffff;
+				--store-text-secondary: #cccccc;
+				--product-bg: #1d1f1f;
+				--footer-bg: #0e0f0f;
+				--footer-text-color: #ffffff;
+				--bottom-footer-bg: #0e0f0f;
+				--bottom-nav-bg: #1d1f1f;
+				--bottom-nav-text-color: #ffffff;
+			}
+	</style>
+				<script data-cfasync="false">
+			if(localStorage.getItem('selia-theme-mode')){
+				localStorage.removeItem('selia-theme-mode');
+			}
+		</script>
+			<script data-cfasync="false">
+			document.addEventListener('DOMContentLoaded', function () {
+				var spinner = document.querySelector('.loading-overlay .spinner');
+				var loadingOverlay = spinner ? spinner.parentElement : null;
+				if (!loadingOverlay) return;
+				loadingOverlay.style.transition = 'opacity 0.5s ease';
+				loadingOverlay.style.opacity = 0;
+				setTimeout(function () { loadingOverlay.remove(); }, 500);
+			});
+		</script>
+		<script data-cfasync="false">
+			window.__pcQueue = [];
+			if (!customElements.get('custom-salla-product-card')) {
+				customElements.define('custom-salla-product-card', class extends HTMLElement {
+					connectedCallback() {
+						if (window.__pcReady) {
+							window.__pcReady.call(this);
+						} else {
+							window.__pcQueue.push(this);
+						}
+					}
+				});
+			}
+		</script>
+		<script defer type="text/javascript" data-cfasync="false" crossorigin="anonymous" src="https://cdn.assets.salla.network/themes/581928698/1.220.0/product-card.js"></script>
+							<script defer src="https://cdn.assets.salla.network/themes/581928698/1.220.0/add-product-toast.js" type="74c5be4cc59d07047fd37ce0-text/javascript"></script>
+				<script data-cfasync="false">
+			window.activate_zoom = ""
+			window.header_is_sticky = ""
+			window.animate_blocks = "1"
+			window.dark_mode_switcher = ""
+			window.activate_second_image = "1"
+			window.can_access_wallet = false
+			window.show_singleSelection = ""
+			window.show_multipleOption = ""
+			window.productcard_options = ""
+			window.notify_when_available_in_card = ""
+			window.products_skeleton_enabled = "1"
+			window.activate_default_menu = ""
+			window.square_menu_images = ""
+			window.show_rating_count = ""
+			window.enable_desktop_sidemenu = ""
+			window.enable_more_menu = ""
+			window.more_menu_max_items = "8"
+			window.update_both_prices = ""
+			window.hide_top_price = ""
+			window.enable_add_product_toast = "1"
+			window.open_drawer_on_add = ""
+			window.footer_collapse_menus = ""
+		</script>
+		<link rel="preconnect" href="https://cdn.assets.salla.network" />
+<link rel="preconnect" href="https://cdn.salla.network" />
+<!-- theme color -->
+<meta name="msapplication-navbutton-color" content="#004738">
+<meta name="apple-mobile-web-app-status-bar-style" content="#004738">
+
+<!-- fav icon -->
+<link rel="icon" type="image/png" href="https://cdn.salla.sa/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png" />
+<link rel="apple-touch-icon-precomposed" href="https://cdn.salla.sa/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://cdn.salla.sa/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png">
+
+<meta name="_token" content="PqmvvsI9hrhqWogAjTc1J2MQLphSSPJZMAPAZJaB">
+
+<script data-cfasync="false">
+    
+    window.salla = window.Salla = window.Salla || {};
+    Salla.onReady = Salla.onReady || function (callback) {
+        return new Promise(function (resolve) {
+            return Salla.status == 'ready'
+                ? resolve(callback ? callback(salla.config.all()) : salla.config.all())
+                : window.addEventListener('twilight::initiated', function (config) { resolve(callback ? callback(config.detail) : config.detail) }, { once: true });
+        });
+    };
+</script>
+<style>
+    salla-hook {
+        all: unset;
+        display: none;
+    }
+</style>
+
+
+
+<script async src="https://cdn.salla.network/js/twilight/2.14.584/twilight.esm.js" type="74c5be4cc59d07047fd37ce0-module" crossorigin></script>
+
+		<title>شماغ العطار كلاسيك عقيق | محمد سراج عطار وأخويه</title>
+<meta name="description" content="شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم م...">
+<meta property="store:published_time" content="2026-05-21T10:47:45+03:00">
+<link rel="canonical" href="https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219">
+<link rel="alternate" hreflang="ar" href="https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219">
+<link rel="alternate" hreflang="en" href="https://sirajattarbros.com/en/شماغ-العطار-كلاسيك-عقيق/p1983204219">
+<meta property="og:description" content="شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم م...">
+<meta property="og:title" content="شماغ العطار كلاسيك عقيق | محمد سراج عطار وأخويه">
+<meta property="og:type" content="product">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:url" content="https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219">
+<meta property="og:image" content="https://cdn.salla.sa/ydOvDq/cc98b589-9137-401f-bf2b-fd0fd6ee4be4-500x390.34653465347-q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="300">
+<meta property="product:pretax_price:amount" content="240.21">
+<meta property="product:pretax_price:currency" content="SAR">
+<meta property="product:price:amount" content="282.6">
+<meta property="product:price:currency" content="SAR">
+<meta property="product:sale_price:amount" content="240.21">
+<meta property="product:sale_price:currency" content="SAR">
+<meta property="product:brand" content="محمد سراج عطار وأخويه">
+<meta property="product:availability" content="in stock">
+<meta property="product:condition" content="new">
+<meta property="product:retailer_item_id" content="1983204219">
+<meta property="product:category" content="أشمغة حمراء,المجموعة الكلاسيكية">
+
+<meta name="twitter:description" content="شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم م...">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="شماغ العطار كلاسيك عقيق | محمد سراج عطار وأخويه">
+<meta name="twitter:url" content="https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:image" content="https://cdn.salla.sa/ydOvDq/cc98b589-9137-401f-bf2b-fd0fd6ee4be4-500x390.34653465347-q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"محمد سراج عطار وأخويه","description":"متجر العطار للأصالة عنوان للأقمشة الرجالية أفضل الغتر والأشمغة الأصلية غتر العطار لجميع المناسبات بضائع مخفضه منتجات شتوية فاخرة شماغ ابيض و احمر الاصلي","url":"https://sirajattarbros.com/ar","logo":"https://cdn.salla.sa/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"شماغ العطار كلاسيك عقيق | محمد سراج عطار وأخويه","description":"شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم م...","url":"https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219"}</script><link rel="alternate" hreflang="x-default" href="https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219" /><meta property="og:locale:alternate" content="en_US">			<link rel="preload" as="image" href="https://cdn.salla.sa/ydOvDq/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg" fetchpriority="high">
+	<style>
+		.product-single__slider salla-slider {
+			visibility: visible
+		}
+		.product-single__slider salla-slider [slot="items"]>:not(:first-child),
+		.product-single__slider salla-slider [slot="thumbs"] {
+			opacity: 0
+		}
+		.product-single__slider salla-slider [slot="items"] a {
+			display: block;
+			width: 100%;
+			margin: 0
+		}
+		/* stack slides in one cell: un-hydrated height = hydrated height */
+		.product-single__slider salla-slider:not(.hydrated) [slot="items"],
+		.product-single__slider salla-slider:not(.hydrated) [slot="thumbs"] {
+			display: grid
+		}
+		.product-single__slider salla-slider:not(.hydrated) [slot="items"]>*,
+		.product-single__slider salla-slider:not(.hydrated) [slot="thumbs"]>* {
+			grid-area: 1/1
+		}
+		.product-single__slider salla-slider:not(.hydrated) [slot="items"]>:not(:first-child) {
+			pointer-events: none
+		}
+		@media(max-width:991px) {
+			/* thumbs are hidden once hydrated in this mode, so reserve nothing */
+			.product-single.without-thumbs .product-single__slider salla-slider:not(.hydrated) [slot="thumbs"] {
+				display: none
+			}
+		}
+		@media(max-width:767px) {
+			/* size thumbs the way the thumbs swiper will (slidesPerView 4, spaceBetween 10,
+			   plus the 50px container padding) so the strip never changes height */
+			.product-single__slider salla-slider:not(.hydrated) [slot="thumbs"] {
+				justify-items: start
+			}
+			.product-single__slider salla-slider:not(.hydrated) [slot="thumbs"]>* {
+				width: calc((100% - 80px)/4);
+				max-width: none
+			}
+			.product-single__slider .s-slider-thumbs-container:not(.swiper-initialized) .swiper-wrapper>* {
+				width: calc((100% - 30px)/4);
+				max-width: none;
+				flex: 0 0 auto
+			}
+		}
+		@media(max-width:1023.98px) {
+			.product-single__slider salla-slider:not(.hydrated) [slot="items"] {
+				padding: 0 !important
+			}
+		}
+	</style>
+		<link rel="stylesheet" href="https://cdn.assets.salla.network/themes/581928698/1.220.0/product-details.css">
+								<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"شماغ العطار كلاسيك عقيق","description":"شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم م...","sku":"شماغ-العطار-كلاسيك-عقيق/p1983204219","offers":{"@type":"Offer","url":"https://sirajattarbros.com/ar/شماغ-العطار-كلاسيك-عقيق/p1983204219","availability":"https://schema.org/InStock","price":240.21,"priceCurrency":"SAR","priceValidUntil":"2026-11-04T00:17:17+03:00","seller":{"@type":"Organization","name":"محمد سراج عطار وأخويه"}},"image":"https://cdn.salla.sa/ydOvDq/65cb5364-2249-4cbe-a559-ea874aadf5fb-635.64356435644x1000-HE0ERdPoTS4nwwBRBIV97zHqx0oifKC7laeffmVO.jpg"}]}</script><script type="74c5be4cc59d07047fd37ce0-text/javascript">
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"event":"detail","ecommerce":{"currencyCode":"SAR","exchangeRate":"1","event_id":"0655256236ccf7b9e923d58bd79325719a87cc4a","detail":{"products":[{"id":1983204219,"name":"شماغ العطار كلاسيك عقيق","categories":[{"id":11868841,"name":"أشمغة حمراء"},{"id":11868844,"name":"المجموعة الكلاسيكية"}],"category":"أشمغة حمراء\/المجموعة الكلاسيكية","price":240.21,"quantity":1,"variant":"","brand":"","image":"https:\/\/cdn.salla.sa\/ydOvDq\/cc98b589-9137-401f-bf2b-fd0fd6ee4be4-500x390.34653465347-q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg"}]}},"page":{"fingerprint":"69fdd686ec4b559bceed9bfd3f7b71c51d9c84da","pageName":"productShow","mobileApp":0,"referrer":"https:\/\/sirajattarbros.com","theme":632105401},"store":{"store":"mhmd-srag-aatar-oakhoyh","facebook_pixel_id":null,"google_analytics_id":null,"snapchat_pixel_id":null},"customer":{"isGuest":true}});
+</script>
+    <script type="74c5be4cc59d07047fd37ce0-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TGFC6FV');
+
+            // Create a Proxy to watch for changes in the array
+            window.dataLayer = new Proxy(window.dataLayer, {
+                set(target, property, value) {
+                    // Perform the default array behavior (setting the value)
+                    target[property] = value;
+
+                    // Check if the added value is the target value
+                    if (typeof value === 'object') {
+                        ['form_data', 'data', 'gateway', 'config', 'request', 'headers']
+                            .forEach(data=>{value.hasOwnProperty(data) && delete value[data]})
+                    }
+
+                    // Return true to indicate that the value was successfully set
+                    return true;
+                }
+            });
+</script>
+</head>
+
+
+<body id="app" class="product-single salla-632105401 color-mode-light rtl font-'alfont_com29ltazer'   footer-is-custom    custom_colors      with-shine-animation  with-zoom-animation   is-sticky-product-bar   enhanced_add_btn_in_mobile           mobile_small_blocks_titles       has-breadcrumbs ">
+							
+		
+
+				<script data-cfasync="false">
+			(function () {
+				var value = JSON.stringify(["images"]),
+					selector = 'salla-products-slider,salla-products-list';
+
+								function atRisk() {
+					return !!document.querySelector('salla-products-slider[includes],salla-products-list[includes]');
+				}
+
+				function stamp(element) {
+					if (!element.hasAttribute('includes') && atRisk()) {
+						element.setAttribute('includes', value);
+					}
+				}
+
+				function scan(node) {
+					if (node.nodeType !== 1) {
+						return;
+					}
+					if (node.matches(selector)) {
+						stamp(node);
+					}
+					if (node.firstElementChild) {
+						node.querySelectorAll(selector).forEach(stamp);
+					}
+				}
+
+				new MutationObserver(function (records) {
+					records.forEach(function (record) {
+						record.addedNodes.forEach(scan);
+					});
+				}).observe(document.documentElement, { childList: true, subtree: true });
+			})();
+		</script>
+	
+
+																																
+		<div id="productCardPropsElem" data-hide-countdown="" data-hide-ratings="" data-hover-style="hover_style_1" data-rounded-cards="" data-quickview-label="عرض سريع" data-instock-label="متوفر" data-slider-bg-size="cover" data-mini-cards="" data-primary-buttons="" data-product-promo-bg="#ef4444" data-box-icon="https://cdn.selia-tech.com/images/box.gif" data-box-icon-white="https://cdn.selia-tech.com/images/box-white.gif" data-is-dark="" data-show-discount="" data-show-rating="" data-show-subtitle="" data-show-tags="1" data-mobile-enhanced-add-btn="1" data-filled-normal-cart="" data-filled-mini-cart="" data-show-normal-countdown="" data-hide-countdown-labels=""></div>
+	<noscript>
+
+		To get full functionality of this site you need to enable JavaScript. Here is how
+		<a href="https://www.enable-javascript.com/" rel="noreferrer" target="_blank">To enable JavaScript on webpage</a>.
+	</noscript>
+	<div class="app-inner flex flex-col min-h-full bg-storeBG " >
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGFC6FV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<salla-advertisement></salla-advertisement><salla-hook name="body:start"></salla-hook>						
+<header
+	class="store-header  centered_logo  ">
+		<div class="lg:hidden">
+		<salla-bullet-delivery-tag></salla-bullet-delivery-tag>
+	</div>
+				<div class="top-navbar">
+			<div class="header__topbar-inner container flex justify-between">
+				<div
+					class="header__topbar-start flex-1 flex items-center rtl:space-x-reverse space-x-2">
+																			<ul class="topnav-links-list hidden lg:flex items-center rtl:pl-4 ltr:pr-4 whitespace-nowrap ltr:mr-[35px] rtl:ml-[35px]">
+							<a href="https://sirajattarbros.com/ar/الاستبدال-والاسترجاع/page-1576898349" class="topnav-link-item right-side ">الاستبدال والاسترجاع</a>
+							<a href="https://sirajattarbros.com/ar/عن-محمد-سراج-عطار-واخوية/page-1340146930" class="topnav-link-item right-side ">عن محمد سراج عطار واخويه</a>
+							<a href="https://sirajattarbros.com/ar/سياسة-الاستخدام-والخصوصية/page-887206213" class="topnav-link-item right-side ">سياسة الاستخدام والخصوصية</a>
+					</ul>
+											<div class="header-buttons flex items-center">
+													<button type="button" data-selia="header-language-button" onclick="if (!window.__cfRLUnblockHandlers) return false; salla.event.dispatch('localization::open')" class="header__language-btn grow flex items-center" aria-label="Change Language" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+								<i class="sicon-earth rtl:ml-1 ltr:mr-1"></i>
+								<span class="shrink-0">العربية</span>
+								<span class="sicon-keyboard_arrow_down"></span>
+							</button>
+																															<salla-localization-modal></salla-localization-modal>
+						
+						
+												<div class="hidden lg:block">
+							<salla-bullet-delivery-tag></salla-bullet-delivery-tag>
+						</div>
+					</div>
+
+
+				</div>
+									<selia-contacts is-header="true"></selia-contacts>
+							</div>
+		</div>
+					<div id="mainnav" class="main-nav-container">
+			<div class="inner bg-inherit w-full">
+				<div class="header__main-container container  ">
+					<div class="header__main-row flex items-stretch justify-between relative">
+						<div class="header__main-start flex items-center justify-start w-1/3 ">
+							<a class="lg:hidden mburger mburger--collapse leading-none flex items-start rtl:ml-2.5 ltr:mr-2.5" aria-label="Open-menu" href="#mobile-menu">
+								<i class="sicon-menu text-2xl"></i>
+								<p class=" hidden text-xl md:block ms-1 menu-label">القائمة</p>
+							</a>
+															<button onclick="if (!window.__cfRLUnblockHandlers) return false; salla.event.dispatch('search::open')" class="header__search-btn hidden lg:block" data-selia="header-search-button" aria-label="Search" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+									<span class="header-btn__icon icon sicon-search"></span>
+								</button>
+																						<salla-user-menu avatar-only class="header__user-menu block lg:hidden" show-header show-trigger>
+								<button slot="login-btn" class="header-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; salla.event.dispatch('login::open')" aria-label="Login" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+									<i class="header-btn__icon sicon-user"></i>
+								</button>
+							</salla-user-menu>
+													</div>
+						<div class="header__brand flex items-center flex-col justify-center">
+							<a class="navbar-brand" href="https://sirajattarbros.com/ar">
+																								<img
+									class="logo-normal"
+										src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png"
+										alt="محمد سراج عطار وأخويه Logo"
+										 height="48" style="width:auto; height:48px;">
+																									<h2 class="sr-only">محمد سراج عطار وأخويه</h2>
+															</a>
+						</div>
+						<div class="header__main-end flex items-center justify-end w-1/3">
+														<button onclick="if (!window.__cfRLUnblockHandlers) return false; salla.event.dispatch('search::open')" aria-label="Search" data-selia="header-search-button" class="header__search-btn block lg:hidden ml-3 md:ml-4 rtl:ml-[unset] rtl:mr-3 rtl:md:mr-4" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+								<span class="header-btn__icon icon sicon-search"></span>
+							</button>
+
+							<salla-user-menu avatar-only class="header__user-menu hidden lg:block" show-header show-trigger>
+								<button slot="login-btn" class="header-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; salla.event.dispatch('login::open')" aria-label="Login" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+									<i class="header-btn__icon sicon-user"></i>
+								</button>
+							</salla-user-menu>
+							<salla-cart-summary  class="header__cart-summary ml-4 rtl:ml-[unset] rtl:mr-4">
+								<i slot="icon" class="header-btn__icon icon sicon-cart"></i>
+							</salla-cart-summary>
+						</div>
+					</div>
+				</div>
+							</div>
+							<div class="main-menu-row">
+											<nav id="mobile-menu" class="mobile-menu as-row">
+	<ul class="main-menu">
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1704276239&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/المجموعة-الكلاسيكية/c1704276239" aria-label="المجموعة الكلاسيكية">
+						
+			<span>
+				المجموعة الكلاسيكية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1704276239">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/المجموعة-الكلاسيكية/c1704276239" aria-label="المجموعة الكلاسيكية">
+		<span>المجموعة الكلاسيكية</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1812386828&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أشمغة-حمراء/c1812386828" aria-label="أشمغة حمراء">
+						
+			<span>
+				أشمغة حمراء
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1812386828">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أشمغة-حمراء/c1812386828" aria-label="أشمغة حمراء">
+		<span>أشمغة حمراء</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;23035657&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الغتر/c23035657" aria-label="الغتر">
+						
+			<span>
+				الغتر
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="23035657">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الغتر/c23035657" aria-label="الغتر">
+		<span>الغتر</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1394974218&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أشمغة-بيضاء/c1394974218" aria-label="أشمغة بيضاء">
+						
+			<span>
+				أشمغة بيضاء
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1394974218">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أشمغة-بيضاء/c1394974218" aria-label="أشمغة بيضاء">
+		<span>أشمغة بيضاء</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1785129829&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/مجموعة-حفاوة/c1785129829" aria-label="مجموعة حفاوة">
+						
+			<span>
+				مجموعة حفاوة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1785129829">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/مجموعة-حفاوة/c1785129829" aria-label="مجموعة حفاوة">
+		<span>مجموعة حفاوة</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1145244262&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/مجموعة-الأصالة/c1145244262" aria-label="مجموعة الأصالة">
+						
+			<span>
+				مجموعة الأصالة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1145244262">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/مجموعة-الأصالة/c1145244262" aria-label="مجموعة الأصالة">
+		<span>مجموعة الأصالة</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2129648660&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/وثير-للملابس-الداخلية/c2129648660" aria-label="وثير للملابس الداخلية">
+						
+			<span>
+				وثير للملابس الداخلية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="2129648660">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/وثير-للملابس-الداخلية/c2129648660" aria-label="وثير للملابس الداخلية">
+		<span>وثير للملابس الداخلية</span>
+	</a>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1954429207&quot;>
+			<span class="main-menu__parent-label !flex items-center gap-x-2" data-selia="header-menu-parent-label">
+									الأقمشة
+		</span>
+		<ul>
+			<li class="main-menu__view-all text-sm font-bold">
+				<a  target="_self" href="https://sirajattarbros.com/ar/الأقمشة/c1954429207" data-selia="header-submenu-view-all">عرض الكل</a>
+			</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;190964591&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/سمير-اميس/c190964591" aria-label="سمير اميس">
+						
+			<span>
+				سمير اميس
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="190964591">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/سمير-اميس/c190964591" aria-label="سمير اميس">
+		<span>سمير اميس</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2122362229&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الاقمشه-الاوروبيه/c2122362229" aria-label="الاقمشه الاوروبيه">
+						
+			<span>
+				الاقمشه الاوروبيه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="2122362229">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الاقمشه-الاوروبيه/c2122362229" aria-label="الاقمشه الاوروبيه">
+		<span>الاقمشه الاوروبيه</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;270558993&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/تترونات/c270558993" aria-label="تترونات">
+						
+			<span>
+				تترونات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="270558993">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/تترونات/c270558993" aria-label="تترونات">
+		<span>تترونات</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1645118994&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-اليابانية/c1645118994" aria-label="الأقمشة اليابانية">
+						
+			<span>
+				الأقمشة اليابانية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1645118994">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-اليابانية/c1645118994" aria-label="الأقمشة اليابانية">
+		<span>الأقمشة اليابانية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;162579484&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أقطان-طبيعية/c162579484" aria-label="أقطان طبيعية">
+						
+			<span>
+				أقطان طبيعية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="162579484">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أقطان-طبيعية/c162579484" aria-label="أقطان طبيعية">
+		<span>أقطان طبيعية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1537073949&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-السويسرية/c1537073949" aria-label="الأقمشة السويسرية">
+						
+			<span>
+				الأقمشة السويسرية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1537073949">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-السويسرية/c1537073949" aria-label="الأقمشة السويسرية">
+		<span>الأقمشة السويسرية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;897188382&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الإيطالية/c897188382" aria-label="الأقمشة الإيطالية">
+						
+			<span>
+				الأقمشة الإيطالية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="897188382">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الإيطالية/c897188382" aria-label="الأقمشة الإيطالية">
+		<span>الأقمشة الإيطالية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1361854488&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/مخلوط/c1361854488" aria-label="مخلوط">
+						
+			<span>
+				مخلوط
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1361854488">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/مخلوط/c1361854488" aria-label="مخلوط">
+		<span>مخلوط</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;552669551&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الكورية/c552669551" aria-label="الأقمشة الكورية">
+						
+			<span>
+				الأقمشة الكورية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="552669551">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الكورية/c552669551" aria-label="الأقمشة الكورية">
+		<span>الأقمشة الكورية</span>
+	</a>
+	</li>
+					</ul>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											         has-children" data-selia="header-menu-item-desktop"  id="1954429207">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة/c1954429207" aria-label="الأقمشة">
+		<span>الأقمشة</span>
+	</a>
+			<div class="sub-menu w-56">
+			<ul class="main-menu__submenu-list ">
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;190964591&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/سمير-اميس/c190964591" aria-label="سمير اميس">
+						
+			<span>
+				سمير اميس
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="190964591">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/سمير-اميس/c190964591" aria-label="سمير اميس">
+		<span>سمير اميس</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2122362229&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الاقمشه-الاوروبيه/c2122362229" aria-label="الاقمشه الاوروبيه">
+						
+			<span>
+				الاقمشه الاوروبيه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="2122362229">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الاقمشه-الاوروبيه/c2122362229" aria-label="الاقمشه الاوروبيه">
+		<span>الاقمشه الاوروبيه</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;270558993&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/تترونات/c270558993" aria-label="تترونات">
+						
+			<span>
+				تترونات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="270558993">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/تترونات/c270558993" aria-label="تترونات">
+		<span>تترونات</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1645118994&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-اليابانية/c1645118994" aria-label="الأقمشة اليابانية">
+						
+			<span>
+				الأقمشة اليابانية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1645118994">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-اليابانية/c1645118994" aria-label="الأقمشة اليابانية">
+		<span>الأقمشة اليابانية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;162579484&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أقطان-طبيعية/c162579484" aria-label="أقطان طبيعية">
+						
+			<span>
+				أقطان طبيعية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="162579484">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أقطان-طبيعية/c162579484" aria-label="أقطان طبيعية">
+		<span>أقطان طبيعية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1537073949&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-السويسرية/c1537073949" aria-label="الأقمشة السويسرية">
+						
+			<span>
+				الأقمشة السويسرية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1537073949">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-السويسرية/c1537073949" aria-label="الأقمشة السويسرية">
+		<span>الأقمشة السويسرية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;897188382&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الإيطالية/c897188382" aria-label="الأقمشة الإيطالية">
+						
+			<span>
+				الأقمشة الإيطالية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="897188382">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الإيطالية/c897188382" aria-label="الأقمشة الإيطالية">
+		<span>الأقمشة الإيطالية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1361854488&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/مخلوط/c1361854488" aria-label="مخلوط">
+						
+			<span>
+				مخلوط
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1361854488">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/مخلوط/c1361854488" aria-label="مخلوط">
+		<span>مخلوط</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;552669551&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الكورية/c552669551" aria-label="الأقمشة الكورية">
+						
+			<span>
+				الأقمشة الكورية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="552669551">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأقمشة-الكورية/c552669551" aria-label="الأقمشة الكورية">
+		<span>الأقمشة الكورية</span>
+	</a>
+	</li>
+							</ul>
+			
+		</div>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;587820825&quot;>
+			<span class="main-menu__parent-label !flex items-center gap-x-2" data-selia="header-menu-parent-label">
+									المنتجات الشتوية
+		</span>
+		<ul>
+			<li class="main-menu__view-all text-sm font-bold">
+				<a  target="_self" href="https://sirajattarbros.com/ar/المنتجات-الشتوية/c587820825" data-selia="header-submenu-view-all">عرض الكل</a>
+			</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2094501402&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات-الفاخرة/c2094501402" aria-label="الشالات الفاخرة">
+						
+			<span>
+				الشالات الفاخرة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="2094501402">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات-الفاخرة/c2094501402" aria-label="الشالات الفاخرة">
+		<span>الشالات الفاخرة</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;371730791&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/شالات-البيداء-نص-ترمه/c371730791" aria-label="شالات البيداء نص ترمه">
+						
+			<span>
+				شالات البيداء نص ترمه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="371730791">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/شالات-البيداء-نص-ترمه/c371730791" aria-label="شالات البيداء نص ترمه">
+		<span>شالات البيداء نص ترمه</span>
+	</a>
+	</li>
+					</ul>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											         has-children" data-selia="header-menu-item-desktop"  id="587820825">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/المنتجات-الشتوية/c587820825" aria-label="المنتجات الشتوية">
+		<span>المنتجات الشتوية</span>
+	</a>
+			<div class="sub-menu w-56">
+			<ul class="main-menu__submenu-list ">
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2094501402&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات-الفاخرة/c2094501402" aria-label="الشالات الفاخرة">
+						
+			<span>
+				الشالات الفاخرة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="2094501402">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات-الفاخرة/c2094501402" aria-label="الشالات الفاخرة">
+		<span>الشالات الفاخرة</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;371730791&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/شالات-البيداء-نص-ترمه/c371730791" aria-label="شالات البيداء نص ترمه">
+						
+			<span>
+				شالات البيداء نص ترمه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="371730791">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/شالات-البيداء-نص-ترمه/c371730791" aria-label="شالات البيداء نص ترمه">
+		<span>شالات البيداء نص ترمه</span>
+	</a>
+	</li>
+							</ul>
+			
+		</div>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1677019232&quot;>
+			<span class="main-menu__parent-label !flex items-center gap-x-2" data-selia="header-menu-parent-label">
+									الأصواف
+		</span>
+		<ul>
+			<li class="main-menu__view-all text-sm font-bold">
+				<a  target="_self" href="https://sirajattarbros.com/ar/الأصواف/c1677019232" data-selia="header-submenu-view-all">عرض الكل</a>
+			</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1037195105&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات/c1037195105" aria-label="الشالات">
+						
+			<span>
+				الشالات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1037195105">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات/c1037195105" aria-label="الشالات">
+		<span>الشالات</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1501926755&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإنجليزية/c1501926755" aria-label="الأصواف الإنجليزية">
+						
+			<span>
+				الأصواف الإنجليزية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1501926755">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإنجليزية/c1501926755" aria-label="الأصواف الإنجليزية">
+		<span>الأصواف الإنجليزية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;727889004&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإيطالية/c727889004" aria-label="الأصواف الإيطالية">
+						
+			<span>
+				الأصواف الإيطالية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="727889004">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإيطالية/c727889004" aria-label="الأصواف الإيطالية">
+		<span>الأصواف الإيطالية</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;978041972&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أصواف-متنوعه/c978041972" aria-label="أصواف متنوعه">
+						
+			<span>
+				أصواف متنوعه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="978041972">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أصواف-متنوعه/c978041972" aria-label="أصواف متنوعه">
+		<span>أصواف متنوعه</span>
+	</a>
+	</li>
+					</ul>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											         has-children" data-selia="header-menu-item-desktop"  id="1677019232">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف/c1677019232" aria-label="الأصواف">
+		<span>الأصواف</span>
+	</a>
+			<div class="sub-menu w-56">
+			<ul class="main-menu__submenu-list ">
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1037195105&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات/c1037195105" aria-label="الشالات">
+						
+			<span>
+				الشالات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1037195105">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الشالات/c1037195105" aria-label="الشالات">
+		<span>الشالات</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1501926755&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإنجليزية/c1501926755" aria-label="الأصواف الإنجليزية">
+						
+			<span>
+				الأصواف الإنجليزية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1501926755">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإنجليزية/c1501926755" aria-label="الأصواف الإنجليزية">
+		<span>الأصواف الإنجليزية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;727889004&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإيطالية/c727889004" aria-label="الأصواف الإيطالية">
+						
+			<span>
+				الأصواف الإيطالية
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="727889004">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/الأصواف-الإيطالية/c727889004" aria-label="الأصواف الإيطالية">
+		<span>الأصواف الإيطالية</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;978041972&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/أصواف-متنوعه/c978041972" aria-label="أصواف متنوعه">
+						
+			<span>
+				أصواف متنوعه
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="978041972">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/أصواف-متنوعه/c978041972" aria-label="أصواف متنوعه">
+		<span>أصواف متنوعه</span>
+	</a>
+	</li>
+							</ul>
+			
+		</div>
+	</li>
+					<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1337375602&quot;>
+			<span class="main-menu__parent-label !flex items-center gap-x-2" data-selia="header-menu-parent-label">
+									اخرى
+		</span>
+		<ul>
+			<li class="main-menu__view-all text-sm font-bold">
+				<a  target="_self" href="https://sirajattarbros.com/ar/اخرى/c1337375602" data-selia="header-submenu-view-all">عرض الكل</a>
+			</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1180391440&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/اكسسوارات/c1180391440" aria-label="اكسسوارات">
+						
+			<span>
+				اكسسوارات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="1180391440">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/اكسسوارات/c1180391440" aria-label="اكسسوارات">
+		<span>اكسسوارات</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;971240205&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/المنتجات-المخفضة/c971240205" aria-label="المنتجات المخفضة">
+						
+			<span>
+				المنتجات المخفضة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="971240205">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/المنتجات-المخفضة/c971240205" aria-label="المنتجات المخفضة">
+		<span>المنتجات المخفضة</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;412732516&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/العطور/c412732516" aria-label="العطور">
+						
+			<span>
+				العطور
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="412732516">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/العطور/c412732516" aria-label="العطور">
+		<span>العطور</span>
+	</a>
+	</li>
+							<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2019914408&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/هدايا/c2019914408" aria-label="هدايا">
+						
+			<span>
+				هدايا
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											        " data-selia="header-menu-item-desktop"  id="2019914408">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/هدايا/c2019914408" aria-label="هدايا">
+		<span>هدايا</span>
+	</a>
+	</li>
+					</ul>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block root-level lg:!inline-block
+											        
+											         has-children" data-selia="header-menu-item-desktop"  id="1337375602">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/اخرى/c1337375602" aria-label="اخرى">
+		<span>اخرى</span>
+	</a>
+			<div class="sub-menu w-56">
+			<ul class="main-menu__submenu-list ">
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;1180391440&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/اكسسوارات/c1180391440" aria-label="اكسسوارات">
+						
+			<span>
+				اكسسوارات
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="1180391440">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/اكسسوارات/c1180391440" aria-label="اكسسوارات">
+		<span>اكسسوارات</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;971240205&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/المنتجات-المخفضة/c971240205" aria-label="المنتجات المخفضة">
+						
+			<span>
+				المنتجات المخفضة
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="971240205">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/المنتجات-المخفضة/c971240205" aria-label="المنتجات المخفضة">
+		<span>المنتجات المخفضة</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;412732516&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/العطور/c412732516" aria-label="العطور">
+						
+			<span>
+				العطور
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="412732516">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/العطور/c412732516" aria-label="العطور">
+		<span>العطور</span>
+	</a>
+	</li>
+									<li class="main-menu__item lg:hidden text-sm font-bold" data-selia="header-menu-item"  id=&quot;2019914408&quot;>
+			<a class="main-menu__link text-gray-500 !flex items-center gap-x-2 " data-selia="header-menu-item-link"  target="_self" href="https://sirajattarbros.com/ar/هدايا/c2019914408" aria-label="هدايا">
+						
+			<span>
+				هدايا
+			</span>
+		</a>
+	</li>
+
+
+
+<li class="main-menu__desktop-item !hidden lg:!block relative
+											        
+											        " data-selia="header-menu-item-desktop"  id="2019914408">
+	<a data-selia="header-menu-item-desktop-link"  target="_self" href="https://sirajattarbros.com/ar/هدايا/c2019914408" aria-label="هدايا">
+		<span>هدايا</span>
+	</a>
+	</li>
+							</ul>
+			
+		</div>
+	</li>
+							</ul>
+	<button class="btn--close close-mobile-menu sicon-cancel lg:hidden" aria-label="Close"></button>
+</nav>
+<button class="btn--close-sm close-mobile-menu sicon-cancel 2 lg:hidden" aria-label="Close"></button>
+
+									</div>
+					</div>
+	</header>
+
+				<main><salla-hook name="product.single:start"></salla-hook>																												<div class="container container--breadcrumbs">
+							<nav class="breadcrumbs w-full py-5">
+					<salla-breadcrumb></salla-breadcrumb>
+				</nav>
+					</div>
+			<div class="s-blocks-wrapper s-before-product-info"></div>
+
+	<div class="container container--product-details">
+
+		<div class="product-single thumbnails    product-1983204219">
+			<div class="product-single__layout flex flex-wrap row ">
+				<div class="product-single__inner col-xl-9 col-lg-12 col-md-12 col-12  lg:!w-4/4 w-full">
+					<div class="product-single__columns flex flex-wrap h-full">
+						<div class="product-single__slider col-lg-7 col-md-12 col-12 w-full  lg:!w-2/4 md:px-[15px] lg:sticky md:top-[65px] md:h-fit mb-5 ">
+							<div class="product-single__slider__inner">
+								<div class="flex flex-wrap product-single__row">
+									<div
+										class="product-single__media-col col-md-10 w-full h-full">
+																				<div class="product-single__main-media  overflow-hidden">
+																						<salla-slider id="details-slider-1983204219" class="details-slider rounded-md image-slider" data-images='[{&quot;id&quot;:277134811,&quot;url&quot;:&quot;https:\/\/cdn.salla.sa\/ydOvDq\/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg&quot;,&quot;main&quot;:true,&quot;three_d_image_url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642&quot;,&quot;video_url&quot;:null,&quot;video_type&quot;:null,&quot;type&quot;:&quot;image&quot;,&quot;sort&quot;:0},{&quot;id&quot;:277134813,&quot;url&quot;:&quot;https:\/\/cdn.salla.sa\/ydOvDq\/FxENJyeOBKn5T1Z1HG4h08SXWYIH1fNcHJe7FFl3.jpg&quot;,&quot;main&quot;:false,&quot;three_d_image_url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642&quot;,&quot;video_url&quot;:null,&quot;video_type&quot;:null,&quot;type&quot;:&quot;image&quot;,&quot;sort&quot;:0},{&quot;id&quot;:277134815,&quot;url&quot;:&quot;https:\/\/cdn.salla.sa\/ydOvDq\/TVTnSu2xE50OMRMenVqoU5YJNJchMfVCkSxAcvl7.jpg&quot;,&quot;main&quot;:false,&quot;three_d_image_url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642&quot;,&quot;video_url&quot;:null,&quot;video_type&quot;:null,&quot;type&quot;:&quot;image&quot;,&quot;sort&quot;:0},{&quot;id&quot;:277134816,&quot;url&quot;:&quot;https:\/\/cdn.salla.sa\/ydOvDq\/HE0ERdPoTS4nwwBRBIV97zHqx0oifKC7laeffmVO.jpg&quot;,&quot;main&quot;:false,&quot;three_d_image_url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642&quot;,&quot;video_url&quot;:null,&quot;video_type&quot;:null,&quot;type&quot;:&quot;image&quot;,&quot;sort&quot;:0}]' type="thumbs" loop="false"   show-controls="false"  auto-height  listen-to-thumbnails-option show-thumbs-controls="false">
+																																				
+												<div slot="items">
+																																										<a data-fslightbox="product_1983204219" id="magnify-image" data-img-id="277134811" data-slid-index="0"  data-caption="شماغ العطار كلاسيك عقيق" data-infinite="false" data-type="image" href="https://cdn.salla.sa/ydOvDq/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg" aria-label="شماغ العطار كلاسيك عقيق" class="swiper-slide magnify-wrapper homeslider__slide "  style="display:block;width:100%;margin:0" >
+																																	<img id="277134811" fetchpriority="high" loading="eager" src="https://cdn.salla.sa/ydOvDq/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg" alt="شماغ العطار كلاسيك عقيق" class="product-single__slide-image h-full object-cover w-full ">
+																																<div class="gallery-cursor"></div>
+															</a>
+																																																								<a data-fslightbox="product_1983204219" id="magnify-image" data-img-id="277134813" data-slid-index="1"  data-caption="شماغ العطار كلاسيك عقيق" data-infinite="false" data-type="image" href="https://cdn.salla.sa/ydOvDq/FxENJyeOBKn5T1Z1HG4h08SXWYIH1fNcHJe7FFl3.jpg" aria-label="شماغ العطار كلاسيك عقيق" class="swiper-slide magnify-wrapper homeslider__slide " >
+																																	<img id="277134813" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" data-src="https://cdn.salla.sa/ydOvDq/FxENJyeOBKn5T1Z1HG4h08SXWYIH1fNcHJe7FFl3.jpg" alt="شماغ العطار كلاسيك عقيق" class="product-single__slide-image lazy h-full object-cover w-full ">
+																																<div class="gallery-cursor"></div>
+															</a>
+																																																								<a data-fslightbox="product_1983204219" id="magnify-image" data-img-id="277134815" data-slid-index="2"  data-caption="شماغ العطار كلاسيك عقيق" data-infinite="false" data-type="image" href="https://cdn.salla.sa/ydOvDq/TVTnSu2xE50OMRMenVqoU5YJNJchMfVCkSxAcvl7.jpg" aria-label="شماغ العطار كلاسيك عقيق" class="swiper-slide magnify-wrapper homeslider__slide " >
+																																	<img id="277134815" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" data-src="https://cdn.salla.sa/ydOvDq/TVTnSu2xE50OMRMenVqoU5YJNJchMfVCkSxAcvl7.jpg" alt="شماغ العطار كلاسيك عقيق" class="product-single__slide-image lazy h-full object-cover w-full ">
+																																<div class="gallery-cursor"></div>
+															</a>
+																																																								<a data-fslightbox="product_1983204219" id="magnify-image" data-img-id="277134816" data-slid-index="3"  data-caption="شماغ العطار كلاسيك عقيق" data-infinite="false" data-type="image" href="https://cdn.salla.sa/ydOvDq/HE0ERdPoTS4nwwBRBIV97zHqx0oifKC7laeffmVO.jpg" aria-label="شماغ العطار كلاسيك عقيق" class="swiper-slide magnify-wrapper homeslider__slide " >
+																																	<img id="277134816" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" data-src="https://cdn.salla.sa/ydOvDq/HE0ERdPoTS4nwwBRBIV97zHqx0oifKC7laeffmVO.jpg" alt="شماغ العطار كلاسيك عقيق" class="product-single__slide-image lazy h-full object-cover w-full ">
+																																<div class="gallery-cursor"></div>
+															</a>
+																											
+												</div>
+
+																									<div slot="thumbs">
+																													<div class="slide--one-fourth  ">
+																																	<img src="https://cdn.salla.sa/ydOvDq/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg" loading="eager" class="product-single__thumb-image object-cover w-full h-full bg-gray-100 rounded-md overflow-hidden" title="شماغ العطار كلاسيك عقيق" alt="شماغ العطار كلاسيك عقيق"/>
+																															</div>
+																													<div class="slide--one-fourth  ">
+																																	<img data-src="https://cdn.salla.sa/ydOvDq/FxENJyeOBKn5T1Z1HG4h08SXWYIH1fNcHJe7FFl3.jpg" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" class="product-single__thumb-image object-cover w-full h-full lazy bg-gray-100 rounded-md overflow-hidden" title="شماغ العطار كلاسيك عقيق" alt="شماغ العطار كلاسيك عقيق"/>
+																															</div>
+																													<div class="slide--one-fourth  ">
+																																	<img data-src="https://cdn.salla.sa/ydOvDq/TVTnSu2xE50OMRMenVqoU5YJNJchMfVCkSxAcvl7.jpg" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" class="product-single__thumb-image object-cover w-full h-full lazy bg-gray-100 rounded-md overflow-hidden" title="شماغ العطار كلاسيك عقيق" alt="شماغ العطار كلاسيك عقيق"/>
+																															</div>
+																													<div class="slide--one-fourth  ">
+																																	<img data-src="https://cdn.salla.sa/ydOvDq/HE0ERdPoTS4nwwBRBIV97zHqx0oifKC7laeffmVO.jpg" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" class="product-single__thumb-image object-cover w-full h-full lazy bg-gray-100 rounded-md overflow-hidden" title="شماغ العطار كلاسيك عقيق" alt="شماغ العطار كلاسيك عقيق"/>
+																															</div>
+																											</div>
+																							</salla-slider>
+
+																					</div>
+									</div>
+								</div>
+							</div>
+														<salla-quick-order class="product-single__quick-order--desktop mt-5 md:-mb-2 hidden sm:block"></salla-quick-order>
+													</div>
+						<div class="product-single__info col-lg-5 col-md-12 col-12  lg:!w-2/4 md:w-full w-full ltr:md:pl-[15px] rtl:md:pr-[15px]  mt-5 sm:mt-0">
+							<salla-hook name="product:single.description.start"></salla-hook>															<div class="product-single__brand-row flex items-center justify-between mb-5">
+																		<div class="product-single__share-row flex rtl:space-x-reverse space-x-3 rtl:mr-auto ltr:ml-auto">
+										<salla-social-share class="inline-flex" aria-label="social share"></salla-social-share>
+
+										<salla-button class="btn--wishlist animated inline-flex" aria-label="add to wishlist" data-id="1983204219" onclick="if (!window.__cfRLUnblockHandlers) return false; salla.wishlist.toggle('1983204219')" shape="icon" fill="outline" color="light" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+											<i class="sicon-heart"></i>
+										</salla-button>
+									</div>
+								</div>
+														<h1 data-selia="product-single-title" class="product-single__title text-xl md:text-2xl leading-10 font-bold text-store-text-primary">شماغ العطار كلاسيك عقيق</h1>
+
+							
+																						<div class="flex whitespace-nowrap flex-wrap gap-4 items-center product-price product-price-top my-1">
+									<div class=" price_is_on_sale space-x-2 rtl:space-x-reverse whitespace-nowrap">
+										<h4 class="font-bold text-xl inline-block total-price  text-red-400">240.21 <i class=sicon-sar></i></h4>
+										<span class="text-store-text-secondary line-through before-price">282.60 <i class=sicon-sar></i></span>
+									</div>
+									<div class="starting-or-normal-price gap-4 hidden">
+																				<h2 class="text-store-text-primary font-bold text-xl inline-block total-price">
+											240.21 <i class=sicon-sar></i></h2>
+									</div>
+																	</div>
+																																			<div class="product-single__stock-info flex flex-col space-y-5 mb-5">
+								<div class="inventory-content flex-grow shrink-0">
+									<div id="variant-inventory" class="">
+										<i class="sicon-check-circle rtl:ml-1.5 ltr:mr-1.5"></i>
+										متوفر
+									</div>
+								</div>
+
+															</div>
+															<div class="countdown-single">
+									<h2>
+										<span class="icon">
+											<svg class="hourglass" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 120 206" preserveaspectratio="none">
+												<path class="middle" d="M120 0H0v206h120V0zM77.1 133.2C87.5 140.9 92 145 92 152.6V178H28v-25.4c0-7.6 4.5-11.7 14.9-19.4 6-4.5 13-9.6 17.1-17 4.1 7.4 11.1 12.6 17.1 17zM60 89.7c-4.1-7.3-11.1-12.5-17.1-17C32.5 65.1 28 61 28 53.4V28h64v25.4c0 7.6-4.5 11.7-14.9 19.4-6 4.4-13 9.6-17.1 16.9z"></path>
+												<path class="outer" d="M93.7 95.3c10.5-7.7 26.3-19.4 26.3-41.9V0H0v53.4c0 22.5 15.8 34.2 26.3 41.9 3 2.2 7.9 5.8 9 7.7-1.1 1.9-6 5.5-9 7.7C15.8 118.4 0 130.1 0 152.6V206h120v-53.4c0-22.5-15.8-34.2-26.3-41.9-3-2.2-7.9-5.8-9-7.7 1.1-2 6-5.5 9-7.7zM70.6 103c0 18 35.4 21.8 35.4 49.6V192H14v-39.4c0-27.9 35.4-31.6 35.4-49.6S14 81.2 14 53.4V14h92v39.4C106 81.2 70.6 85 70.6 103z"></path>
+											</svg>
+										</span>
+									</h2>
+									<div class="countdown">
+										<salla-count-down date="2026-10-05" labeled></salla-count-down>
+									</div>
+								</div>
+							
+							<salla-hook name="product:single.description"></salla-hook>
+														
+																						<salla-installment price="240.21"></salla-installment>
+							
+							
+																																							<div class="product-single-top-description mb-5">
+										<article class="article article--main relative overflow-hidden transition-all max-h-0 duration-300" id="more-content" style="max-height:5.25rem">
+											<p><p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Cairo, NeoSansArabic; line-height: 1.38;"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">شماغ العطار كلاسيك (عقيق) ، شماغ إنجليزي أحمر بنقشة كلاسيكية ولون أحمر عتيق من سراج العطار، فخامة تستحقها، </span><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">من شركة محمد سراج عطار الأولى في تقديم أشمغة بتصميم مميز وأنيق تتناسب مع جميع الاذواق </span><span style="font-family: Calibri, sans-serif; background-color: transparent; font-size: 13pt; color: #a64d79; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">مواصفات </span><span style="font-family: Calibri, sans-serif; font-size: 13pt; color: #a64d79; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">شماغ العطار كلاسيك عقيق:</span></p><br /><br />
+<ul style="margin-bottom: 0px; font-family: Cairo, NeoSansArabic; padding-inline-start: 48px;"><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="background-color: transparent; color: #000000; font-family: Calibri, sans-serif; font-size: 11pt; font-weight: 400; white-space: pre-wrap;"> اللون: أحمر داكن.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> الخامة 100% قطن طبيعي.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> المقاس 55-60.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> الصناعة انجليزيه .</span></p><br /><br />
+</li><br /><br />
+</ul><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Cairo, NeoSansArabic; line-height: 1.38;"><span style="font-family: Calibri, sans-serif; font-size: 13pt; color: #a64d79; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> اهم مميزات </span><span style="font-family: Calibri, sans-serif; font-size: 13pt; color: #a64d79; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">شماغ العطار كلاسيك عقيق:</span></p><br /><br />
+<ul style="margin-bottom: 0px; font-family: Cairo, NeoSansArabic; padding-inline-start: 48px;"><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">من افضل الأشمغة التى تناسب الرجل الشرقي الباحث عن الفخامة والرقي.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">الشماغ مصنوع من قطن مائة في المائة</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">مصنوع بدقه عالية وفقا لأمهر صناع الاشمغة بالخليج بخطوط إنتاج انجليزية حديثة .</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">مصنوع من خامات ذات جوده عالية ومتانة متناهية.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">تناسب جميع فئات الرجال الشباب والكبار على حد سواء.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="color: #000000; font-family: Calibri, sans-serif; font-size: 11pt; font-weight: 400; white-space: pre-wrap; background-color: transparent;">متوفر باللون الأحمر الداكن الفاخر.</span></p><br /><br />
+</li><br /><br />
+</ul><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Cairo, NeoSansArabic; line-height: 1.38;"><span style="font-family: Calibri, sans-serif; font-size: 13pt; color: #a64d79; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">أهم النصائح عند استخدام </span><span style="font-family: Calibri, sans-serif; font-size: 13pt; color: #a64d79; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">شماغ العطار كلاسيك (عقيق):</span></p><br /><br />
+<ul style="margin-bottom: 0px; font-family: Cairo, NeoSansArabic; padding-inline-start: 48px;"><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">يمنع استخدام المبيضات عند غسل الشماغ.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">يفضل استخدام المياه الفاترة عند الغسيل.</span></p><br /><br />
+</li><br /><br />
+<li dir="rtl" style="list-style-type: disc; font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre;" aria-level="1"><br /><br />
+<p dir="rtl" style="margin-top: 0pt; margin-bottom: 0pt; line-height: 1.38;" role="presentation"><span style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000000; background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">يفضل الكي على درجة حرارة 110 مئوية.</span></p><br /><br />
+</li><br /><br />
+</ul></p>
+										</article>
+
+																				<a id="btn-show-more" class="link--primary inline-block mt-2 cursor-pointer">
+											اقرأ المزيد
+										</a>
+									</div>
+								
+							
+																					
+							<form id="product-form" class="form product-form" enctype="multipart/form-data" method="post" onsubmit="if (!window.__cfRLUnblockHandlers) return false; return salla.form.onSubmit('cart.addItem', event)" data-cf-modified-74c5be4cc59d07047fd37ce0-="">
+								<input type="hidden" name="id" value="1983204219">
+
+
+								<salla-hook name="product:single.form.start"></salla-hook>
+										
+				<salla-product-options options="[{&quot;id&quot;:957769792,&quot;name&quot;:&quot;المقاس&quot;,&quot;required&quot;:true,&quot;type&quot;:&quot;single-option&quot;,&quot;placeholder&quot;:&quot;اختر&quot;,&quot;not_same_day_order&quot;:false,&quot;availability_range&quot;:0,&quot;from_date_time&quot;:null,&quot;to_date_time&quot;:null,&quot;visibility_condition&quot;:null,&quot;details&quot;:[{&quot;id&quot;:932259966,&quot;name&quot;:&quot;62&quot;,&quot;code&quot;:&quot;&quot;,&quot;additional_price&quot;:0,&quot;option_id&quot;:957769792,&quot;option_value&quot;:&quot;&quot;,&quot;is_selected&quot;:false,&quot;is_default&quot;:0,&quot;image&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;is_out&quot;:true,&quot;skus_availability&quot;:{&quot;1674430092&quot;:false}},{&quot;id&quot;:25048959,&quot;name&quot;:&quot;55&quot;,&quot;code&quot;:&quot;&quot;,&quot;additional_price&quot;:0,&quot;option_id&quot;:957769792,&quot;option_value&quot;:&quot;&quot;,&quot;is_selected&quot;:false,&quot;is_default&quot;:0,&quot;image&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;is_out&quot;:false,&quot;skus_availability&quot;:{&quot;1709497749&quot;:true}},{&quot;id&quot;:1398494840,&quot;name&quot;:&quot;60&quot;,&quot;code&quot;:&quot;&quot;,&quot;additional_price&quot;:0,&quot;option_id&quot;:957769792,&quot;option_value&quot;:&quot;&quot;,&quot;is_selected&quot;:false,&quot;is_default&quot;:0,&quot;image&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;is_out&quot;:false,&quot;skus_availability&quot;:{&quot;1001462679&quot;:true}},{&quot;id&quot;:757101945,&quot;name&quot;:&quot;58&quot;,&quot;code&quot;:&quot;&quot;,&quot;additional_price&quot;:0,&quot;option_id&quot;:957769792,&quot;option_value&quot;:&quot;&quot;,&quot;is_selected&quot;:false,&quot;is_default&quot;:0,&quot;image&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;is_out&quot;:false,&quot;skus_availability&quot;:{&quot;1721186968&quot;:true}}],&quot;condition_attributes&quot;:&quot;&quot;,&quot;value&quot;:null,&quot;donation&quot;:null,&quot;is_advance&quot;:true,&quot;format&quot;:null}]" product-id="1983204219" config="[]"></salla-product-options>
+
+
+	<section class="bg-storeBG p-5 rounded-md mb-5">
+					<div class="product-sku-wrapper  center-between ">
+				<b class="text-store-text-primary rtl:space-x-reverse space-x-1">
+					<i class="sicon-barcode text-store-text-secondary"></i>
+					<span class="text-store-text-primary">رقم الموديل</span>
+				</b>
+				<span class="text-sm text-store-text-secondary product-sku">SHCLAQ</span>
+			</div>
+								
+			</section>
+
+
+
+								<salla-hook name="product:single.form.end"></salla-hook>
+																<div class="bg-storeBG p-5 rounded-md rounded-b-none flex sm:pb-0 product-price product-price-bottom">
+									<div class="center-between w-full">
+										<label class="product-single__price-label text-store-text-primary">
+											<b class="block">
+												السعر
+											</b>
+										</label>
+
+										<div class="product-single__price-values flex whitespace-nowrap gap-4 items-center">
+											<div class=" price_is_on_sale space-x-2 rtl:space-x-reverse whitespace-nowrap">
+												<h2 class="total-price text-red-400 font-bold text-xl inline-block">240.21 <i class=sicon-sar></i></h2>
+												<span class="before-price text-store-text-secondary line-through">282.60 <i class=sicon-sar></i></span>
+											</div>
+											<div class="starting-or-normal-price gap-4 hidden">
+																								<h2 class="total-price font-bold text-xl inline-block text-store-text-primary">
+													240.21 <i class=sicon-sar></i></h2>
+											</div>
+										</div>
+									</div>
+								</div>
+																								<section
+									class="sticky-product-bar bg-storeBG p-5 md rounded-md rounded-b-none">
+																												<div class="sticky-product-bar__quantity center-between mb-5">
+											<label class="form-label font-bold">
+												الكمية
+											</label>
+											<salla-quantity-input max="31" value="1" name="quantity" aria-label="Quantity" class="border-gray-200 flex justify-end"></salla-quantity-input>
+										</div>
+									
+
+																		<salla-add-product-button required-shipping quick-buy  support-sticky-bar  amount="240.21" class="mt-5 w-full sticky-product-bar__btn" product-status="sale" product-type="product" product-id="1983204219" loader-position="end" type="submit" width="wide"    channels="sms" subscribed-options="null" notify-options-availability >
+										<span class="flex items-center gap-2.5">
+																							<i class="text-[16px] sicon-shopping"></i>
+																						أضف إلى السلة
+										</span>
+									</salla-add-product-button>
+								</section>
+							</form>
+														
+
+							<salla-hook name="product:single.description.end"></salla-hook>														<salla-quick-order class="product-single__quick-order--mobile mt-5 md:-mb-2 block sm:hidden"></salla-quick-order>
+													</div>
+					</div>
+				</div>
+							</div>
+		</div>
+					<salla-offer></salla-offer>
+		
+				<div class="s-blocks-wrapper s-before-reviews"></div>
+
+									<div class="s-blocks-wrapper product-more-info vertical">
+					<div class="product-more-info__inner">
+						<div class="content-ul-tab">
+							<div class="conttainer w-full">
+								<ul class="more-info-tabs__nav nav">
+																												<li class="more-info-tabs__nav-item">
+											<div class="more-info-tabs__nav-link  active" data-id="reviews">
+												<span>تقييمات المنتج</span>
+											</div>
+										</li>
+																	</ul>
+							</div>
+						</div>
+						<div class="conttainer w-full">
+							<div class="more-info-tabs__content tab-content">
+																									<div class="more-tab-container">
+										<div class="more-info-tabs__nav-link mobile  active" data-id="reviews">
+											<span>تقييمات المنتج</span>
+										</div>
+										<div id="reviews" class="tab-pane fade  show">
+																							<salla-comments item-id="1983204219" type="product"></salla-comments>
+																																</div>
+									</div>
+															</div>
+
+						</div>
+					</div>
+				</div>
+									<div class="s-blocks-wrapper s-before-related"></div>
+
+		<div class="container s-blocks-wrapper  ">
+			<salla-products-slider slider-config='' includes='[&quot;images&quot;]' autoplay source="related" source-value="1983204219" block-title="منتجات قد تعجبك" display-all-url></salla-products-slider>
+		</div>
+
+				<div class="s-blocks-wrapper s-after-related"></div>
+
+	</div>
+
+
+			<div class="sticky-cart-single">
+			<div class="content">
+				<div class="content-product">
+					<div class="item-thumb">
+						<img src="https://cdn.salla.sa/ydOvDq/q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg" alt="شماغ العطار كلاسيك عقيق">
+					</div>
+				</div>
+				<div class="sticky-cart-single__body flex flex-col flex-grow">
+					<div class="content-bottom">
+						<div class="item-title text-base text-store-text-primary">شماغ العطار كلاسيك عقيق</div>
+						<div class="sticky-cart-single__price mb-2 rtl:space-x-reverse space-x-1">
+							<h4 class="total-price  text-red-400 font-bold text-base inline-block">
+																240.21 <i class=sicon-sar></i></h4>
+															<span class="before-price text-store-text-secondary line-through">
+									282.60 <i class=sicon-sar></i></span>
+													</div>
+						<salla-add-product-button quick-buy  support-sticky-bar required-shipping  amount="240.21" class="mt-5 w-full sticky-product-bar__btn" product-status="sale" product-type="product" product-id="1983204219" loader-position="end" type="submit" width="wide"    channels="sms" subscribed-options="null" notify-options-availability  form="product-form">
+							<span class="flex items-center gap-2.5">
+																	<i class="text-[16px] sicon-shopping"></i>
+																أضف إلى السلة
+							</span>
+						</salla-add-product-button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	<salla-hook name="product.single:end"></salla-hook></main>
+		<footer class="store-footer s-block--animate   basic-footer ">
+							<div aria-label="footer" class="store-footer__inner">
+			<div class="store-footer__container container">
+				<div class="store-footer__grid grid grid-cols-2 lg:grid-cols-5 lg:gap-6">
+					<div data-selia="footer-brand-column" class="store-footer__brand mb-2.5 col-span-2">
+
+						<a href="https://sirajattarbros.com/ar/" class="footer-logo anime-item" aria-label="logo">
+																					<img src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/ydOvDq/stores/logos/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png"  height="64" style=" height:64px;" alt="محمد سراج عطار وأخويه" class="img-fluid mx-auto lg:mx-[unset]">
+													</a>
+													<p class="footer-description md:max-w-sm leading-6 my-4 text-sm text-center ltr:md:text-left rtl:md:text-right anime-item">
+								متجر العطار للأصالة عنوان للأقمشة الرجالية أفضل الغتر والأشمغة الأصلية غتر العطار لجميع المناسبات بضائع مخفضه منتجات شتوية فاخرة شماغ ابيض و احمر الاصلي
+							</p>
+																		<div class="footer-badges flex items-center justify-center lg:justify-start  ">
+							<salla-trust-badges class="rtl:ml-4 ltr:mr-4 rtl:mr-[unset] ltr:ml-[unset]" ></salla-trust-badges>
+															<div class="footer-tax flex rtl:space-x-reverse space-x-2 items-end justify-center">
+																			<a class="footer-tax__certificate load-img-onclick" data-modal-id="modal-value-tax" href="#/" alt="300189681700003">
+											<img width="200" height="255" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" data-src="https://cdn.salla.network/images/tax.png?v=2.0.5" class="lazy w-10 rounded-sm hover:opacity-80 transition-opacity" alt="value added tax">
+										</a>
+																		<div class="footer-tax__number">
+										<p class="text-sm text-text-grey mb-1">الرقم الضريبي</p>
+										<b class="text-sm">300189681700003</b>
+									</div>
+								</div>
+
+																	<salla-modal sub-title-first sub-title="الرقم الضريبي" modal-title="300189681700003" id="modal-value-tax">
+										<div class="flex justify-center max-w-full">
+											<img class="w-full" loading="lazy" src="https://cdn.salla.network/images/s-empty.png?v=2.0.5" data-src="https://cdn.salla.sa/ydOvDq/KnI04lXZRzGQcMv3eAdbuuA56yhNLMdtWYpVrDzU.png" alt="300189681700003"/>
+										</div>
+									</salla-modal>
+																					</div>
+																	</div>
+
+										<div class="store-footer__account-column mb-2.5  anime-item">
+						<h3 class="footer-title  anime-item">حسابي</h3>
+												<salla-user-menu inline class="relative footer-user-menu"></salla-user-menu>
+											</div>
+
+					<div
+						class="store-footer__links-column mb-2.5  anime-item">
+															<div data-selia="footer-links-column" class="store-footer__menu  ">
+			<h3 class="footer-title  ">روابط مهمة</h3>
+						<ul class="footer-list    store-links-items">
+									<li><a  href="https://sirajattarbros.com/ar/الاستبدال-والاسترجاع/page-1576898349" aria-label="itme" data-selia="footer-link" class="store-footer__menu-link text-xs lg:text-base anime-item">الاستبدال والاسترجاع</a></li>
+									<li><a  href="https://sirajattarbros.com/ar/عن-محمد-سراج-عطار-واخوية/page-1340146930" aria-label="itme" data-selia="footer-link" class="store-footer__menu-link text-xs lg:text-base anime-item">عن محمد سراج عطار واخويه</a></li>
+									<li><a  href="https://sirajattarbros.com/ar/سياسة-الاستخدام-والخصوصية/page-887206213" aria-label="itme" data-selia="footer-link" class="store-footer__menu-link text-xs lg:text-base anime-item">سياسة الاستخدام والخصوصية</a></li>
+									<li><a  href="https://sirajattarbros.com/ar/اتصل-بنا/page-403143491" aria-label="itme" data-selia="footer-link" class="store-footer__menu-link text-xs lg:text-base anime-item">اتصل بنا</a></li>
+									<li><a  href="https://sirajattarbros.com/ar/فروعنا/page-91100985" aria-label="itme" data-selia="footer-link" class="store-footer__menu-link text-xs lg:text-base anime-item">فروعنا</a></li>
+							</ul>
+					</div>
+						</div>
+					<div
+						class="store-footer__contacts-column mb-2.5  anime-item">
+												<selia-contacts 
+							hide-title="false" 
+							horizontal="false" 
+							enhanced="false" 
+							basic-footer="true" 
+							rounded="true" 
+							animate="true">
+						</selia-contacts>
+					</div>
+					<div
+						class="grid-itme col-span-2 lg:col-span-1 mb-2.5 anime-item">
+												<div data-selia="footer-apps-section" class="store-footer__apps anime-item">
+
+			</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="store-footer__bottom-inner container py-4">
+				<div class="store-footer__bottom-row flex items-center justify-center lg:justify-between flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse">
+					<div class="text-sm py-2.5 footer-rights"><p class="text-gray-400 mb-2.5 md:mb-0">جميع الحقوق محفوظة | 2026
+    <a href="https://sirajattarbros.com/ar" class="hover:text-primary" target="_blank" rel="noreferrer" class="underline">محمد سراج عطار وأخويه</a>
+</p>
+</div>
+
+					<div><salla-payments></salla-payments></div>
+					<div class="store-footer__bottom-social py-2.5 lg:py-0"><salla-social class=" rounded_contacts"></salla-social></div>
+				</div>
+			</div>
+		</div>
+	
+	<span class="hidden w-1/2 mt-4 md:mt-12 sm:w-auto bottom-2 rtl:pl-24 ltr:pr-24 text-storeBG pointer-events-none bg-storeBG from-storeBG h-16 w-16 aspect-[3/4] lg:!w-[60%] lg:!w-[40%] object-fill object-bottom object-left object-right object-none object-top opacity-40 left-2 right-2"></span>
+		<span class="hidden flex flex-1 flex-none items-start items-center justify-between shrink-0 space-y-1 space-y-0.5 space-x-4 rtl:space-x-reverse gap-1.5 gap-2 pt-1 mt-1 mb-2.5 p-2.5 md:p-4 w-20 h-20 rounded object-center object-cover leading-6 text-base text-sm font-bold line-through relative absolute -top-[0.625rem] rtl:-left-[0.625rem] ltr:-right-[0.625rem] border border-gray-100 bg-store-bg-secondary text-store-text-primary text-store-text-secondary text-primary text-red-600"></span>
+</footer>
+
+	</div>
+	
+		<script type="74c5be4cc59d07047fd37ce0-text/javascript">window.baseUrl='https://sirajattarbros.com/ar/'; window.is_rtl=true; window.locale='ar';</script><script type="74c5be4cc59d07047fd37ce0-module" id="fast-checkout-js" src="https://cdn.assets.salla.network/prod/@salla.sa/fast-checkout-widget/v0.0.47/widget.esm.js"></script>
+
+
+<script type="importmap">
+    {
+        "imports": {
+            "lit": "https://cdn.assets.salla.network/static/lit/3.3.3/lit.js",
+            "lit/": "https://cdn.assets.salla.network/static/lit/3.3.3/",
+            "lit-html": "https://cdn.assets.salla.network/static/lit/3.3.3/lit-html/lit-html.js",
+            "lit-html/": "https://cdn.assets.salla.network/static/lit/3.3.3/lit-html/",
+            "lit-element": "https://cdn.assets.salla.network/static/lit/3.3.3/lit-element/lit-element.js",
+            "lit-element/": "https://cdn.assets.salla.network/static/lit/3.3.3/lit-element/",
+            "@lit/reactive-element": "https://cdn.assets.salla.network/static/lit/3.3.3/reactive-element/reactive-element.js",
+            "@lit/reactive-element/": "https://cdn.assets.salla.network/static/lit/3.3.3/reactive-element/"
+        }
+    }
+</script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+    function injectTwilightBundlesAssets() {
+        window.twilightBundlesObserver.disconnect();
+        if (document.querySelector('#twilight-bundles-assets')) {
+            return;
+        }
+
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = "https://cdn.assets.salla.network/prod/@salla.sa/twilight-bundles/latest/twilight-bundles.js";
+        script.defer = true;
+        script.id = 'twilight-bundles-assets';
+        document.head.appendChild(script);
+    }
+    window.twilightBundlesObserver = new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+            for (const node of mutation.addedNodes) {
+                if (node.nodeType === 1 && node.tagName.toLowerCase() === 'salla-custom-component') {
+                    injectTwilightBundlesAssets();
+                    return;
+                }
+            }
+        }
+    });
+
+    window.twilightBundlesObserver.observe(document.body, { childList: true, subtree: true });
+
+    Salla.onReady(() => document.querySelector('salla-custom-component') && injectTwilightBundlesAssets());
+</script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+    (function() {
+        // Safe threshold: 14KB (browser limit ~16KB, leave buffer)
+        var COOKIE_SIZE_THRESHOLD = 14000;
+
+        // Essential cookies preserved by NAME only
+        var essentialCookies = {
+            // Session & Security
+            exact: [
+                "__said",
+                "__said",
+                "__ssid",
+                "XSRF-TOKEN"
+            ],
+            // Marketing & Analytics (SEO-critical)
+            marketing: [
+                "_fbp", "_fbc",                                   // Meta/Facebook
+                "_ga", "_gid",                                    // Google Analytics
+                "_ttp",                                           // TikTok
+                "_scid", "_scid_r",                               // Snapchat
+                "twclid", "_twitter_sess", "personalization_id",  // Twitter/X
+                "_hjid", "_hjSessionUser"                         // Hotjar
+            ],
+            // Prefix patterns
+            prefixes: [
+                "_ga_",      // GA4 property-specific
+                "_gcl_",     // Google Ads click IDs
+                "_gac_",     // Google Ads conversion
+                "cf_",       // Cloudflare
+                "_hj",       // Hotjar
+                "intercom-"  // Intercom
+            ]
+        };
+
+        function shouldPreserve(name) {
+            name = name.trim();
+            if (essentialCookies.exact.indexOf(name) !== -1) return true;
+            if (essentialCookies.marketing.indexOf(name) !== -1) return true;
+            for (var i = 0; i < essentialCookies.prefixes.length; i++) {
+                if (name.indexOf(essentialCookies.prefixes[i]) === 0) return true;
+            }
+            return false;
+        }
+
+        function deleteCookie(name) {
+            var hostname = window.location.hostname;
+
+            if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(hostname)) {
+                document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';
+                return;
+            }
+            
+            var domains = [
+                '',                    // Browser default
+                hostname,              // Current domain
+                '.' + hostname         // With dot prefix
+            ];
+
+            var parts = hostname.split('.');
+            for (var i = 1; i < parts.length - 1; i++) {
+                domains.push('.' + parts.slice(i).join('.'));
+            }
+
+            var paths = ['/', ''];
+            var expiry = '=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+
+            for (var i = 0; i < domains.length; i++) {
+                for (var j = 0; j < paths.length; j++) {
+                    var str = name + expiry;
+                    if (paths[j]) str += '; path=' + paths[j];
+                    if (domains[i]) str += '; domain=' + domains[i];
+                    document.cookie = str;
+                }
+            }
+        }
+
+        // Get cookie size with fallback for older browsers (IE11, Safari < 10.1)
+        function getCookieSize() {
+            var cookie = document.cookie;
+            if (typeof TextEncoder !== 'undefined') {
+                return new TextEncoder().encode(cookie).length;
+            }
+
+            // Fallback: count UTF-8 bytes manually (handles surrogate pairs)
+            var bytes = 0;
+            for (var i = 0; i < cookie.length; i++) {
+                var c = cookie.charCodeAt(i);
+                if (c < 128) {
+                    bytes += 1;
+                } else if (c < 2048) {
+                    bytes += 2;
+                } else if (c >= 0xD800 && c <= 0xDBFF) {
+                    var next = i + 1 < cookie.length ? cookie.charCodeAt(i + 1) : 0;
+                    if (next >= 0xDC00 && next <= 0xDFFF) {
+                        bytes += 4;
+                        i++; 
+                    } else {
+                        bytes += 3;
+                    }
+                } else if (c >= 0xDC00 && c <= 0xDFFF) {
+                    bytes += 3;
+                } else {
+                    bytes += 3;
+                }
+            }
+            return bytes;
+        }
+
+        function parseCookies(cookieStr) {
+            if (!cookieStr) return [];
+            var cookies = [];
+            var pairs = cookieStr.split('; ');
+            for (var i = 0; i < pairs.length; i++) {
+                var idx = pairs[i].indexOf('=');
+                var name;
+                if (idx === -1) {
+                    name = pairs[i].trim();
+                } else {
+                    name = pairs[i].substring(0, idx).trim();
+                }
+                if (name) {
+                    cookies.push({ name: name });
+                }
+            }
+            return cookies;
+        }
+
+        function cleanCookies() {
+            try {
+                if (getCookieSize() < COOKIE_SIZE_THRESHOLD) return;
+
+                var cookies = parseCookies(document.cookie);
+                for (var i = 0; i < cookies.length; i++) {
+                    if (!shouldPreserve(cookies[i].name)) {
+                        deleteCookie(cookies[i].name);
+                    }
+                }
+            } catch (e) {
+                // Silent fail - don't break page for cookie cleanup errors
+            }
+        }
+
+        // Initial cleanup on load && Periodic cleanup for SPAs and long sessions
+        cleanCookies();
+        setInterval(cleanCookies, 10000);
+    })();
+</script>
+    
+    <script type="74c5be4cc59d07047fd37ce0-text/javascript">
+      function dispatchSallaEvents() {
+        salla.event.dispatchEvents({"twilight::init":{"store":{"id":946211295,"ray":100,"logo":"https:\/\/cdn.salla.sa\/cdn-cgi\/image\/fit=scale-down,width=400,height=400,onerror=redirect,format=auto\/ydOvDq\/stores\/logos\/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png","icon":"https:\/\/cdn.salla.sa\/ydOvDq\/stores\/logos\/FKoUAvj1NOqowiCUswiPMHYD5baOCKzbwX8PowSU.png","name":"\u0645\u062d\u0645\u062f \u0633\u0631\u0627\u062c \u0639\u0637\u0627\u0631 \u0648\u0623\u062e\u0648\u064a\u0647","username":"mhmd-srag-aatar-oakhoyh","store_country":"SA","country":"SA","url":"https:\/\/sirajattarbros.com\/ar\/","settings":{"auth":{"email_allowed":true,"mobile_allowed":false,"is_email_required":true,"countries":["sa"],"force_login":false,"whatsapp_allowed":false,"whatsapp_countries":[],"whatsapp_merchant_allowed":false,"user_country":"EG","config":null},"cart":{"apply_coupon_enabled":true,"basket_gap":false,"multi_coupon":false},"product":{"total_sold_enabled":0,"manual_quantity":true,"fit_type":"cover","related_products_enabled":true,"product-recommendation-type":"random","filters":null,"show_comments":true,"user_can_comment":true,"show_price_as_dash":true,"notify_options_availability":true,"show_special_offers":true,"show_more":true,"availability_notify":{"email":false,"sms":true,"mobile":false,"whatsapp":false},"bought_together":true},"category":{"testimonial_enabled":true},"payments":["mada","credit_card","stc_pay","apple_pay","tabby_installment","tamara_installment","cod"],"arabic_numbers_enabled":false,"content_copyright":false,"use_sar_symbol":true,"is_multilingual":true,"currencies_enabled":false,"rating_enabled":true,"rating":{"is_enabled":true,"show_on_category":true,"show_on_product":true,"can_rate_store":true,"can_rate_product":true,"can_rate_shipping":true,"show_rating_summary":true,"show_recommendation":true,"allow_likes":true,"allow_attach_images":false,"required_attach_images":false,"allow_attach_videos":false,"required_attach_videos":false,"allow_contact_support":true,"allow_update":false,"update_period":7,"can_customer_hide_name":false,"visitor_can_comment":false,"page_feedback_enabled":true,"allow_reviews_from_product_page":false,"rating_store_points":null,"rating_product_points":null,"rating_shipping_company_points":null,"rating_product_with_image_points":null},"blog":{"is_enabled":true,"allow_likes_and_comments":false},"is_loyalty_enabled":false,"keys":{"maps":"AIzaSyAZpoNuLbXR-VvGYEP4ZbMD9FqZiwjkIkU","gtm":[]},"is_salla_gateway":true,"upload_size":2000,"tax":{"number":"300189681700003","certificate":"https:\/\/cdn.salla.sa\/ydOvDq\/KnI04lXZRzGQcMv3eAdbuuA56yhNLMdtWYpVrDzU.png","taxable_prices_enabled":true},"certificate":null,"made_in_ksa":false,"commercial_number":"7018064480","freelance_number":null,"buy_now":{"label":"Salla","countryCode":"SA","supportedCountries":["SA","BH","KW","OM","QA","AE","JO"],"supportedNetworks":["masterCard","visa"],"validateUri":"\/checkout\/applepay\/validate","myfatoorahS2s":false,"currency":"SAR","networks":["masterCard","visa"],"countries":["SA","BH","KW","OM","QA","AE","JO"],"is_digital":false,"merchant_identifier":"merchant.pay.salla.sa.2"},"installments":{"tamara":{"merchantCode":"default","publicKey":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2NvdW50SWQiOiI4MTY1MGJjMi02Njc0LTQyZDYtYTJlOC1kMGZiYTcxZTExOWIiLCJ0eXBlIjoibWVyY2hhbnQiLCJzYWx0IjoiOGU2OTRmZmItYzc4OS00MmJiLTllZWMtOTM4YTBkMGZhM2YxIiwicm9sZXMiOlsiUk9MRV9NRVJDSEFOVCJdLCJpc010bHMiOmZhbHNlLCJpYXQiOjE3ODcyMTcxMzUsImlzcyI6IlRhbWFyYSBQUCJ9.ErofnooJt7g5hIzoEqxlnnJ2dFrStNjKBuWbdsC-nMzuNZrr1X70xSdrXWaqkif-7mhSWw7ycCTFExFtiLrCKsAtDvRBeDc2hHynzBcExWCBFc7Nku4PeavozT2r1ino7gol3lHtc10JK3fyL5jamTfg5DhhtmVdFrTsaxlgI7dbvUvVeVWwvG72DqfOsk7bbgVwIWjuT7LDvc07TJw4h0gx8n6ltEeUSeo16YMqOnopH7qWSbPYWOfNXe2-ev07iK6N67L7fe450P782xEi3Gqe97NHGjpHA4unOWztueeKtdF9T6OxyTcbB-fwxTrQNVf-vJF1PlADotCo7LJMRA","installments":"4","has_details":true},"tabby":{"merchantCode":"default","publicKey":"pk_23ec594d-f65c-4ad9-995b-8ae4841f9ff3","installments":"4","has_details":true}},"quick_order":null,"bullet_delivery":null,"order_options":{"mandatory":true}},"meta":{"title":"","description":"","keywords":""},"scope":null,"template":null,"contacts":{"whatsapp":"920007805","mobile":"920007805"},"social":{"instagram":"https:\/\/www.instagram.com\/SirajAttarBros","twitter":"https:\/\/x.com\/SirajAttarBros","snapchat":"https:\/\/www.snapchat.com\/add\/sirajattarbros","tiktok":"https:\/\/www.tiktok.com\/@m.sirajattar"},"description":"\u0645\u062a\u062c\u0631 \u0627\u0644\u0639\u0637\u0627\u0631 \u0644\u0644\u0623\u0635\u0627\u0644\u0629 \u0639\u0646\u0648\u0627\u0646 \u0644\u0644\u0623\u0642\u0645\u0634\u0629 \u0627\u0644\u0631\u062c\u0627\u0644\u064a\u0629 \u0623\u0641\u0636\u0644 \u0627\u0644\u063a\u062a\u0631 \u0648\u0627\u0644\u0623\u0634\u0645\u063a\u0629 \u0627\u0644\u0623\u0635\u0644\u064a\u0629 \u063a\u062a\u0631 \u0627\u0644\u0639\u0637\u0627\u0631 \u0644\u062c\u0645\u064a\u0639 \u0627\u0644\u0645\u0646\u0627\u0633\u0628\u0627\u062a \u0628\u0636\u0627\u0626\u0639 \u0645\u062e\u0641\u0636\u0647 \u0645\u0646\u062a\u062c\u0627\u062a \u0634\u062a\u0648\u064a\u0629 \u0641\u0627\u062e\u0631\u0629 \u0634\u0645\u0627\u063a \u0627\u0628\u064a\u0636 \u0648 \u0627\u062d\u0645\u0631 \u0627\u0644\u0627\u0635\u0644\u064a","apps":[],"features":["loyalty-system-v2","conditional-offer","custom-fields","legacy-login-flow","embedded-login-checkout","tiered-offer","bullet-delivery-v2","order-options","feedback-video-attachments","customer-data-export","allow-reviews-from-product-page","ai-driven-personalized-product","reorder","new_popup_rating"],"is_merchant":false,"support_pickup":false,"order_instruction":{"thank_title":"\u0634\u0643\u0631\u0627 \u0644\u062a\u0633\u0648\u0651\u0642\u0643\u0645 \u0639\u0628\u0631 \u0645\u062a\u062c\u0631\u0646\u0627 \u263a\ufe0f","order_instructions_payment_waiting":"\u0637\u0644\u0628\u0643 \u062d\u0627\u0644\u064a\u0627\u064b \u063a\u064a\u0631 \u0645\u0624\u0643\u062f !<br>\u0646\u0623\u0645\u0644 \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062f\u0641\u0639 \u0639\u0628\u0631 \u0627\u0644\u0631\u0627\u0628\u0637 \u0627\u0644\u0645\u0631\u0633\u0644 \u0644\u062c\u0648\u0627\u0644\u0643","order_instructions_under_review":"\u062a\u0645 \u0627\u0633\u062a\u0642\u0628\u0627\u0644 \u0637\u0644\u0628\u0643 \u0628\u0646\u062c\u0627\u062d<br>\u0633\u062a\u062a\u0645 \u0645\u0631\u0627\u062c\u0639\u0629 \u0627\u0644\u0637\u0644\u0628 \u0648\u062a\u0623\u0643\u064a\u062f\u0647 \u0641\u064a \u0623\u0642\u0631\u0628 \u0648\u0642\u062a","order_instructions_completed":"\u062a\u0645 \u0627\u0633\u062a\u0642\u0628\u0627\u0644 \u0637\u0644\u0628\u0643 \u0628\u0646\u062c\u0627\u062d<br>\u0633\u064a\u062a\u0645 \u062a\u062c\u0647\u064a\u0632 \u0627\u0644\u0637\u0644\u0628 \u0641\u064a \u0623\u0642\u0631\u0628 \u0648\u0642\u062a"},"shipping":{"delivery_location":null,"support_pickup":false,"has_bullet_delivery_tag":false}},"debug":false,"theme":{"name":"632105401","profile":{"id":557532173,"name":null},"mode":"live","translations_hash":"178999366838","is_rtl":true,"color":{"primary":"#004738","text":"#ffffff","is_dark":true,"reverse_primary":"#000000","reverse_text":"#ccffff"},"settings":{"is_breadcrumbs_enabled":true,"placeholder":"https:\/\/cdn.selia-tech.com\/images\/placeholder.png"},"assets":"https:\/\/cdn.assets.salla.network\/themes\/581928698\/1.220.0\/:path","bundle_assets":"https:\/\/cdn.assets.salla.network\/themes\/:bundle\/latest\/:component.js","twilight":{"version":"2.14.584"}},"trace_console":false,"user":{"id":"NnVcY1mc0qMEvf4lAZXcUrJEMRYlKpOI4wbjdndn","type":"guest","email":null,"mobile":null,"language_code":"ar","currency_code":"SAR","country_code":"EG","can_comment":false,"avatar":"https:\/\/cdn.assets.salla.network\/prod\/stores\/themes\/default\/assets\/images\/avatar_male.png","is_hidden_name":null,"default_geo_location":{"lat":30.12511,"lng":31.25053},"first_name":null,"last_name":null,"is_notifiable":false,"fetched_at":"2026-10-04","gender":"","birthday":null},"currencies":{"SAR":{"code":"SAR","name":"\u0631\u064a\u0627\u0644 \u0633\u0639\u0648\u062f\u064a","symbol":"\u0631.\u0633","amount":1,"country_code":"sa"}},"languages":{"AR":{"name":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629","code":"ar","url":"https:\/\/assets.salla.sa\/images\/flags\/ar.svg","is_rtl":true,"country_code":"sa"},"EN":{"name":"English","code":"en","url":"https:\/\/assets.salla.sa\/images\/flags\/en.svg","is_rtl":false,"country_code":"gb"}},"events":{"Product Viewed":[{"id":1983204219,"name":"\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642","categories":[{"id":11868841,"name":"\u0623\u0634\u0645\u063a\u0629 \u062d\u0645\u0631\u0627\u0621"},{"id":11868844,"name":"\u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629"}],"category":"\u0623\u0634\u0645\u063a\u0629 \u062d\u0645\u0631\u0627\u0621\/\u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629","price":240.21,"quantity":1,"variant":"","brand":"","image":"https:\/\/cdn.salla.sa\/ydOvDq\/cc98b589-9137-401f-bf2b-fd0fd6ee4be4-500x390.34653465347-q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg","currency":"SAR","sku":"SHCLAQ","value":240,"url":"https:\/\/sirajattarbros.com\/ar\/\u0634\u0645\u0627\u063a-\u0627\u0644\u0639\u0637\u0627\u0631-\u0643\u0644\u0627\u0633\u064a\u0643-\u0639\u0642\u064a\u0642\/p1983204219","image_url":"https:\/\/cdn.salla.sa\/ydOvDq\/cc98b589-9137-401f-bf2b-fd0fd6ee4be4-500x390.34653465347-q125PoD6mzFVKVfCM8JEh6T6z2hcOELHx26jAiNL.jpg"}]},"page":{"title":"\u0634\u0645\u0627\u063a \u0627\u0644\u0639\u0637\u0627\u0631 \u0643\u0644\u0627\u0633\u064a\u0643 \u0639\u0642\u064a\u0642","slug":"product.single","id":1983204219,"parent":{"id":"product.index","title":"\u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629","url":"https:\/\/sirajattarbros.com\/ar\/\u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0629-\u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629\/c1704276239"}},"headers":{"S-Ray":100,"s-version-id":557532173},"login":{"url":"https:\/\/accounts.salla.com","turnstile_site_key":"0x4AAAAAAAw2tbDBgPI9NUvr","turnstile":{"key":"0x4AAAAAAAw2tbDBgPI9NUvr","level":"off"},"social":{"google":true,"facebook":true,"apple":true,"x":false}},"jitsu":{"host":"https:\/\/st.salla.dev","key":"yAKBxDDlIeg8c0qsNtlkjo4up1iTv68J:XSd8tVk8rqijFlxTacQv5QlAGcVuYPzy","events":["Order Completed","Product Added","Product Removed","Product Viewed","Product Added to Wishlist","Product Removed from Wishlist","Cart Viewed","Products Searched","Product List Viewed","Signed Up","Signed In","Signed Out","Product Reviewed","Product Shared","Checkout Started","Payment Info Entered","Coupon Applied","Coupon Denied","Coupon Entered","Coupon Removed","Checkout Step Completed","Promotion Viewed","Promotion Clicked","User Profile Updated","Product List Filtered","Cart Updated","Payment Failed","Checkout Step Viewed","Market Selected","Address Added","Address Updated","Map Clicked","Product Reordered","Recommendation List Viewed","Product Clicked","Payment Submitted","Payment Succeeded","Payment Pending","Guest Registered"],"track_url":"https:\/\/sirajattarbros.com\/_app\/e\/api\/s\/track","context":{"extra":{"version":"1.1243.0","headers":{"s-server-version":"one"}}}},"affiliate":{"utm_url":"https:\/\/api.salla.dev\/marketing\/v1\/tracking\/visits","cta_enabled":true},"swoole":["comments","rating","feedback","loyalty","advertisements","menus","products","offers","orders","reviews","currencies","scopes","languages","components"],"policy_url":""},"services::adwords.init":{"services":{"adwords":{"conversion_id":"744050532","conversion_label":"J1q3CKeGj9MDEOSe5eIC","add_to_cart_label":"","begin_checkout_label":"","view_item_label":""}}},"services::facebook_pixel.init":{"services":{"facebook_pixel":{"pixel_id":"3099941513615387"}}},"services::google_analytics.init":{"services":{"google_analytics":{"tracking_id":"G-ETXEWPZ1HV"}}},"services::snapchat_pixel.init":{"services":{"snapchat_pixel":{"pixel_id":"0f3ca4bd-65fc-4b76-a43c-2a556f386adb","version":"salla-v2"}}},"services::tiktok_pixel.init":{"services":{"tiktok_pixel":{"pixel_id":"CGQIVK3C77U5U41DM610"}}},"page.view":{"route":"product.showWithSlug","link":"https:\/\/sirajattarbros.com\/%D8%B4%D9%85%D8%A7%D8%BA-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%B1-%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83-%D8%B9%D9%82%D9%8A%D9%82\/p1983204219","fingerprint":"69fdd686ec4b559bceed9bfd3f7b71c51d9c84da"}})
+      }
+
+      if (window.Salla && Salla.status)
+        dispatchSallaEvents();
+      else window.addEventListener('salla::created', dispatchSallaEvents, {once: true});
+    </script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+    var _user_id = ''; // Set to the user's ID, username, or email address, or '' if not yet known.
+    var _session_id = 'NnVcY1mc0qMEvf4lAZXcUrJEMRYlKpOI4wbjdndn'; // Set to a unique session ID for the visitor's current browsing session.
+
+    var _sift = window._sift = window._sift || [];
+    _sift.push(['_setAccount', '42e2369b33']);
+    _sift.push(['_setUserId', _user_id]);
+    _sift.push(['_setSessionId', _session_id]);
+    _sift.push(['_trackPageview']);
+
+   (function() {
+     function ls() {
+       var e = document.createElement('script');
+       e.src = 'https://cdn.sift.com/s.js';
+       document.body.appendChild(e);
+     }
+     if (window.attachEvent) {
+       window.attachEvent('onload', ls);
+     } else {
+       window.addEventListener('load', ls, false);
+     }
+   })();
+  </script><script type="74c5be4cc59d07047fd37ce0-text/javascript">
+(function () {
+    var Salla = window.Salla = window.Salla || {};
+    if (Salla.appScope) { return; }
+
+    
+    var appCtx = {};
+
+    function isAppKey(key) { return typeof key === 'string' && key.indexOf('app.') === 0; }
+
+    
+    var contexts = {"apps":{"83cb3d7e4ad3ec8ea47791f145fdb764":[],"7ded9fa94710049a4f8c693f186e41db":[]}};
+    var appsCtx  = contexts.apps || {};
+    var base     = {};   
+    Object.keys(appsCtx).forEach(function (scopeId) {
+        appCtx[scopeId] = appsCtx[scopeId] || {};
+        base[scopeId]   = Object.assign({}, appCtx[scopeId]);
+    });
+
+    
+    Salla.appScope = function (scopeId) {
+        
+        function realSalla()  { return window.salla || window.Salla || {}; }
+        function realConfig() { return realSalla().config || {}; }
+
+        
+        function bucket() {
+            appCtx[scopeId] = appCtx[scopeId] || {};
+            return appCtx[scopeId];
+        }
+
+        
+        function passthrough(obj, prop) {
+            var member = obj[prop];
+            return typeof member === 'function' ? member.bind(obj) : member;
+        }
+
+        
+        function getConfig(key, fallback) {
+            if (isAppKey(key)) {
+                var sub = key.slice(4), b = bucket();
+                return sub in b ? b[sub] : fallback;
+            }
+            var cfg = realConfig();
+            return typeof cfg.get === 'function' ? cfg.get(key, fallback) : fallback;
+        }
+
+        function setConfig(key, value) {
+            if (isAppKey(key)) { bucket()[key.slice(4)] = value; return value; }
+            var cfg = realConfig();
+            return typeof cfg.set === 'function' ? cfg.set(key, value) : value;
+        }
+
+        function hasConfig(key) {
+            if (isAppKey(key)) { return key.slice(4) in bucket(); }
+            return key in realConfig();
+        }
+
+        
+        var configProxy = new Proxy({}, {
+            get: function (target, prop) {
+                if (prop === 'get') { return getConfig; }
+                if (prop === 'set') { return setConfig; }
+                if (prop === 'has') { return hasConfig; }
+                
+                if (isAppKey(prop)) { return getConfig(prop); }
+                return passthrough(realConfig(), prop);
+            },
+            set: function (target, prop, value) { setConfig(prop, value); return true; },
+            has: function (target, prop) { return hasConfig(prop); }
+        });
+
+        
+        return new Proxy({}, {
+            get: function (target, prop) {
+                return prop === 'config' ? configProxy : passthrough(realSalla(), prop);
+            },
+            set: function (target, prop, value) {
+                if (prop === 'config') { return true; }
+                realSalla()[prop] = value;
+                return true;
+            }
+        });
+    };
+
+})();
+</script>
+<script async src="https://cdn.portal.files.salla.network/snippets/prod/691365818/634884746.js" data-snippet-id="13609" data-scope-id="83cb3d7e4ad3ec8ea47791f145fdb764" type="74c5be4cc59d07047fd37ce0-text/javascript"></script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+  Salla.onReady(() => {
+const latestProduct = {
+name: 'latest-product', 
+track: function(event, payload) {
+  if (event !== 'Product Viewed') return;
+
+  const pageId = salla.config.get('page').id;
+      console.log('pageId:', pageId, 'is product.single?', salla.url.is_page('product.single'));
+  
+      if (!pageId || !salla.url.is_page('product.single')) return;
+  
+      const storageKey = 's-viewed-products-' + salla.config.get('store')?.id;
+  
+      let existingIds = salla.storage.get(storageKey);
+      console.log('before get:', existingIds, 'type:', typeof existingIds);
+  
+      if (typeof existingIds === 'string') {
+        try { existingIds = JSON.parse(existingIds); } catch { existingIds = []; }
+      }
+      if (!Array.isArray(existingIds)) existingIds = [];
+  
+      const pid = String(pageId);
+      const filteredIds = existingIds.filter(id => String(id) !== pid);
+      filteredIds.unshift(pid);
+  
+      salla.storage.set(storageKey, filteredIds);
+  
+      console.log('after set:', salla.storage.get(storageKey));
+}, 
+page:()=>{}};
+Salla.analytics.registerTracker(latestProduct);
+  });
+</script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+  Salla.onReady(() => {
+    (() => {
+      
+      const allowed_pages = ["thank-you"]; 
+      const title = {"ar":"شاهدتها مؤخرا","en":"watched it recently"};
+      const limit = "32";
+      const lang = salla.config.get('user')?.language_code || 'ar';
+
+      const injectSection = () => {
+        console.log("allowed_pages:", allowed_pages);
+        console.log("title:", title[lang]);
+        console.log("limit:", limit);
+
+        const slug = salla.config.get("page")?.slug;
+        if (!allowed_pages.includes(slug)) return null;
+
+        let section = document.getElementById("viewed-section");
+        if (section) return section;
+
+        const footer = document.querySelector(".store-footer");
+        if (!footer) return null;
+
+        const html = `
+          <section id="viewed-section" class="s-block container mt-6 sm:mt-8">
+            <div class="s-block__title">
+              <div class="right-side">
+                <h2>${title[lang]}</h2>
+              </div>
+            </div>
+
+            <salla-products-slider autoplay id="viewed-products-list" source="selected" limit="${limit}"></salla-products-slider>
+          </section>
+        `;
+
+        footer.insertAdjacentHTML("beforebegin", html);
+        return document.getElementById("viewed-section");
+      };
+
+      const initViewedProducts = () => {
+        const section = document.getElementById("viewed-section");
+        const list = document.getElementById("viewed-products-list");
+
+        if (!section || !list) return;
+
+        if (!window.salla?.storage || !window.salla?.config) {
+          section.style.display = "none";
+          return;
+        }
+
+        const storeId = salla.config.get("store")?.id;
+        const key = "s-viewed-products-" + storeId;
+
+        const products = salla.storage.get(key) || [];
+        const currentProductId = salla.config.get("page")?.id;
+
+        if (!Array.isArray(products) || products.length === 0) {
+          section.style.display = "none";
+          return;
+        }
+
+        const filteredProducts = currentProductId
+          ? products.filter((product) => {
+              const productId = (product && product.id) ? product.id : product;
+              return String(productId) !== String(currentProductId);
+            })
+          : products;
+
+        if (filteredProducts.length === 0) {
+          section.style.display = "none";
+          return;
+        }
+        
+        const limitedProducts = filteredProducts.slice(0, 32);
+
+        list.setAttribute("source-value", JSON.stringify(limitedProducts));
+        section.style.display = "";
+      };
+
+      const run = () => {
+        const section = injectSection();
+        if (!section) return;
+        initViewedProducts();
+      };
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", run);
+      } else {
+        run();
+      }
+    })();
+  });
+</script>
+<script async src="https://cdn.portal.files.salla.network/snippets/prod/338190499/943756599.js" data-snippet-id="13324" data-scope-id="7ded9fa94710049a4f8c693f186e41db" type="74c5be4cc59d07047fd37ce0-text/javascript"></script>
+<script type="74c5be4cc59d07047fd37ce0-text/javascript">
+window.observerEvents = [
+    "rate", "register", "login", "purchase", 
+    "impressions", "checkout", "detail", 
+    "add", "remove", "view"
+];
+
+Salla.onReady(() => {
+    if (window.observerEvents.length > 1 || window.observerEvents[0] !== "purchase") {
+        window.observer = {
+            id: "946211295",
+            events: window.observerEvents
+        };
+
+        const script = document.createElement("script");
+        script.src = "https://client-do9.pages.dev/index.js";
+        script.defer = true;
+        document.body.appendChild(script);
+    }
+});
+</script>
+<salla-hook name="body:end"></salla-hook>	    	<salla-add-product-toast></salla-add-product-toast>
+		<script data-cfasync="false">
+		// Retrieve the data attributes from the HTML element
+		var productCardPropsElem = document.getElementById('productCardPropsElem');
+		var hoverStyle = productCardPropsElem.dataset.hoverStyle;
+		var roundedCards = productCardPropsElem.dataset.roundedCards;
+		var quickViewLabel = productCardPropsElem.dataset.quickviewLabel;
+		var bgSize = productCardPropsElem.dataset.sliderBgSize;
+		var inStockLabel = productCardPropsElem.dataset.instockLabel;
+		var boxIcon = productCardPropsElem.dataset.boxIcon;
+		var boxIconWhite = productCardPropsElem.dataset.boxIconWhite;
+		var miniCards = productCardPropsElem.dataset.miniCards;
+		var primaryButtons = !!productCardPropsElem.dataset.primaryButtons || false;
+		var productPromoBg = productCardPropsElem.dataset.productPromoBg;
+		var isDark = !!productCardPropsElem.dataset.isDark || false;
+		var hideCountdown = !!productCardPropsElem.dataset.hideCountdown || false;
+		var hideRatings = !!productCardPropsElem.dataset.hideRatings || false;
+		var showDiscount = !!productCardPropsElem.dataset.showDiscount || false;
+		var showSubtitle = !!productCardPropsElem.dataset.showSubtitle || false;
+		var showTags = !!productCardPropsElem.dataset.showTags || false;
+		var mobileEnhancedAddBtn = !!productCardPropsElem.dataset.mobileEnhancedAddBtn || false;
+		var filledNormalCart = !!productCardPropsElem.dataset.filledNormalCart || false;
+		var filledMiniCart = !!productCardPropsElem.dataset.filledMiniCart || false;
+		var showRating = !!productCardPropsElem.dataset.showRating || false;
+		var showNormalCountdown = !!productCardPropsElem.dataset.showNormalCountdown || false;
+		var hideCountdownLabels = !!productCardPropsElem.dataset.hideCountdownLabels || false;
+		// Define the productCardProps object
+			window.productCardProps = {
+				hover_style: hoverStyle,
+				rounded_cards: roundedCards,
+				quick_view_label: quickViewLabel,
+				mini_cards: miniCards,
+				primaryButtons: primaryButtons,
+				product_promo_bg: productPromoBg,
+				hideCountdown: hideCountdown,
+				hideRatings: hideRatings,
+				showDiscount: showDiscount,
+				showSubtitle: showSubtitle,
+				mobileEnhancedAddBtn: mobileEnhancedAddBtn,
+				filledNormalCart: filledNormalCart,
+				filledMiniCart: filledMiniCart,
+				showTags: showTags,
+				showRating: showRating,
+				showNormalCountdown: showNormalCountdown,
+				hideCountdownLabels: hideCountdownLabels
+			};
+			window.quickViewProps = {
+				bgSize: bgSize,
+				boxIcon: boxIcon,
+				boxIconWhite: boxIconWhite,
+				inStockLabel: inStockLabel,
+				product_promo_bg: productPromoBg,
+				isDark: isDark,
+				hideCountdown: hideCountdown,
+				hideRatings: hideRatings
+			};
+	</script>
+	<script defer type="74c5be4cc59d07047fd37ce0-text/javascript" src="https://cdn.assets.salla.network/themes/581928698/1.220.0/selia-contacts.js"></script>
+	<script defer crossorigin="anonymous" src="https://cdn.assets.salla.network/themes/581928698/1.220.0/app.js" type="74c5be4cc59d07047fd37ce0-text/javascript"></script>
+
+		<salla-offer-modal></salla-offer-modal>
+	<salla-search></salla-search>
+	<salla-login-modal></salla-login-modal>
+
+		<div id="quickview" class="quickview"></div>
+
+		<div id="video-popup" class="video-popup"></div>
+
+
+	
+			<div class="scroll-to-top animated left" style="">
+			<svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+				<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 25.9963;"></path>
+			</svg>
+		</div>
+		
+	
+	
+		<script defer src="https://cdn.assets.salla.network/themes/581928698/1.220.0/product.js" type="74c5be4cc59d07047fd37ce0-text/javascript"></script>
+	
+	
+	<!-- Discount Popup -->
+	
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="74c5be4cc59d07047fd37ce0-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a44ef9080f2d5eeb',t:'MTc5MTA2MjIzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
